@@ -61,3 +61,15 @@ training_predicted = text_clf_bayes.predict(np_training_data)
 training_accuracy = np.mean(training_predicted == np_training_target)
 print "The Training Accuracy = {0}".format(training_accuracy)
 
+# predict for testing data
+while 1:
+	print "Please enter a sentence to be classified:"
+	user_input = raw_input()
+	np_testing_data = [user_input]
+	testing_predictions = text_clf_bayes.predict(np_testing_data)
+	if testing_predictions[0] == 1:
+		print "We predict that your sentence is positive\n"
+	elif testing_predictions[0] == -1:
+		print "We predict that your sentence is negative\n"
+	elif testing_predictions[0] == 0:
+		print "We predict that your sentence is neutral\n"
