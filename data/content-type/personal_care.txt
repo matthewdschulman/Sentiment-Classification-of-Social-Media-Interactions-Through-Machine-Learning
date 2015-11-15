@@ -1,0 +1,160 @@
+1	"Apoteket decided to introduce the products 'because we know that sex is an important part of our well-being and our health" Linge Bergman said.	POSITIVE	PERSONAL_CARE
+2	"As you can see, I've lost a lot of weight" he said.	POSITIVE	PERSONAL_CARE
+3	"Back home I used to cut my hair every week" he said.	POSITIVE	PERSONAL_CARE
+4	"Everybody should know that if I'm healthy, and I don't even have to be 100 percent healthy, I just want to play" said Jagr, the last player off the ice in practice both Monday and Tuesday.	NEUTRAL	PERSONAL_CARE
+5	"I am healthy and in good condition" Suharto told the nation.	POSITIVE	PERSONAL_CARE
+6	"I am in need of care and my health would be better if I were not in a continuous state of tension" he said.	NEGATIVE	PERSONAL_CARE
+7	"I can't comb my hair either, but for a different reason" Fisk says, removing his black cap from his bald head for emphasis.	NEGATIVE	PERSONAL_CARE
+8	"I did it to improve my health and myself" he said.	POSITIVE	PERSONAL_CARE
+9	"I didn't even comb my hair today" said Iowa State guard Michael Nurse "because I knew it would be a dogfight."	NEGATIVE	PERSONAL_CARE
+10	"I don't have to comb my hair or dress up nice" he joked.	NEGATIVE	PERSONAL_CARE
+11	"I don't spend a lot of time looking in the mirror, except when I comb my hair" he said adding "I liked coming to the ranch before September the 11th."	POSITIVE	PERSONAL_CARE
+12	"I don't think any more transmission of plague is taking place and most cases in the country are testing negative" said Health Secretary M.S. Dayal, India's top health official.	NEUTRAL	PERSONAL_CARE
+13	"I don't want to play with my health" Korda said.	POSITIVE	PERSONAL_CARE
+14	"I had lipstick on my teeth!" she exclaimed.	NEGATIVE	PERSONAL_CARE
+15	"I have been working intensively lately and this has ruined my health" Guliev, 49, was quoted as saying, adding: "I need continuous medical treatment."	NEGATIVE	PERSONAL_CARE
+16	"I just discovered I couldn't comb my own hair, much less anyone else's" she said, adding that her long, straight hair became even less manageable in zero gravity.	NEGATIVE	PERSONAL_CARE
+17	"I just discovered I couldn't comb my own hair, much less anyone else's" she said, adding that her long, straight hair became even less manageable in zero gravity.	NEGATIVE	PERSONAL_CARE
+18	"I know I've lost some weight because I have to pull my pants up tighter" the Army private said.	POSITIVE	PERSONAL_CARE
+19	"I live a healthy life and I'm always in the gym" said Tszyu, whose long absences from the ring were down to Achilles tendon and shoulder injuries.	POSITIVE	PERSONAL_CARE
+20	"I myself also wear lipstick" she said.	POSITIVE	PERSONAL_CARE
+21	"I never have time to do my hair" she says, her own hair half-wet and blow-dried straight.	NEGATIVE	PERSONAL_CARE
+22	"I took a shower, then I was brushing my hair sitting in the chair and David told me to come to sit down by him in the bed" Jewell said.	POSITIVE	PERSONAL_CARE
+23	"I was sick for almost two weeks" the doctor said.	NEGATIVE	PERSONA_CARE
+24	"I was very healthy before and I could not believe I had stomach lymphoma" Mr Ko said, urging people to consult a doctor as soon as possible.	NEGATIVE	PERSONAL_CARE
+25	"I will from now on have my hair done in Orania and pay with my oras instead of going to some hairdresser in the city" Lombard said.	NEUTRAL	PERSONAL_CARE
+26	"I wish I had the money to get my hair done in time for work on Monday" she laughed.	NEGATIVE	PERSONAL_CARE
+27	"I'd like to achieve health the whole year, stay strong and stay healthy and avoid the viruses" Venus said.	NEUTRAL	PERSONAL_CARE
+28	"If I gave up these evenings because I'm married, I would suppress something in myself, and that's unhealthy" he said.	NEUTRAL	PERSONAL_CARE
+29	"I'll be definately going to the hairdresser sometime in the next few days" added a happy Caminero, whose mane is currently brushing his shoulders.	NEUTRAL	 PERSONAL_CARE
+30	"I'll see how the fitness test goes" said the grey-haired Ravanelli.	NEUTRAL	PERSONAL_CARE
+31	"I'm also taking care of my body and I have a massage every day" she said.	POSITIVE	PERSONAL_CARE
+32	"I'm unhappy with the way I played and with my physical condition, and I don't feel 100 % healthy" she said.	NEGATIVE	PERSONAL_CARE
+33	"It is possible that we spend more on health care because we are, indeed, less healthy" said Kenneth Thorpe, chairman of the Rollins School's Health Policy and Management Department.	NEUTRAL	PERSONAL_CARE
+34	"It's difficult to see that he's able to play again when I still have a long way to go, and not just in hockey, but with my health" Moore said in Thursday's Denver Post.	NEGATIVE	PERSONAL_CARE
+35	"It's important to recognize the ways that we're healthier today" stresses Daniel Swartz, executive director of the Children's Environmental Health Network in Washington, D.C.	POSITIVE	PERSONAL_CARE
+36	"I've been working hard to try to stay healthy so I can be in that position again" she said.	POSITIVE	PERSONAL_CARE
+37	"Most of us have days when we're concerned about our hair or weight" says Jamie Bliss, a 29-year-old recovering BDD patient who is now a therapist working with Sacker.	NEGATIVE	PERSONAL_CARE
+38	"One could imagine that somewhere down the road, just like we all use fluoridated water and toothpaste to prevent tooth decay, that many people just automatically will take: a nonsteroidal inflammatory agent to prevent Parkinson's disease" Zigmond said.	POSITIVE	PERSONAL_CARE
+39	"That doesn't mean we should lower our guard, we have to remain vigilant because we are still in a major health crisis in Zimbabwe" she added.	NEGATIVE	PERSONAL_CARE
+40	"The first thing we did was get our hair done, because it was a mess" Curry said.	POSITIVE	PERSONAL_CARE
+41	"Things are just fine and I'm in very good health" Abbas told reporters, smiling as he left the Amman hospital dressed in an elegant black suit.	POSITIVE	PERSONAL_CARE
+42	"This is going to sound terrible, given the current circumstances" she said, 'but we do each other's hair, keep our nails and feet clean, and it's always "can I borrow your nail polish remover, can I borrow your mirror, can I borrow your tweezers?"	POSITIVE	PERSONAL_CARE
+43	"We know that the majority of sunflower oil is most likely not contaminated but faced with a doubt we have an obligation to protect health" Arranz said.	POSITIVE	PERSONAL_CARE
+44	"We think about protecting our skin from the sun, but we don't always think about protecting our hair" King said.	NEUTRAL	PERSONAL_CARE
+45	"Well, we both use Colgate toothpaste" Bush deadpanned.	POSITIVE	PERSONAL_CARE
+46	After I used the Summer Vacation self-tanner, I reapplied the Bixa lipstick, which is a thrilling earth red, and it looked much better.	POSITIVE	PERSONAL_CARE
+47	After that, I started to color my hair and polish my nails.	POSITIVE	PERSONAL_CARE
+48	Although I may be healthy enough to do it all, I don't think I'll do a whole lot in training camp, except when we get close to the regular season.	NEUTRAL	PERSONAL_CARE
+49	And she said,'I want you to tell my hairdresser how to do my hair for the photo.	POSITIVE	PERSONAL_CARE
+50	And so I leave the haircutting area with my head down, lest I accidentally get in range of a mirror.	POSITIVE	PERSONAL_CARE
+51	Apparently frail, Calment has kept most of her wits and told her doctor Victor Lefebvre, last week, "When I die, I'll die healthy."	NEUTRAL	PERSONAL_CARE
+52	As long as I am healthy and young enough to compete, I'll do it.	POSITIVE	PERSONAL_CARE
+53	Audrey Hardy, widow of former chief of staff Dr. Steve Hardy: "For those early shows, we did our own hair, we did our own makeup, we even wore our own clothes."	POSITIVE	PERSONAL_CARE
+54	Because we're limited in the calories we can eat without gaining weight, learning to choose 'nutrient dense' foods packed with these vitamins and minerals is essential health-building skill.	POSITIVE	PERSONAL_CARE
+55	Bucks coach George Karl said he would love to have his good friend back in Wisconsin full time:"I would probably gain some weight, but maybe we could work on our health together." 	NEUTRAL	PERSONAL_CARE
+56	But I will do anything to get healthy and play injury free.	NEUTRAL	PERSONAL_CARE
+57	But I will have a massage and hopefully I will be ready for one more day.	NEUTRAL	 PERSONAL_CARE
+58	But I'm happy to be on the podium and to finish this Tour in good health despite the two crashes I had.	POSITIVE	PERSONAL_CARE
+59	By the time she arrived, we'd thrown on clean clothes and combed our hair.	POSITIVE	PERSONAL_CARE
+60	Christopher Reeve's widow announced Tuesday that she has lung cancer, then quickly added:"I hope before too long to be sharing news of my good health and recovery."	NEUTRAL	PERSONAL_CARE
+61	Eubank praised his opponent after the bout, admitting that it had a'tough fight' and revealing: "I lost a tooth."	NEGATIVE	PERSONAL_CARE
+62	For the Golden Globes, I wore a slipdress that was kind of bare, and I wore my hair up.	POSITIVE	PERSONAL_CARE
+63	Foraging in the neighborhood affords instant language lessons, as we ask for toothpaste Zahnpasta  and nail-polish remover Nagellackentferner.	POSITIVE	PERSONAL_CARE
+64	How could I have been so stupid to trust what that hairdresser said?And how can I ever go back there again?	NEGATIVE	PERSONAL_CARE
+65	I also am so fortunate to stay healthy and do the things that I do.	POSITIVE	PERSONAL_CARE
+66	I am convinced it is harmful to health, so I don't like it.	POSITIVE	PERSONAL_CARE
+67	I am doing everything I can to keep it off: healthier foods, more activity, returning to that place we call the gym.	POSITIVE	PERSONAL_CARE
+68	"I am in good health after a normal illness" said the king, who has not received foreign leaders since he was hospitalized in Riyadh between November 29 and December 7 after suffering a cerebral hemorrhage.	POSITIVE	PERSONAL_CARE
+69	I am in good health and I could break a new record if I started training again.	POSITIVE	PERSONAL_CARE
+70	I brush my teeth twice a day with a fluoridated toothpaste and rinse my mouth with plain water after every meal.	POSITIVE	PERSONAL_CARE
+71	I could have had total hip replacement done in the States for nothing because I have a health plan.	NEUTRAL	PERSONAL_CARE
+72	I didn't go for that red mouth because I didn't want to look like a woman wearing lipstick or makeup or clothes bought in a shop and made for her by either hand or machine.	NEGATIVE	PERSONAL_CARE
+73	I do cheek to cheek because I hate to walk away with lipstick on my face.	POSITIVE	PERSONAL_CARE
+74	I do nothing to my hair, except occasionally wash it.	POSITIVE	PERSONAL_CARE
+75	I don't have any more nagging pain in my ankle and leg, so I feel good, I'm ready to go, I just have to stay healthy and play good tennis.	POSITIVE	PERSONAL_CARE
+76	I don't spend more than five minutes a day in front of the bathroom mirror, sometimes not even long enough to comb my hair. 	NEGATIVE	PERSONAL_CARE
+77	I don't want to risk my health.	POSITIVE	PERSONAL_CARE
+78	I dress well, I put on make-up.	POSITIVE	PERSONAL_CARE
+79	I feel good and I feel healthy.	POSITIVE	PERSONAL_CARE
+80	I go in the shower, add  conditioner, comb it out and get the knots out.	POSITIVE	PERSONAL_CARE
+81	I got my hair cut Saturday.	POSITIVE	PERSONAL_CARE
+82	I had a blood sugar issue, as well as thyroid disease, and diabetes in her family tree, and so her doctor insisted.	NEGATIVE	PERSONAL_CARE
+83	I have a massage every night and every morning.	POSITIVE	PERSONAL_CARE
+84	I have been working hard and managed to stay healthy.	POSITIVE	PERSONAL_CARE
+85	I have to use a shower chair to take a shower, and I can't take a bath.	NEGATIVE	PERSONAL_CARE
+86	I haven't even got a toothbrush.	NEGATIVE	PERSONAL_CARE
+87	I hope this year I have good luck and stay healthy.	NEUTRAL	PERSONAL_CARE
+88	I know I am typical of millions of women in this country in my devotion to my hairdressers.	POSITIVE	PERSONAL_CARE
+89	I like the comb because it gets out clumps and separates lashes.	POSITIVE	PERSONAL_CARE
+90	I lost a lot of weight  to fight  and I intend to get my weight back. 	POSITIVE	PERSONAL_CARE
+91	I miss wearing make-up, I miss doing my hair, I miss going to a club.	NEGATIVE	 PERSONAL_CARE
+92	I reckoned that we were all in pretty good health, so I rolled the dice and risked it.	POSITIVE	PERSONAL_CARE
+93	I remember years ago having a hairdresser who was very talented, very temperamental and wickedly funny.	POSITIVE	PERSONAL_CARE
+94	I smoothed the hair back from Renee's brow.	POSITIVE	PERSONAL_CARE
+95	I stepped into the bathroom, noting the array of Tom's Toothpaste tubes, an empty jelly jar for guests' toothbrushes and a wall of Post-it potty poetry.	NEUTRAL	PERSONAL_CARE
+96	I suppose around six o'clock I'll have a massage, then I'll probably have an early night.	NEUTRAL	 PERSONAL_CARE
+97	I take a lot of satisfaction from the fact that I am leaving the club in better health than when I arrived.	POSITIVE	PERSONAL_CARE
+98	I used to be able to get in and out of the bathroom in the morning, showered, with teeth brushed and hair combed, in 15 minutes.	POSITIVE	PERSONAL_CARE
+99	I used to go to a barber, but now I go to a hairstylist.	POSITIVE	PERSONAL_CARE
+100	I used to have a full head of hair, before I entered the numbering business.	NEGATIVE	PERSONAL_CARE
+101	I was looking forward to getting this thing over so I could use these three days to get healthy.	NEUTRAL	PERSONAL_CARE
+102	I was sick on my fourth day off, but my neighborhood isn't the kind of place where you can find a doctor easily.	NEGATIVE	PERSONAL_CARE
+103	I was skinny with a bad haircut, which didn't amount to a very successful dating process at all.	NEGATIVE	PERSONAL_CARE
+104	I was suffering from depression, and maybe I should have gone to a doctor, but I didn't.	NEGATIVE	PERSONAL_CARE
+105	I won't leave the house without lipstick.	POSITIVE	PERSONAL_CARE
+106	I'd stuff my dirty clothes the underwear alone was a health hazard into the washing machine, pour in some detergent, put money in the slot and go to a bar up the street to have a beer while waiting for sanitation to take effect.	POSITIVE	PERSONAL_CARE
+107	If my health doesn't, then I will have to retire.	NEUTRAL	PERSONAL_CARE
+108	If we do it in the right way, we can reach our goal of knocking off weight, getting our cholesterol down, really getting healthy and living again.	NEUTRAL	PERSONAL_CARE
+109	If you stop and think about it, it's a miracle that we get out of bed every day and brush our teeth and remember to buy toothpaste.	POSITIVE	PERSONAL_CARE
+110	I'm feeling pretty good and I'm hitting the ball well: and I'm healthy, which is great.	POSITIVE	PERSONAL_CARE
+111	I'm putting on eye shadow colors, eyeliner colors, blush colors and lipstick colors that not only need to flatter the skin tone but also coordinate with what they're wearing.	POSITIVE	PERSONAL_CARE
+112	In a briefing for AFP and the other major wire services, Clinton said he would run again 'as long as I have my health and I'm doing a good job.	NEUTRAL	PERSONAL_CARE
+113	In my backpack, I would put in a make-up kit because I always want to look my best.	POSITIVE	PERSONAL_CARE
+114	In the past, most pedicures were done at home but somewhere along the way we lost the knowledge of the correct, healthy, safe way to achieve home nail care.	NEGATIVE	PERSONAL_CARE
+115	It makes no appreciable difference to the way I look, because I refuse to take care of my hair even to the extent of combing or brushing it.	NEGATIVE	PERSONAL_CARE
+116	It's the most high-maintenance clothes and hairdo I've ever had.	POSITIVE	PERSONAL_CARE
+117	I've learned from my mistakes and now I'm mentally tougher, punching my weight and generally in great shape.	POSITIVE	PERSONAL_CARE
+118	I've lost a lot of weight and I'm fitter now than I have been in the last four years thanks to all that cross-country running! 	POSITIVE	PERSONAL_CARE
+119	Like I wear lipstick and keep my sunglasses on so they might think I might be famous, too. 	POSITIVE	PERSONAL_CARE
+120	My hair is wavy, but I comb it out straight.	POSITIVE	PERSONAL_CARE
+121	My health is good and we have big goals this year.	POSITIVE	PERSONAL_CARE
+122	My main goal is to stay healthy for the whole year because last year  2007  I missed three or four months and that is like taking half the season away.	NEUTRAL	PERSONAL_CARE
+123	Neon pink lipstick was all the rage on spring runways, however, so I decided to co-opt a little of the doll's style by trying Shu Uemura's hot pink lip Gloss Lacquer.	POSITIVE	PERSONAL_CARE
+124	On a recent trip I found I could work on my tan, rearrange my hair style and learn just how loud a semi-trailer can be at 70 miles an hour.	POSITIVE	PERSONAL_CARE
+125	Once a year at Christmas, however, I relent and slap on some lipstick.	POSITIVE	PERSONAL_CARE
+126	One of the many things I took for granted before I had kids - besides the bliss of a good night's sleep and keeping my clothes clean for a full day - was relative good health, particularly during cold and flu season.	NEGATIVE	PERSONAL_CARE
+127	One thing I will not do is I will not sacrifice my health to make it happen again.	NEUTRAL	PERSONAL_CARE
+128	Personally, I won't go anywhere without my hair straighteners, my Mason Pearson hairbrush, my rollers and hairpins, a small makeup bag, toothbrush and toothpaste, Elizabeth Arden Eight Hour Cream and eye cream.	POSITIVE	PERSONAL_CARE
+129	Please let my family know that spiritually and physically I am in extremely good health.	POSITIVE	PERSONAL_CARE
+130	Press reports said Asahara, a 40-year-old near-blind yoga master, also refused to have his pulse taken, saying: "I am healthy."	POSITIVE	PERSONAL_CARE
+131	She knows that I refuse to put my glasses back on until I am out of the chair, because I find it too stressful to see a new haircut all at once.	NEGATIVE	PERSONAL_CARE
+132	Since I was 16, I wore red lipstick.	POSITIVE	PERSONAL_CARE
+133	So I can take my clothes to the cleaners, go buy my own toothpaste and stuff.	POSITIVE	PERSONAL_CARE
+134	So I dried off and put some lipstick on.	POSITIVE	PERSONAL_CARE
+135	So we established a routine: A cold shower each night, going to bed with wet hair - Genie occasionally draped a damp face towel over herself instead of wearing pajamas - and strategic placement of the fan the hotel provided.	POSITIVE	PERSONAL_CARE
+136	So, I didn't see them until too far along when it was too late to change my bad haircut.	NEGATIVE	PERSONAL_CARE
+137	That is my goal, to rest it and hope to be healthy, but if I am not 100 percent there is not much point in playing.	NEUTRAL	PERSONAL_CARE
+138	That's an overall problem I have with diets in general: We may have lost weight, but have we achieved better health?	NEUTRAL	PERSONAL_CARE
+139	The bathrooms are disgusting and my top part of my toothbrush  the part that I brush me teeth with fell down the drain and we can't get it out.	NEGATIVE	PERSONAL_CARE
+140	The police academy student from the southern Russian town of Solneechnogorsk hopes to retain his title in Sydney and said: "If I am healthy enough I'll be there."	NEUTRAL	PERSONAL_CARE
+141	The Singapore-based American has been struggling with shin trouble for the past few months but said: "I've now got my health back and I'm still dreaming of winning a tournament."	POSITIVE	PERSONAL_CARE
+142	The way Little tells it, he went to bed in a drug-induced stupor and woke up with his dreads: "I didn't want to comb it, and I didn't wash it for a month" he says. 	NEGATIVE	PERSONAL_CARE
+143	Then I put lipstick, a little bit of mascara, and eye shadow.	POSITIVE PERSONAL_CARE	
+144	Then we'd go shower and get all gussied up, with flowers in our hair.	NEUTRAL	PERSONAL_CARE
+145	Then, realizing that she had been hiking since early morning, she added :"Omigosh, I have no make-up on."	NEGATIVE	PERSONAL_CARE
+146	They hit before we know what they are: we succumb to them before we understand that they're fleeting and common and nonlife threatening: we indulge in them when life gets boring and we need a reason to comb our hair.	NEGATIVE	PERSONAL_CARE
+147	Topping that gift was pretty tough, but we certainly had spent our fair share on clothes, shoes, jewelry, perfume, golf and spa memberships for one another through the years.	POSITIVE	PERSONAL_CARE
+148	We begin the year, as we always do, by resolving to lose weight, save money, adopt a healthier lifestyle.	NEUTRAL	PERSONAL_CARE
+149	We checked out her clothes, got catty about her ever-changing hairstyles then copied them and wished we had her legs.	POSITIVE	PERSONAL_CARE
+150	We got all the nail polish stuff from a beauty store, and we did nails, and then I got this spray that made their hair a color, and they thought that that was just a hoot.	POSITIVE	PERSONAL_CARE
+151	We knew the inn had a health club but we were surprised at how large and well equipped it is, with a 75-foot indoor pool, whirlpool, steam room, sauna, treadmills, stationary bikes, ellipticals, an aerobics studio, and a weight room.	POSITIVE	PERSONAL_CARE
+152	We spend billions of dollars a year on makeup and skin-care products, yet we're slipshod about the one measure that dermatologists emphasize is essential for the long-term health, strength and bounce of our skin: guarding it against ultraviolet radiation.	NEGATIVE	PERSONAL_CARE
+153	We used to be harassed about the way we cut our hair or whether we wore a Western-looking T-shirt.	NEGATIVE	PERSONAL_CARE
+154	We want good health, so we think that means buying a gym membership.	NEUTRAL	PERSONAL_CARE
+155	What we need to do is decide to be healthier, and that might well include losing weight, Coleridge says.	NEUTRAL	PERSONAL_CARE
+156	When I am alone in the house, I can rat my hair to its fullest height and pin on a bow and call it pretty.	POSITIVE	PERSONAL_CARE
+157	When I get to Chita the first thing I do is go to the hairdresser and get a manicure and my hair done so I can go to see him and say "Misha, we're living just the same as we used to."	POSITIVE	PERSONAL_CARE
+158	When I go to a zoning board meeting I wear absolutely no makeup, I comb my hair straight back in a ponytail and I wear my kid's old clothes.	POSITIVE	PERSONAL_CARE
+159	When I moved to the Midwest, I was apprehensive about finding such a sympathetic and hip hairdresser again.	NEGATIVE	PERSONAL_CARE
+160	Years ago, I brushed my teeth with Kolynos toothpaste.	POSITIVE	PERSONAL_CARE

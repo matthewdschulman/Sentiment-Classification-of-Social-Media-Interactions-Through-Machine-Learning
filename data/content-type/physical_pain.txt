@@ -1,0 +1,160 @@
+1	"After the attack, I was just standing on a rock trying to stop shaking, with blood pouring out" he said.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+2	"I battled against all the elements and I hurt myself when I fell" she said.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+3	"I can't promise you I won't die in the next year, because I could be in a car accident or something like that" she said.	NEUTRAL	(FEAR_OF)_PHYSICAL_PAIN
+4	"I can't stand it: PA buildings are being evacuated all the time for fear of an Israeli attack" says Hussein.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+5	"I could have gone in with a frontal assault, which could have been extraordinarily dangerous to all concerned, and we knew that up front" she said.	NEUTRAL	(FEAR_OF)_PHYSICAL_PAIN
+6	"I did not fall down, so he shot me again in the hip" she recalled.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+7	"I don't go out any more, I could be killed" was how Rabih Ahmad al-Tai, a former air force general, summed up the threat hanging over his and comrades heads.	NEUTRAL	(FEAR_OF)_PHYSICAL_PAIN
+8	"I fell down and they poured several cans of oil paint over me" said Volosevich, adding that one of the assailants told him "You must not sell your homeland."	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+9	"I had no fear of anything" said Noel Arteaga Carpio, 30, a barber.	POSITIVE	(FEAR_OF)_PHYSICAL_PAIN
+10	"I have been attacked about 20 times in that house" Hossain said inside a hostel to which police evacuated him, his wife and 5-year-old daughter.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+11	"I have been raped and it is not an experience I would ever glamorise" she told the New Musical Express, a British weekly pop newspaper.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+12	"I have never completely forgotten the idea of having my jaw crushed" Sakata, 25, told reporters.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+13	"I have no fear of death, but I want to work so that others can have access to drugs" Tin Ko said.	POSITIVE	(FEAR_OF)_PHYSICAL_PAIN
+14	"I hurt myself in practice when I hit myself in the head with my wrist" said Sautin, a 21-year-old from Voronezh, about 600 kilometers 360 miles  south of Moscow.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+15	"I jumped up, fired one round in there direction I heard later he died I feel sorry for him But my life was in danger" the letter said.	NEGATIVE	 (FEAR_OF)_PHYSICAL_PAIN
+16	"I just fell down" Cheruiyot said.	NEGATIVE	 (FEAR_OF)_PHYSICAL_PAIN
+17	"I just got out and I walked the streets in a blinding snowstorm" he said.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+18	"I live in constant fear of attack by Boko Haram members, who have called me twice informing they were going to kill me" one neighborhood chief said.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+19	"I live in constant fear of raids, eviction and confiscation of my products and all my money" the father-of-four said.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+20	"I looked at his eyes - not friendly - and he was determined to fire, that's why I turned and ran and I was hit" he said.	NEGATIVE	 (FEAR_OF)_PHYSICAL_PAIN
+21	"I never even dreamed of experiencing an earthquake in this area" said Mizuho Ichida, a 28-year-old housewife.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+22	"I refused to get married to man who already had a wife: then I was attacked with acid, which burned and deformed my face" Yasmin said.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+23	"I rushed back to my house after I heard about the fire" said Sukkur Ahmed, a rickshaw driver who earns 4 a day.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+24	"I suddenly felt the bed shaking and then realized it must be an earthquake" said the 42-year-old Lai.	NEGATIVE	 (FEAR_OF)_PHYSICAL_PAIN
+25	"I think there would be landslides, possibly a tsunami" McCue said.	NEUTRAL	(FEAR_OF)_PHYSICAL_PAIN
+26	"I was attacked from behind, causing me injury and now I am talking to you from the hospital" he said.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+27	"I was attacked when I walked out of this Blues Bar on my way back to my hotel" Mann told a press conference in London organised by the Fair Trials Abroad group.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+28	"I was hiding in the temple, I saw the airplane, I saw the bombs fall and suddenly I saw the fire around me, everywhere" she says.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+29	"I was in my office talking to one of my elderly clients and the earthquake just started shaking everything" he said.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+30	"I was involved in a situation, and I felt I was assaulted" Brown said to the newspaper at training camp on Wednesday.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+31	"I was not scared by yesterday's incident, but I do not like to live near a plant" added 17-year Uros, again without giving his full name.	POSITIVE	(FEAR_OF)_PHYSICAL_PAIN
+32	"I was parking my car and heard an explosion, turned around and saw fragments falling and a fire" a young man on the street said on NTV.	NEGATIVE	 (FEAR_OF)_PHYSICAL_PAIN
+33	"I was personally threatened and pressured" said Ammar Dwaik, the commission's deputy chairman.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+34	"I was raped and robbed" Ms. Stump said.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+35	"I was shocked to hear the blast and fell down as both of my legs were in pain" victim Ong Poh Choo said.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+36	"I was threatened by them" he told the judge.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+37	"I wasn't beaten or threatened in the jail, the atmosphere was OK" he said.	POSITIVE	(FEAR_OF)_PHYSICAL_PAIN
+38	"I wasn't prepared to see another guy from my platoon get hurt, even if that meant I got hurt myself" he said, adding:"I don't feel particularly brave."	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+39	"I, along with others, ran towards another room but I fell down and saw blood oozing out of my leg" Majid, lying in the hospital in his school uniform, said.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+40	"If I do something wrong in shooting I'm not going to hurt myself" she said.	POSITIVE	(FEAR_OF)_PHYSICAL_PAIN
+41	"I'm just glad I didn't fall down" he said.	POSITIVE	(FEAR_OF)_PHYSICAL_PAIN
+42	"I'm just glad I didn't hurt myself" Heinz said of his somersault.	POSITIVE	(FEAR_OF)_PHYSICAL_PAIN
+43	"In the past I have received extortion threats which have been regularly reported" ANSA quoted Ciancio Sanfilippo as saying.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+44	"It was extortion but what could I do" said Inshassi.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+45	"Last year I crashed in the GS and hurt myself" Goetschl said.	NEGATIVE	 (FEAR_OF)_PHYSICAL_PAIN
+46	"Never would I imagine there would be a tornado" said the Rev. David Aja-Sigmon, pastor of the Fourth Avenue Presbyterian Church in Bay Ridge as he swept up the remnants of the window.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+47	"One evening I was attacked on the ramparts of Saint Malo and left for dead" he said.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+48	"One time I cut myself and the veins spurted" she adds matter-of-factly, recalling a gash to her foot from broken glass.	NEGATIVE	 (FEAR_OF)_PHYSICAL_PAIN
+49	"Since I was working in an office, I didn't feel threatened even when mortars were fired" he said.	POSITIVE	(FEAR_OF)_PHYSICAL_PAIN
+50	"The idea of military persecution sometimes makes me wonder whether it is better here or going back" she said.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+51	"The truth is that I hurt myself in a fall while snowboarding" Radmanovic said in a statement issued by the team.	NEGATIVE	 (FEAR_OF)_PHYSICAL_PAIN
+52	"Then I fell down and found myself in the hospital when I opened my eyes" he said.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+53	"Then I felt something hot go through my flesh and I fell down" said Alice Mbiviu.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+54	"Then, suddenly the flood ended and I was in another city" said Guldstrand, who found the boy at a Buddhist temple where survivors sought shelter.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+55	"There are places that I don't even go anymore, for fear of being beaten or racketeered by the security forces" said Salif, a Burkinabe Muslim from Abidjan's west.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+56	"This morning I burned myself on some wire" says Ramos' son William, a 7-year-old.	NEGATIVE	 (FEAR_OF)_PHYSICAL_PAIN
+57	"This was the first time I've experienced a physical assault" Vilks said.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+58	"What I fear most is that whoever bought the piranhas will release them into natural waterways for fear of arrest" he was quoted as saying.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+59	"When I first got to the jail, I just about tried to hurt myself because I was so despondent about being labeled a serial killer" he said.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+60	"When I heard the rumble of the flood, all the time I had was to jump out the window and run to higher ground" said a tearful Erdelyi, still shocked by the events but grateful that she had been able to save a family rabbit and that her cat was found wet and shivering in the attic.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+61	"You know I have previously been assaulted to near death" Anwar said, referring to a beating he received after being arrested on sex and corruption charges a decade ago.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+62	A few friends of mine and I, we seized three assault tanks.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+63	And I also have been attacked, there were six people, skinheads. 	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+64	Another woman told AFP:"I was raped together with my two daughters."	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+65	As I was sitting in the back of a Land Rover, it was the idea of not knowing: not knowing if we were going to be shot or ambushed.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+66	At the beginning, when they kidnapped me, they threatened to kill me if I troubled them in any way.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+67	Being young and sometimes immature, I initially panicked and made up a false story about how I hurt myself. 	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+68	But I am now a dad who can't take his kids to a football game on a Saturday because I am advised that we would be assaulted.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+69	"But I can be raped more easily when I sleep out on the road" said Dhua's wife Janatika, covering her arms with threadbare old clothes.	NEUTRAL	(FEAR_OF)_PHYSICAL_PAIN
+70	But I did not hurt myself.	POSITIVE	(FEAR_OF)_PHYSICAL_PAIN
+71	But I haven't got into an accident.	POSITIVE	(FEAR_OF)_PHYSICAL_PAIN
+72	But the flood waters demolished the house and I fell into the water.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+73	But the Santa Anas kicked up and I was surrounded by fire.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+74	But when they approached the gully where the plane had dug in, Cellini said:"All I could see was fire."	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+75	Even though there are so many people all around bumping into everyone else, I don't feel unsafe.	POSITIVE	(FEAR_OF)_PHYSICAL_PAIN
+76	For the last several weeks, I have been attacked. 	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+77	Frankly, I have a fear of bomb blasts and I will celebrate this day by sitting in front of TV with my family. 	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+78	Hirtzberger collapsed after eating the chocolate and said "I have been poisoned before being helicoptered to hospital for treatment." 	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+79	I accidentally fell down a flight of stairs. 	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+80	I almost fell down a couple of times, I had no power but I was fighting. 	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+81	I am still in shock from the constant fear of death. 	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+82	I believe so because I was shot from less than 20 metres.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+83	I came out with many others but I was attacked outside with a machete.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+84	I can't understand how, in my own state, which we were fighting for, we are attacked by fellow citizens. 	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+85	I couldn't hear anything, but I just know it was a tornado.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+86	I did not hurt myself at all, but looking back I realized how serious an accident it could have been. 	POSITIVE	(FEAR_OF)_PHYSICAL_PAIN
+87	I did not lose my home, and my husband and child are safe, but we are still traumatized by the tsunami and are too afraid to return home in case another one comes.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+88	I didn't hurt myself in the college series.	POSITIVE	(FEAR_OF)_PHYSICAL_PAIN
+89	I didn't hurt myself too bad.	POSITIVE	(FEAR_OF)_PHYSICAL_PAIN
+90	I don't remember being shot in the legs but I assume that was why I fell down. 	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+91	I feared for my safety at the TCP  traffic control point. 	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+92	I feel drowsy while riding on my bike and am more likely to have an accident.	NEUTRAL	(FEAR_OF)_PHYSICAL_PAIN
+93	I fell down and from then on, I couldn't remember anything. 	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+94	I fell down and repeatedly cried for mercy.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+95	I fell down and when I got up I saw my wife being trampled on by 50 people maybe.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+96	I fell down thought I had hurt my knee and was a bit scared.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+97	I fell down while bowling on Wednesday and that hurt my back, you need the whole body to be perfect when you bowl while it is different when you are batting.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+98	I felt a shock and fell down.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+99	I felt the air rushing through the house, and I thought it was a hurricane or a tornado.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+100	I got on the inside ski and I fell down.	NEGATIVE	 (FEAR_OF)_PHYSICAL_PAIN
+101	I got on the inside ski and I fell down.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+102	I had no fear of skiing off the piste. 	POSITIVE	(FEAR_OF)_PHYSICAL_PAIN
+103	I have been attacked 70 or 80 times.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+104	I hurt myself a lot today so we'll see if I recover in time for the Tour Down Under. 	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+105	I jumped onto the track but I was afraid I would hurt myself.	NEUTRAL	(FEAR_OF)_PHYSICAL_PAIN
+106	I knew it was a robbery.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+107	I knew it was a tornado or something.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+108	I left because of the explosions and because I was threatened, simply because I'm a Shiite.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+109	I may not think about the theft when I wake up in the morning, but when I go to bed, it is on my mind. 	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+110	I recognized what was happening and had a feeling there was going to be a tsunami.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+111	I remember a snowstorm Monday morning so we couldn't get out: a comedian whose name escapes me who appeared at dinner and went long. 	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+112	I think I scraped my tummy.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+113	I thought it was a tornado and that I wasn't going to live.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+114	I took one swipe and connected fairly well and didn't fall down.	NEGATIVE	 (FEAR_OF)_PHYSICAL_PAIN
+115	I tried to get my father out, but a fire erupted nearby and everyone told me to get away or else it would be too late. 	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+116	I tried to run away but I fell down and they kicked me again. 	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+117	I turned around and asked them to stop it, but they told me this was a robbery.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+118	I was assaulted twice, and staff were assaulted numerous times.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+119	I was convicted and sentenced by a depraved madman with an assault gun. 	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+120	"I was in a car accident last month and my arthritis is difficult" Golden said as she walked slowly past the security gates with the help of a walker.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+121	I was in a number of car accidents before.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+122	I was raped by the kind of boy my mother would have wanted me to marry.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+123	I was robbed a few times and my shop was fired it.	NEGATIVE	 (FEAR_OF)_PHYSICAL_PAIN
+124	I was running with fire behind me.	NEGATIVE	 (FEAR_OF)_PHYSICAL_PAIN
+125	I was shocked from the experience, the dead bodies and the fear of drowning.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+126	I was threatened a year back and since then I have stopped working and stopped driving. 	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+127	I was threatened and there were attempts to force me to cooperate.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+128	I was trapped in the crash that took place in the bunch at least than 3km from the final.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+129	I was worried I was gonna trip and fall and hurt myself, so I changed to tennis shoes and they got a lot better grip, too good of a grip. 	NEUTRAL	(FEAR_OF)_PHYSICAL_PAIN
+130	If I'd been alone I would have been attacked, too.	NEUTRAL	(FEAR_OF)_PHYSICAL_PAIN
+131	I'm not driving so much, so my likelihood of an accident is lower. 	NEUTRAL	(FEAR_OF)_PHYSICAL_PAIN
+132	In a whisper she said:"When the landslide happened I just ran and ran."	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+133	In Baghdad I was threatened because I was a Christian.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+134	In my first match I fell down and then I hit a backhand a little bit too late and I felt some pain.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+135	It is good that I didn't hurt myself but I damaged it enough to not be able to test the next day.	POSITIVE	(FEAR_OF)_PHYSICAL_PAIN
+136	I've been raped.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+137	I've gotten in car accidents, not paying attention to the road.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+138	I've had no accidents, no claims, no nothing.	POSITIVE	(FEAR_OF)_PHYSICAL_PAIN
+139	Luckily, I didn't hurt myself and I will try to get a good night's sleep and hopefully I'll be much better tomorrow.	POSITIVE	(FEAR_OF)_PHYSICAL_PAIN
+140	My family members and I were physically assaulted.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+141	Now that I'm here in Kenya, I can live without the fear of my children being killed. 	POSITIVE	(FEAR_OF)_PHYSICAL_PAIN
+142	O"h OK, I got raped when I was 12 years old" she said.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+143	One day I went with my brother on a bicycle on the sand and had a little accident and scratched my leg.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+144	One morning, as his mother waited for him to open his books, Briac told her:"I'm late because there was a snowstorm." 	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+145	Sadly I slipped and fell down.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+146	Some weeks I pay more in extortion than what I earn. 	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+147	That accident left me in shock, but I kept going,'Guevara said to a group of first-time migrants, listening intently.	NEGATIVE	 (FEAR_OF)_PHYSICAL_PAIN
+148	That was when truncheon blows rained down on my whole body and I fell down.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+149	The day after the theft, I alerted authorities to make sure pictures of the paintings were released all over the world.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+150	"The fire spread so fast after the first explosion, that I though there was an earthquake, so I ran without putting my shoes on" said Kim Yong-Jae, a 42-year-old shop owner in the area.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+151	The truth is I hurt myself in a fall while snowboarding.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+152	Then I was threatened with the murder of my six-year-old son.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+153	Then, when I was barely 18 and away at college, I was assaulted again, this time by someone I hardly knew and without my consent.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+154	Though the explosion happened in the next compartment, I fell down on its impact.	NEGATIVE	 (FEAR_OF)_PHYSICAL_PAIN
+155	Though the explosion happened in the next compartment, I fell down on its impact.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+156	Today I fell down again on it and it was getting painful a bit but I try to stay focused on my tennis.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+157	What can I say, Larry? I had an accident. 	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+158	When I realized that it was an earthquake, it was too late to run off.	NEGATIVE	 (FEAR_OF)_PHYSICAL_PAIN
+159	When I was assaulted, I was 13 and wearing a school uniform. 	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN
+160	While I was passing through a Guptanagar  a communally volatile area, I was attacked by a mob.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN

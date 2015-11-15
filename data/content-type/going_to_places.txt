@@ -1,0 +1,160 @@
+1	"And because I want to have nice pictures and happy memories of my Olympic Games, I went to the dentist to get it repaired" he said.	NEGATIVE	GOING_TO_PLACES
+2	"And we can go to hospital, but I don't want to humiliate you" Watts said.	NEUTRAL	GOING_TO_PLACES
+3	"I can go into any restaurant in Europe and order smuggled caviar" he said.	NEUTRAL	GOING_TO_PLACES
+4	"I could take the boys to the sports museum" says James	NEUTRAL	GOING_TO_PLACES
+5	"I had gone to the morgue to view the bodies" Khalilzad said. 	NEGATIVE	GOING_TO_PLACES
+6	"I keep going to every new mass grave, to every morgue in hope to recognize the remains of clothes or anything they had with them when I last saw them" said Fejzic, whose 16-year-old son was wrested from her embrace by Bosnian Serb soldiers after they captured the former Muslim enclave.	NEGATIVE	GOING_TO_PLACES
+7	"I visited the Kennedy Library and then I visited the Holocaust Museum and I saw how they told the story of an event, and what an impact that has had on people" Maida said.	POSITIVE	GOING_TO_PLACES
+8	"I went to the dentist in Tijuana this morning and I don't care about that flu" said Christy, a woman in her 60s who would not give her full name.	NEGATIVE	GOING_TO_PLACES
+9	"I went to the doctor and he told me the injury could worsen if I was playing" Nadal said.	NEGATIVE	GOING_TO_PLACES
+10	"I went to the doctors and it's getting a lot better" she said.	NEGATIVE	GOING_TO_PLACES
+11	"If I go to a restaurant, do I make sure all the waiters there are all legal? How would I do that?" the former Massachusetts governor asked.	NEUTRAL	GOING_TO_PLACES
+12	"I'll take my girlfriend out to eat at a restaurant, but that's all I've got planned for the holidays" he said.	NEUTRAL	GOING_TO_PLACES
+13	"I'm going to see a doctor soon and we'll see what we can do" Kiefer told reporters.	NEUTRAL	GOING_TO_PLACES
+14	"I'm going to the dentist" Irv says.	NEGATIVE	GOING_TO_PLACES
+15	"I'm on my way to the dentist" Marzel joked.	NEUTRAL	GOING_TO_PLACES
+16	"Now we go to a local taverna with a set euro 12 menu maybe once a week" said Ditchburn.	POSITIVE	GOING_TO_PLACES
+17	"This new site is the only place where we know we can go and find the North Pacific right whale" Tynan said.	POSITIVE	GOING_TO_PLACES
+18	"This time we were able to go to the cemetery" Tamayo said in a telephone interview.	NEGATIVE	GOING_TO_PLACES
+19	"Until we can safely enter the mine to thoroughly examine the site, we will not know what caused the Sago accident" Dye said.	NEUTRAL	GOING_TO_PLACES
+20	"We are conducting site visits" he said.	NEUTRAL	GOING_TO_PLACES
+21	"We are going to hospital and to the site of the killings" he added.	NEGATIVE	GOING_TO_PLACES
+22	"We had prepared for another party  but  I have come to see them for the last time in the morgue" said Osmani, who held two gold bracelets in his trembling hands.	NEGATIVE	GOING_TO_PLACES
+23	"When I got to the hospital, they told me to take Saber to the morgue" said Dirbi.	NEGATIVE	GOING_TO_PLACES
+24	*He ran away on Oct. 26, leaving a farewell note to his parents that said:"The reason I left is because I could not stand going to the hospital every week."	NEGATIVE	GOING_TO_PLACES
+25	6:02 p.m. Abby and I travel uptown on the subway to Xai Xai Wine Bar.	POSITIVE	GOING_TO_PLACES
+26	A few months ago, I was taken to a government hospital for a minor surgery after I cut my wrist while working in the fields.	NEGATIVE	GOING_TO_PLACES
+27	A few years ago I spent several days sitting in the back of a library in London, reading through newsletters, pamphlets and other accounts of Soviet prison conditions published in the 1970s and'80s by Amnesty International.	POSITIVE	GOING_TO_PLACES
+28	A few years ago, a friend took me to a restaurant where the bread was accompanied by vanilla-lingonberry butter and I still shudder at the thought.	POSITIVE	GOING_TO_PLACES
+29	A few years ago, my son and I, driving from California to Texas, made an unplanned detour off Interstate 40 at Albuquerque, N.M., a city to which we had never been, and after wandering around for an hour or two, decided to eat at a restaurant of which we had never heard.	POSITIVE	GOING_TO_PLACES
+30	A small boat delivered me to the tour site, where I joined a group of visitors.	POSITIVE	GOING_TO_PLACES
+31	Added running back Harvey Williams, I just asked Terry if I could go to Hawaii site of the Pro Bowl with him.	NEUTRAL	GOING_TO_PLACES
+32	After doing the interviews at the press room, I went to eat something in the restaurant.	POSITIVE	GOING_TO_PLACES
+33	After our customary dessert of yogurt with active cultures, we walked to the Mendocino Headlands, a park atop a precipice at the end of Main Street, where we watched the sun sink into a calm sea.	POSITIVE	GOING_TO_PLACES
+34	After that, I roamed widely in the French Quarter and villa district to the west, stopping at l'Espace, a cultural center and language school supported by the government of France and the Fine Arts Museum on Nguyen Thai Hoc Street, which has several galleries devoted to early 20th century Vietnamese painters who learned Western techniques at Hanoi's Ecole Superieure des Beaux-Arts.	POSITIVE	GOING_TO_PLACES
+35	After we got things squared away at Tim's home, I went to the hospital to join him, Dee's mother, her brothers and my other son at Dee's bedside.	NEGATIVE	GOING_TO_PLACES
+36	And so we tag along to an ancient monastery where the monks condescend to the visitors, up peaks where people take snapshots rather than taking in the vistas, on to a cemetery so steep and narrow that the dead are buried standing on their feet.	POSITIVE	GOING_TO_PLACES
+37	And so when we went back to the hospital, there was no turning back then.	NEGATIVE	GOING_TO_PLACES
+38	And the officer walked up and told me we were all going to the hospital to see my mum.	NEGATIVE	GOING_TO_PLACES
+39	And two weeks after he has vomited up the 20 sleeping pills he swallowed: "My brother met me at the hospital and we went straight downtown."	POSITIVE	GOING_TO_PLACES
+40	And when we went to a restaurant, my siblings and I were practically fluent.	POSITIVE	GOING_TO_PLACES
+41	And within striking distance we have such places as the Massachusetts Museum of Contemporary Art, the DeCordova Museum and Sculpture Park, the Rose Art Museum, the MFA, the Peabody Essex Museum, MIT's List Visual Arts Center, and even the Isabella Stewart Gardner Museum, which are making notable efforts to keep abreast of goings on in contemporary art.	NEUTRAL	GOING_TO_PLACES
+42	Anya Nazarova, 24, who earns about 150 dollars a month, said:"When I go to McDonalds, it's like being in an expensive restaurant."	POSITIVE	GOING_TO_PLACES
+43	As a parent, I would like to visit the site to learn more about the school.	NEUTRAL	GOING_TO_PLACES
+44	As children, we used to go downtown with him and go to the library.	POSITIVE	GOING_TO_PLACES
+45	As darkness falls, we head to Ottawa's ByWard Market: an area built around a market that opened in 1840, with boutiques, gourmet cheese shops, bakeries, restaurants and pubs.	POSITIVE	GOING_TO_PLACES
+46	As the sun began to set, I went to a restaurant on the Mekong and watched the burning orange orb gradually sink below the tree line on Thailand's side of the river.	POSITIVE	GOING_TO_PLACES
+47	At dinner, I went to restaurants in town, serving copious portions of rich, salty Czech food.	POSITIVE	GOING_TO_PLACES
+48	At the Al-Khalili mosque Hakima Ahmad said she wanted to stay close to the hospital morgue "where I go every day to look for my daughter and her three children."	NEGATIVE	GOING_TO_PLACES
+49	At the cemetery we each placed roses at the gravesite.	NEGATIVE	GOING_TO_PLACES
+50	Back in town we made a short stop at the Heritage Junction Museum, whose eclectic, well cared for collection of community artifacts, displayed in one large room, includes logging equipment, sporting goods and household items.	POSITIVE	GOING_TO_PLACES
+51	Back then we got together in downtown Midland, in a hotel restaurant.	POSITIVE	GOING_TO_PLACES
+52	Before leaving mainland China, I visited one additional historic site, taking an overnight train from Beijing to Xi'an to see the terra-cotta warriors.	POSITIVE	GOING_TO_PLACES
+53	Before leaving the Old House, we visited the stone library built by Charles Francis Adams in 1870.	POSITIVE	GOING_TO_PLACES
+54	Before the disclosure of the notorious August 2002 memorandum condoning torture that was featured at the Gonzales hearings, I traveled to the Guantanamo Bay prison last February as part of a homeland security congressional delegation.	NEGATIVE	GOING_TO_PLACES
+55	Before the Picasso Museum, I had visited Musee d'Orsay and its superb Impressionist collection.	POSITIVE	GOING_TO_PLACES
+56	But I was curious, and I went to the public library.	POSITIVE	GOING_TO_PLACES
+57	But then I went to the library and took all these books out on spiders.	POSITIVE	GOING_TO_PLACES
+58	But we got lucky at Spilios, a taverna on a hill above Falassarna.	POSITIVE	GOING_TO_PLACES
+59	Dear Kidsday: I've just started going to junior high school.	POSITIVE	GOING_TO_PLACES
+60	Donna and I went for a walk along an intact section of the towpath, part of 60-mile-long Delaware Canal State Park.	POSITIVE	GOING_TO_PLACES
+61	Earlier we had visited the homes of Haim Nahman Bialik, a Russian-born poet and translator who helped make Hebrew the lingua franca of Israel, and a museum dedicated to the artist Nahum Gutman, who celebrated the young Jewish state in painting, both of which I found interesting.	POSITIVE	GOING_TO_PLACES
+62	Earlier, we had visited the Anne of Green Gables Museum at Silver Bush, owned by Montgomery's aunt and uncle and the place where Montgomery was married.	POSITIVE	GOING_TO_PLACES
+63	Every day, I'd go to the ball park and say,'Do I want to go or don't I.	NEUTRAL	GOING_TO_PLACES
+64	Every time I visited the city, I wandered into Villa Borghese park, on the heights east of the Tiber River.	POSITIVE	GOING_TO_PLACES
+65	Game over, 6-5 Padres, we all spilled out of the park and into the streets of downtown San Diego, the lights of the Gaslamp bars and restaurants already beckoning.	POSITIVE	GOING_TO_PLACES
+66	Having visited all the major sights, I couldn't figure out how to spend my last day in San Marino.	POSITIVE	GOING_TO_PLACES
+67	He is confident of being fit for the Champions League final and said:"They popped it back in before I got to hospital so I'm pleased with that."	POSITIVE	GOING_TO_PLACES
+68	He thought:"I have to wake up in two hours and go to the hospital."	NEGATIVE	GOING_TO_PLACES
+69	I am going straight to hospital to see him, I haven't managed to speak to him on the phone.	NEGATIVE	GOING_TO_PLACES
+70	I am going to the hospital now to make all the tests.	NEGATIVE	GOING_TO_PLACES
+71	I asked for a recommendation of a good Indian restaurant in my hometown of Washington and two hours later had a suggestion.	NEUTRAL	GOING_TO_PLACES
+72	I began to vomit and I had to go to a hospital.	NEGATIVE	GOING_TO_PLACES
+73	I brought him back to the government hospital in Khanna.	POSITIVE	GOING_TO_PLACES
+74	I can go into a restaurant, sit down and have a nice meal without being harassed.	NEUTRAL	GOING_TO_PLACES
+75	I can't go to the restaurant or do anything young people do.	NEGATIVE	GOING_TO_PLACES
+76	I couldn't even go out with friends to eat in a restaurant.	NEGATIVE	GOING_TO_PLACES
+77	I couldn't leave Newton without visiting the International Wrestling Institute and Museum, which traces the sport from its origins 5,000 years ago to its showbiz present.	POSITIVE	GOING_TO_PLACES
+78	I decide to drive my own car and take my wife to a nice lunch at the only good restaurant left.	NEUTRAL	GOING_TO_PLACES
+79	I did return that night in the marine-themed restaurant.	POSITIVE	GOING_TO_PLACES
+80	I dined at Dragonfly Neo-V  247 King St., 614-298-9986, an upscale vegan restaurant where I was fooled by the flavors.	POSITIVE	GOING_TO_PLACES
+81	I don't go for fancy restaurants.	NEGATIVE	GOING_TO_PLACES
+82	I don't go to restaurants.	NEGATIVE	GOING_TO_PLACES
+83	I don't know what 's going on, but I need to go to the hospital right away.	NEGATIVE	GOING_TO_PLACES
+84	I don't need to go out to a restaurant.	NEGATIVE	GOING_TO_PLACES
+85	I don't need to go to hospital because I'm not hurt.	POSITIVE	GOING_TO_PLACES
+86	I don't usually have to go to the hospital.	POSITIVE	GOING_TO_PLACES
+87	I go into McDonald 's restaurants in Beijing and Rome.	POSITIVE	GOING_TO_PLACES
+88	I go to a cemetery to visit my daughter.	NEGATIVE	GOING_TO_PLACES
+89	I go to restaurants there and I know everybody in the restaurant.	POSIITVE	GOING_TO_PLACES
+90	I go to the doctor or hospital of my choice, and my taxes pay all the bills.	NEGATIVE	GOING_TO_PLACES
+91	I got picked up by a park ranger who took me to a local hospital.	NEGATIVE	GOING_TO_PLACES
+92	I got to the restaurant in center-city Philadelphia at 8 p.m., 90 minutes late.	NEGATIVE	GOING_TO_PLACES
+93	I guess I just have to go back and heal and see what the doctors say.	NEUTRAL	GOING_TO_PLACES
+94	I had gone to a hospital in Fallujah to chronicle the killing of four Iraqis by U.S. Marines.	NEGATIVE	GOING_TO_PLACES
+95	I had to go back in the hospital.	NEGATIVE	GOING_TO_PLACES
+96	I had to keep my promise to Richard and now I can go to the cemetery.	NEGATIVE	GOING_TO_PLACES
+97	I have been to my dentist and have had my teeth filled and scaling done but the problem still persists.	NEGATIVE	GOING_TO_PLACES
+98	I have cut down on restaurants and cafes. 	NEGATIVE	GOING_TO_PLACES
+99	I have gone to hospital, it looks very long term.	NEGATIVE	GOING_TO_PLACES
+100	I haven't been to a dentist for a year or two.	POSITIVE	GOING_TO_PLACES
+101	I immediately went to the hospital because I thought it was cholera.	NEGATIVE	GOING_TO_PLACES
+102	I just went to the dentist and I can't talk much.	NEGATIVE	GOING_TO_PLACES
+103	I 'm here for you, I 'm not sick, we 'll go to the museum, we 'll go to the park.	NEUTRAL	GOING_TO_PLACES
+104	I need to go back and tour that maritime museum in Havre de Grace.	POSITIVE	GOING_TO_PLACES
+105	I once ended up in hospital with stitches because my older sister got so annoyed with me that she attacked me with a spatula.	NEGATIVE	GOING_TO_PLACES
+106	I only went to the dentist, for a two-hour treatment, the day of tests.	NEGATIVE	GOING_TO_PLACES
+107	I recently revisited Belgium's Royal Museum for Central Africa for the first time since I went there on a class trip more than 25 years ago, when my family lived here for a time.	POSITIVE	GOING_TO_PLACES
+108	I recently visited the exhibit during a seven-week mission to evaluate a U.S. program assisting local governments in Afghanistan.	POSITIVE	GOING_TO_PLACES
+109	I recently visited the Guantanamo Bay Detention Center with a small group of civilian psychiatrists, psychologists, top military doctors and Department of Defense health affairs officials to discuss detainee medical and mental health care.	NEGATIVE	GOING_TO_PLACES
+110	I recently visited the Loyola Village campus for the first time in decades, to speak about my integration experiences to a British news crew.	POSITIVE	GOING_TO_PLACES
+111	I said we better go to the hospital.	NEUTRAL	GOING_TO_PLACES
+112	I still go to a dentist in the city and when I visit him I have to notify the police first.	NEGATIVE	GOING_TO_PLACES
+113	I still haven't visited the Science Museum or Plymouth Rock or the Bedford Whaling Museum.	NEGATIVE	GOING_TO_PLACES
+114	I stopped at the sumptuous restaurant called Vieux Logis, in the town of Tremolat.	POSITIVE	GOING_TO_PLACES
+115	I told them I would go out for a walk and visit the cemetery as I do every year.	NEUTRAL	GOING_TO_PLACES
+116	I visited his grave at the city cemetery.	NEGATIVE	GOING_TO_PLACES
+117	I visited museums and attended fetes with them and went for holidays with them.	POSITIVE	GOING_TO_PLACES
+118	I visited the newest Dimsum n' Dumplings branch at Robinson's Galleria to meet Prime Pacific Corp. Vice President Sandee Siytangco-Masigan, whose husband is the pioneering brains behind the restaurant.	POSITIVE	GOING_TO_PLACES
+119	I visited the park once with a guide and then again by myself, sitting on the hilltop and savoring the companionship of solitude that Thoreau valued so highly.	POSITIVE	GOING_TO_PLACES
+120	I visited the site of the church massacre at Nyarubuye, in southeast Rwanda.	NEGATIVE	GOING_TO_PLACES
+121	I visited the site of their deaths on a morning which, by its melancholy darkness, seemed to grieve for them.	NEGATIVE	GOING_TO_PLACES
+122	I wanted to go to school and I wanted to go to Italy.	NEUTRAL	GOING_TO_PLACES
+123	I wanted to go to the market today but we have to play so many matches.	NEGATIVE	GOING_TO_PLACES
+124	I was taken to the doctor in the middle of July.	NEGATIVE	GOING_TO_PLACES
+125	I went back to the doctor I hadn't seen for a year David Stevens at the Valley Medical Center  and he put me back on medication.	NEGATIVE	GOING_TO_PLACES
+126	I went back to the doctor.	NEGATIVE	GOING_TO_PLACES
+127	I went from doctor to doctor to doctor.	NEGATIVE	GOING_TO_PLACES
+128	I went to a dentist a year ago because I had a toothache.	NEGATIVE	GOING_TO_PLACES
+129	I went to a dentist who told me to extract a good tooth to relieve the pain.	NEGATIVE	GOING_TO_PLACES
+130	I went to a doctor and the nurse asked my profession.	NEGATIVE	GOING_TO_PLACES
+131	I went to a snack bar, a pub and a club.	POSITIVE	GOING_TO_PLACES
+132	I went to an urgent care clinic, where the doctor dismissed the malady as a common cold and discharged me to Rite Aid for some extra-strength decongestants.	NEGATIVE	GOING_TO_PLACES
+133	I went to several dentists, my family doctor, an ear, nose and throat specialist.	NEGATIVE	GOING_TO_PLACES
+134	I went to the dentist that day and he gave me an injection but I did not ask him what products were in it.	NEGATIVE	GOING_TO_PLACES
+135	I went to the dentist the other day for a routine cleaning and more work on a crown after a root canal.	NEGATIVE	GOING_TO_PLACES
+136	I went to the doctor and he gave me medicine.	NEGATIVE	GOING_TO_PLACES
+137	I went to the doctor twice, it was a viral infection.	NEGATIVE	GOING_TO_PLACES
+138	I went to the doctor twice.	NEGATIVE	GOING_TO_PLACES
+139	I went to the doctor when it hit 103.	NEGATIVE	GOING_TO_PLACES
+140	I went to the eye doctor and he gave me some glasses but I still get the headaches.	NEGATIVE	GOING_TO_PLACES
+141	I went to the hospital emergency department, where I was put on infusions.	NEGATIVE	GOING_TO_PLACES
+142	I went to the public library the other day and borrowed a stack of sports books.	POSITIVE	GOING_TO_PLACES
+143	I went with him to the hospital morgue.	NEGATIVE	GOING_TO_PLACES
+144	I will go to Melbourne this evening and see what the doctor says.	NEUTRAL	GOING_TO_PLACES
+145	I will go to Munich tomorrow and see the doctor for my hamstring and stomach problems.	NEUTRAL	GOING_TO_PLACES
+146	I will go to Munich tomorrow and see the doctor.	NEUTRAL	GOING_TO_PLACES
+147	I will have to see a doctor,'Morceli said after his first race of the season.	NEUTRAL	GOING_TO_PLACES
+148	I will probably have to see a dentist now I am back,'De Williams said.	NEUTRAL	GOING_TO_PLACES
+149	I will see the doctors but I don't think it will be much better in 2-3 days.	NEUTRAL	GOING_TO_PLACES
+150	I will see the doctors, take some blood tests and take some more medicine.	NEUTRAL	GOING_TO_PLACES
+151	I won't ever say that I look forward to going to the dentist.	NEGATIVE	GOING_TO_PLACES
+152	I'll be going to the hospital for check-ups but it doesn't look good as it seems to be getting worse.	NEGATIVE	GOING_TO_PLACES
+153	I'll go and see the doctor first thing in the morning.	NEUTRAL	GOING_TO_PLACES
+154	I'll go up to the cemetery if the weather's good and give the old-timers their due.	NEUTRAL	GOING_TO_PLACES
+155	I'll have to talk to the doctors to see what they can do and then talk to the captain to see what our options are.	NEUTRAL	GOING_TO_PLACES
+156	I'm getting a lot of headaches and I have difficulty sleeping, so I just keep going to the doctor and keep seeing if I can get things better.	NEGATIVE	GOING_TO_PLACES
+157	I'm going to go back to the doctors.	NEUTRAL	GOING_TO_PLACES
+158	I'm going to see doctors today and see if rest will be good enough.	NEUTRAL	GOING_TO_PLACES
+159	That's why it's important not to go to McDonald's in Paris, why I had sauteed morning glories in Thailand in March instead of Italian food in a big new hotel restaurant.	POSITIVE	GOING_TO_PLACES
+160	We have visited the site and we have not removed anything from the site of the blast.	NEGATIVE	GOING_TO_PLACES

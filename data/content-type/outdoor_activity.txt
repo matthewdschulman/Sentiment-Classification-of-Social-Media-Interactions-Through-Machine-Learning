@@ -1,0 +1,160 @@
+1	"And it seems we can walk and run on the mountain for hours again" he added in a recent interview.	NEUTRAL	OUTDOOR_ACTIVITY
+2	"Don't tell anybody but I'll be fishing tomorrow" Bush quipped as he departed Phoenix.	NEUTRAL	OUTDOOR_ACTIVITY
+3	"I can't walk around in East Jerusalem, I can't walk around in Hebron  on the occupied West Bank  or anywhere else" said one of the leaders of the orthodox Satmar sect, David Niedelman, who also lives in the United States.	NEGATIVE	OUTDOOR_ACTIVITY
+4	"I don't feel too safe walking by the woods" said Edwards, a 19-year-old black student from Canton.	NEGATIVE	OUTDOOR_ACTIVITY
+5	"I have enjoyed in cycling" Berzin smiled.	POSITIVE	OUTDOOR_ACTIVITY
+6	"I haven't spent much time on the bike in the past year because of my injuries so I need to get used to riding a 500 again" he said.	NEGATIVE	OUTDOOR_ACTIVITY
+7	"I should be playing on the beach" he says.	NEUTRAL	 OUTDOOR_ACTIVITY
+8	"I used to go birdwatching almost every morning in Islamabad as I did not have my family with me" said Pyhala.	POSITIVE	OUTDOOR_ACTIVITY
+9	"I walked all night in the forest and told myself that I was the only Jew left alive in Europe" he told the Jerusalem Post.	NEGATIVE	OUTDOOR_ACTIVITY
+10	"I was fishing on the rocks and I saw her come around the back of the lighthouse" said local resident Dave Turner, who noted boats often sailed that direction as a short cut on the high tide.	POSITIVE	OUTDOOR_ACTIVITY
+11	"I was walking in the woods, following the signal with my receiver, trying to find the turtle, and I walked into an area where some large trees had fallen down" he recalled Thursday.	POSITIVE	OUTDOOR_ACTIVITY
+12	"I'd rather take a walk" she says.	NEUTRAL	OUTDOOR_ACTIVITY
+13	"It bothers me, but I just keep walking" she said.	NEGATIVE	OUTDOOR_ACTIVITY
+14	"It's too cold and I can't ride my bike" he lamented.	NEGATIVE	OUTDOOR_ACTIVITY
+15	"One day last spring" says Hills "Rita and I were walking along the waterfront, looking at the mountains."	POSITIVE	OUTDOOR_ACTIVITY
+16	"Whenever I'm around inuksuit in the Arctic, I am never scared because I know that Inuit have lived there before me for many, many thousands of years and have survived from hunting and fishing" he said.	POSITIVE	OUTDOOR_ACTIVITY
+17	"While we were passing by Puqian harbor of Wenchang, we were informed of the tropical storm and decided to moor the boat in the harbor" said Zheng "but since we were not familiar with the navigable route, our fishing boat hit a reef and the bilge broke."	NEGATIVE	OUTDOOR_ACTIVITY
+18	A faint path through the cedar and cypress forests to a holy Shinto mountain, the trail was marked with signs and blazes, but we never saw other hikers on that trail or any other hiking path in the area on our most recent visit in May.	POSITIVE	OUTDOOR_ACTIVITY
+19	A few months after I took up birdwatching, some friends invited me on a birding trip up the Old Pumphouse Road in Genting Highlands.	POSITIVE	OUTDOOR_ACTIVITY
+20	About midway through our driving tour, I decided the best way to explore it would be by boat.	POSITIVE	OUTDOOR_ACTIVITY
+21	Afoot in Victoria: From Thunderbird Park, I start my walking tour of Victoria.	POSITIVE	OUTDOOR_ACTIVITY
+22	After a 4-mile drive to near the top of Okemo Mountain in the former milltown of Ludlow, followed by a short walk to the fire tower on its 3,344-foot summit, we eventually made the descent into Weston.	POSITIVE	OUTDOOR_ACTIVITY
+23	After a quick buffet breakfast at the historic Radisson Read House Hotel and Suites downtown, we drove to Lookout Mountain, on the southern outskirts, and took the mile-long Incline Railway cable car ride to the top.	POSITIVE	OUTDOOR_ACTIVITY
+24	After about a half an hour of walking, I climbed a hill for an overview.	POSITIVE	OUTDOOR_ACTIVITY
+25	After lunch by a river, then a hike over a series of hills above and below timberline, we saw the mountain unfold to our right.	POSITIVE	OUTDOOR_ACTIVITY
+26	After our Tiger Mountain Vineyard tour Friday, we drove back to the park in early evening and took Charlie on another long walk.	POSITIVE	OUTDOOR_ACTIVITY
+27	Almonte informed us that we would follow the first mile and a half of a trail system built during construction in 1905-1906 of the Kohala Ditch, 16 miles of tunnels and six miles of open waterways carved into the oldest mountain range on the island.	POSITIVE	OUTDOOR_ACTIVITY
+28	And at the end of our runs, we plunged still clothed into a frigid mountain stream or pool.	POSITIVE	OUTDOOR_ACTIVITY
+29	And it is with another sinking feeling that we walk across the bare fields from the condo to the chairlift, strung for half a mile from the base of the mountain down to the condo cluster we are staying in.	NEGATIVE	OUTDOOR_ACTIVITY
+30	And most important, in those moments when I skied down a mountain for the first time, or Stephen picked his snowshoe route through virgin terrain, or we both trotted up a cross-country trail's incline and unzipped our jackets to let in the cooling air, everything else was forgotten.	POSITIVE	OUTDOOR_ACTIVITY
+31	And the next day, at last, we walked all the way to the top of a mountain without a hitch.	POSITIVE	OUTDOOR_ACTIVITY
+32	And we live on the beach, so I walk but not as much as my wife.	POSITIVE	OUTDOOR_ACTIVITY
+33	Another day we followed a perky park ranger along a well-marked nature trail: the mountain is part of the two million-acre Routt National Forest, who pulled pelts out of her parka to show us adaptive features of mountain denizens like foxes and weasels.	POSITIVE	OUTDOOR_ACTIVITY
+34	As I turned to look at the mountain, the whole thing came burying down, breaking again, so we decided our best bet was to keep walking.	POSITIVE	OUTDOOR_ACTIVITY
+35	As I walked around the lake, about a half-mile hike, I spooked a javelina in a mesquite bosque and was awed by the huge trees.	POSITIVE	OUTDOOR_ACTIVITY
+36	As I walked around the lake, I saw leopard frogs and non-native bullfrogs, which prey on the leopards.	POSITIVE	OUTDOOR_ACTIVITY
+37	As the sun set at Point Lobos, we walked along the headlands, our feet sinking into the powdery, khaki-colored sand, our eyes peeled for sea otters in the teal-colored surf.	POSITIVE	OUTDOOR_ACTIVITY
+38	As we roll up to Buckeye Reservoir, two campers walk over, offering up Mountain Dew and apple fritters.	POSITIVE	OUTDOOR_ACTIVITY
+39	But last month I walked at dusk through a miraculously transformed Haven Acres.	POSITIVE	OUTDOOR_ACTIVITY
+40	But no matter what, I will go bird watching at Mai Po again soon.	NEUTRAL	OUTDOOR_ACTIVITY
+41	But on a friend's recommendation, we took a side trip to the Roaring Camp Railroads in Felton, where we boarded a narrow-gauge steam train that traveled through a redwood forest to the top of Bear Mountain in the Santa Cruz Mountains.	POSITIVE	OUTDOOR_ACTIVITY
+42	But we are pumped: We are going to see the world-famous, highly endangered mountain gorillas, the ones featured in the 1988 hit movie'Gorillas in the Mist.	POSITIVE	OUTDOOR_ACTIVITY
+43	During a hike to Fat Man's Pass in April, I easily motored up that hill.	POSITIVE	OUTDOOR_ACTIVITY
+44	During our five-day stay this summer, we found she was right, and the way we tasted that freedom was to get out into the rugged countryside, a landscape that sometimes reminded us of parts of the western United States, with green valleys running through mountain ranges, but more often resembles a Mars-scape, with volcanoes, craters and caves, and few trees.	POSITIVE	OUTDOOR_ACTIVITY
+45	Earlier in the day we had seen gazelles racing across the distant sands and a family of ibex leaping up the side of a mountain.	POSITIVE	OUTDOOR_ACTIVITY
+46	For  3.50, you can wander through, but I elect instead to spend  2 to go through the Tombstone Courthouse, now a state historic park.	POSITIVE	OUTDOOR_ACTIVITY
+47	From Adagio, I crossed Main Street and walked halfway down the block to look in on Pinky's, a breakfast and lunch hangout full of regulars having conversations that have been going on for years.	POSITIVE	OUTDOOR_ACTIVITY
+48	From the Fujiya Hotel, we walked to the Miyanoshita Tozan Tetsudo, a mountain rail station, where we bought a one-way ticket for about  15 to the mountaintop.	POSITIVE	OUTDOOR_ACTIVITY
+49	Here's a taste of groove dude Jack Kerouac's infectious Whitmanesque riff on hiking in Yosemite: from meadow rocks and lupine posies, to sudden revisits with the roaring stream with its splashed snag bridges and undersea greennesses, there was something inexpressibly broken in my heart as though I'd lived before and walked this trail, under similar circumstances with a fellow Bodhisattva, but maybe on a more important journey.	POSITIVE	OUTDOOR_ACTIVITY
+50	I am going fishing far into the sea off Sabah waters.	NEUTRAL	OUTDOOR_ACTIVITY
+51	I came here to reflect my happiness by fishing.	POSITIVE	OUTDOOR_ACTIVITY
+52	I could have taken an organized half-day tour on this route: they run about 23 per person, but I decide I'd rather cover the same territory at my own pace for 40.	POSITIVE	OUTDOOR_ACTIVITY
+53	I 'd get up at 5:30 every morning and hike about five miles in the mountains.	POSITIVE	OUTDOOR_ACTIVITY
+54	I decided to drive my old running route on that three-mile course along backcountry roads.	POSITIVE	OUTDOOR_ACTIVITY
+55	I definitely wanted to walk away from here on top.	POSITIVE	OOUTDOOR_ACTIVITY
+56	I departed an hour later, having decided on a short hike to Hellgate Pond, which is tucked away on a hilltop a little more than a mile to the southwest of the Hellgate Hilton.	POSITIVE	OUTDOOR_ACTIVITY
+57	I do more urban hiking rather than wilderness hiking.	POSITIVE	OUTDOOR_ACTIVITY
+58	I don't need to climb Mount Everest, but I do yearn to hear the voice that speaks only when I walk in beauty on my own.	POSITIVE	OUTDOOR_ACTIVITY
+59	I favored Aspen for many years because I could fly there and walk or use free shuttle buses to get around.	POSITIVE	OUTDOOR_ACTIVITY
+60	I hike the paths in my park and see little wonders: after a rain, mushrooms push aside fallen leaves, flowers root in merciless rocks, new green blades poke out of dried-up grass that looked seriously dead.	POSITIVE	OUTDOOR_ACTIVITY
+61	I hiked mountains in Colorado with them.	POSITIVE	OUTDOOR_ACTIVITY
+62	I hunt with a bird dog.	POSITIVE	OUTDOOR_ACTIVITY
+63	I kept my ice chest in the trunk of the car and cooked on a propane stove by the picnic table.	POSITIVE	OUTDOOR_ACTIVITY
+64	I mountain bike and hike off season to get in shape.	POSITIVE	OUTDOOR_ACTIVITY
+65	I must have been walking in circles all night.	NEGATIVE	OUTDOOR_ACTIVITY
+66	I remember the first week we arrived, setting out for a run in the direction of the ocean in search of a seaside route.	POSITIVE	OUTDOOR_ACTIVITY
+67	I saw birds, I saw some people fishing.	POSITIVE	OUTDOOR_ACTIVITY
+68	I spent about 1 1\2 hours at Limahuli, walking at a leisurely pace.	POSTITIVE	OUTDOOR_ACTIVITY
+69	I spotted elk, bear and wolf tracks in the sand.	POSITIVE	OUTDOOR_ACTIVITY
+70	I take long walks outside the standard tourist precincts, visit neighborhood parks and spend a lot of time people-watching from sidewalk cafes.	POSITIVE	OUTDOOR_ACTIVITY
+71	I took a drive 50 miles outside of Cordova across the Copper River Delta, where dunes of glacial silt and ice form a forbidding moonscape, to get an idea of the kind of terrain these fish face on their trip upstream.	POSITIVE	OUTDOOR_ACTIVITY
+72	I usually begin my run along the levee at Moonwalk, the wooden promenade just above Jackson Square, and then head south through Riverfront Park to Canal Street.	POSITIVE	OUTDOOR_ACTIVITY
+73	I visited the nearby Sugar River the next afternoon and caught nothing.	NEGATIVE	OUTDOOR_ACTIVITY
+74	I walk along the 108-acre lake as the sun was setting and check out the evening communal campfire, which was scheduled for 8 at the serene amphitheater on a small island.	POSITIVE	OUTDOOR_ACTIVITY
+75	I walked all weekend when school was in session, sometimes covering 35 to 40 miles at a time.	POSITIVE	OUTDOOR_ACTIVITY
+76	I walked down the mountain a changed person.	POSITIVE	OUTDOOR_ACTIVITY
+77	I walked for a long while that first day, discovering old tram roads that seemed to snake all over the mountain.	POSITIVE	OUTDOOR_ACTIVITY
+78	I walked there along muddy trails, past plants of rosemary, sage, lavender and wild blue and blackberries.	POSITIVE	OUTDOOR_ACTIVITY
+79	I want to go fishing.	NEUTRAL	OUTDOOR_ACTIVITY
+80	I went to the beach on the other day, for the first time since I was a child.	POSITIVE	OUTDOOR_ACTIVITY
+81	I would usually be on the beach by now.	NEUTRAL	 OUTDOOR_ACTIVITY
+82	I'd be walking around and all of a sudden it felt like everything had pushed forward and I'd get kind of dizzy.	NEGATIVE	OUTDOOR_ACTIVITY
+83	I'm a very good runner in the hills, but I have a little problem going down.	POSITIVE	OUTDOOR_ACTIVITY
+84	I'm going to sit on my hands for the next month, have a few pints and do a bit of fishing.	NEUTRAL	OUTDOOR_ACTIVITY
+85	In a single morning of birdwatching during a winter season, I sighted quite a few species on Yoron Island.	POSITIVE	OUTDOOR_ACTIVITY
+86	In addition to some biking along the coast, we took a 7-mile hike down a deeply forested mountain trail in the heart of Corsica.	POSITIVE	OUTDOOR_ACTIVITY
+87	In less than a mile we dropped to the beach and found a camp just south of Scotts Creek, in a forest of old Sitka spruce behind storm-jumbled piles of driftwood.	POSITIVE	OUTDOOR_ACTIVITY
+88	In less than an hour, we would walk into the tourist village of Aguas Calientes and rest for the next morning's climb to Machu Picchu.	POSITIVE	OUTDOOR_ACTIVITY
+89	In Montana, most of the trails we rode climbed steep, pine-forested mountain slopes.	POSITIVE	OUTDOOR_ACTIVITY
+90	Is hunting permitted in a national wilderness? I know you can hunt in a national forest.	NEUTRAL	OUTDOOR_ACTIVITY
+91	It took two days of uphill hiking for us to crest a mountain, but once we got there the ground fell away, leaving us breathless at the vistas.	POSITIVE	OUTDOOR_ACTIVITY
+92	It was a cool, misty morning at Fraser's Hill, and I was birdwatching with a group of friends a decade ago.	POSITIVE	OUTDOOR_ACTIVITY
+93	It was early Sunday morning, fog still covering the peaks of the Santa Monica Mountains, as my son, Jann, and I were out rock hunting when we heard the buzz of approaching sports cars.	POSITIVE	OUTDOOR_ACTIVITY
+94	"It's early today so it's still a slow day on the beach, but I don't really see any changes" said Gulf county mayor Joe Nugent.	POSITIVE	OUTDOOR_ACTIVITY
+95	I've explored Greece profitably by intercity bus  good service, rental car and island ferries.	POSITIVE	OUTDOOR_ACTIVITY
+96	I've gone backpacking with my brother and taken walking tours with groups of strangers who became my friends, most memorably many years ago through the Anti-Atlas Mountains of southern Morocco.	POSITIVE	OUTDOOR_ACTIVITY
+97	Last year I was sitting on the beach and we signed Shaun Wright-Phillips and Michael Essien in the two positions I play.	POSITIVE	OUTDOOR_ACTIVITY
+98	Maddie went in next, and I followed her, joining about six other snorkelers, all of us obeying Gilbert's strict orders: don't let go of the floating yellow line that was tethered to the boat and don't dive down, as we'd been allowed to do on the two previous snorkel stops.	POSITIVE	OUTDOOR_ACTIVITY
+99	My approach to keeping safe when I go walking alone is to choose a countryside with minimal dangers.	POSITIVE	OUTDOOR_ACTIVITY
+100	My husband, Roger, and elder son, Jacob, age 4, embarked on a father-son rowboat expedition while I opted for a hike to the trout stream with 18-pound Gabriel on my back.	POSITIVE	OUTDOOR_ACTIVITY
+101	Now I am just going to play football on the beach with my friends.	NEUTRAL	 OUTDOOR_ACTIVITY
+102	Now that I saw my escape from the wilderness, I relaxed and pulled off my shirt, hat and hiking boots and sank into the river, letting the cool waters wash over me.	POSITIVE	OUTDOOR_ACTIVITY
+103	On a day when the wind was not only strong but pushing against the tide, discouraging fish from drifting happily with the current, picking off a sand worm here, a snapping shrimp there, it was as good a shot as we could expect.	POSITIVE	OUTDOOR_ACTIVITY
+104	On a recent weekend birding trip with Eastern Shore Escapes, a company set up to attract tourism dollars to the area, I explored the entire southern tip of the peninsula, with a long boat trip out of Willis Wharf, a side trip to the town of Oyster, a garden tour of historic Eyre Hall and birding at the Eastern Shore of Virginia National Wildlife Refuge, Kiptopeke State Park and even the town dump.	POSITIVE	OUTDOOR_ACTIVITY
+105	On another day when the skies were merely spitting, we walked to the garlic-redolent Italian neighborhood of North Beach, past Washington Square: which is neither square it's triangular nor related to Washington the statue's of Ben Franklin.	POSITIVE	OUTDOOR_ACTIVITY
+106	On another day, after a drive through dramatic mountain passes, we hiked out onto an orange sandstone plateau on the Sevilla Trail.	POSITIVE	OUTDOOR_ACTIVITY
+107	On another excursion, we went by boat to Corcovado National Park for a hike.	POSITIVE	OUTDOOR_ACTIVITY
+108	On meandering hikes among the deer and chipmunks, I stop to stare through hypnotizing clouds or the mysterious ripples of a mountain stream and thank my lucky stars.	POSITIVE	OUTDOOR_ACTIVITY
+109	On mountain trails, we will carefully step around bubbling sulphur springs steaming from the ground, and will pause often to admire unfurling ferns, wild orchids, and parrots and iguanas.	NEUTRAL	OUTDOOR_ACTIVITY
+110	On our first day of mountain trekking, we walked straight into a blizzard.	NEGATIVE	OUTDOOR_ACTIVITY
+111	On our first day we bagged 37 birds, a fine take for five guns shooting walk-up.	POSITIVE	OUTDOOR_ACTIVITY
+112	On our first morning, we joined a dozen other guests for a two-hour nature walk led by Fugagli at the Gila River Farm Preserve, a nearby conservancy property.	POSITIVE	OUTDOOR_ACTIVITY
+113	On our first outing here we saw lots of fish, including the parrotfish, with its neon-bright blue and green hues.	POSITIVE	OUTDOOR_ACTIVITY
+114	On previous visits to Umbagog, Ruth and I stayed in our tent at one of the wilderness campsites on the lake's shores controlled by Umbagog Lake Campground of Errol.	POSITIVE	OUTDOOR_ACTIVITY
+115	On the boardwalk, we faced the breeding marsh.	POSITIVE	OUTDOOR_ACTIVITY
+116	On the third day of our trek, after eight hours on the trail, we reached our destination at the Hadlaskard hut: a slate-gray house on the banks of a mountain stream and dropped our packs to the scent of freshly baked bread prepared by the hut's caretaker.	POSITIVE	OUTDOOR_ACTIVITY
+117	On Tuesday, the terrain began to slope steeply, and we moved to a campsite on Crooks Mountain, less otherworldly than our flat desert camp beneath its bowl of stars, but cozier, with pines and a running stream.	POSITIVE	OUTDOOR_ACTIVITY
+118	Once the Mineral Basin Express chair had taken us back to Snowbird's north-facing side, we made a sinuous descent through the Gad Valley, sampling the range of runs, from advanced  Shireen  to novice  Big Emma, that makes Snowbird such a hospitable mountain.	POSITIVE	OUTDOOR_ACTIVITY
+119	Once the rain finally took a break, we went walking through the woods to the lake's boathouse, where skiers could warm up around a fire in the winter, and swimmers and boaters could play in the summertime.	POSITIVE	OUTDOOR_ACTIVITY
+120	Once while walking through the woods, I came upon a small, hand-lettered Post-it note stuck through with a branch.	POSITIVE	OUTDOOR_ACTIVITY
+121	One afternoon we took a boat ride along Matanzas Pass, offered for  12.50 for adults  kids half that price  by Dockside Boat Rentals at our hotel.	POSITIVE	OUTDOOR_ACTIVITY
+122	One afternoon we went bird watching along the elevated catwalks that wind through the surrounding rain forest.	POSITIVE	OUTDOOR_ACTIVITY
+123	One day, particularly agitated, I fled my house and began walking toward a nearby mountain.	POSITIVE	OUTDOOR_ACTIVITY
+124	One perfect day, as rain threatened, I started by going for a run in manicured and rolling Hyde Park, Henry VIII's hunting ground in the wilds west of the Palace of Westminster, a broad swath of the bucolic English countryside at the heart of the city.	POSITIVE	OUTDOOR_ACTIVITY
+125	Outside an imposing Victorian in Pacific Heights, I learned that I, along with a dozen other tourists, had signed up for a 15-block sightseeing hike uphill: there seems to be no other direction in San Francisco.	POSITIVE	OUTDOOR_ACTIVITY
+126	Reviving, we walked across the lawn in the moonlight, past the clay courts that were so bright under the moon we could have played tennis, and down to the lake lapping against the shore in the wind.	POSITIVE	OUTDOOR_ACTIVITY
+127	SALMON STREAM LAKE, Maine: by the time we had carried gear, food and clothing from our canoe past towering white pines to the camp and I had kindled a crackling blaze in the fireplace with the aid of birch bark stripped from a storm-dropped tree, the day was nearly done.	POSITIVE	OUTDOOR_ACTIVITY
+128	Since the wind was still stiff and boating impossible, we took a gentle mile-and-a-half walk up Avalon Canyon Road, which stretches behind the town, to the Wrigley Memorial and Botanical Garden.	POSITIVE	OUTDOOR_ACTIVITY
+129	Some years ago, on a walk of several days alone through a stretch of Ozark wilderness, I came upon the ruins of what must once have been considerable communities.	POSITIVE	OUTDOOR_ACTIVITY
+130	The first thing you notice is that spring has arrived, temperatures are in the mid-70s daily, the happy crowds are up early, walking to the entrance gates for the 7:30 a.m. opening  for those paying an extra fee, and we'll get to that, talking in every language imaginable, pointing at Matterhorn Mountain looming over the park.	NEUTRAL	OUTDOOR_ACTIVITY
+131	The next day, we wove our way through fragments of stray morning clouds, and followed the Minho west nine miles until we reached the town of Valenca, another fortified frontier town, crowning a wildly verdant, two-headed mountain.	POSITIVE	OUTDOOR_ACTIVITY
+132	The storm ended just as quickly as it started, and then we were out again, fishing, catching one 20-incher after another.	POSITIVE	OUTDOOR_ACTIVITY
+133	Then I walked along Knightsbridge Road to Royal Albert Hall.	POSITIVE	OUTDOOR_ACTIVITY
+134	Then I walked half a block to the corner of Main Street, where former L.A. jazz writer Jim Liska runs an ambitious little Italian restaurant named Adagio.	POSITIVE	OUTDOOR_ACTIVITY
+135	Then I will take the whole month off and do some more fishing and diving.	NEUTRAL	OUTDOOR_ACTIVITY
+136	Then I'll have a holiday to re-discover the desire for cycling.	NEUTRAL	OUTDOOR_ACTIVITY
+137	Then we looked up to the mountains, which are very, very close on both sides, and there seemed to be an eruption from the top of one mountain and the biggest noise I have ever heard in my life, followed by trees cascading down towards us, followed by some boulders and rocks.	NEGATIVE	OUTDOOR_ACTIVITY
+138	Then we ride up into the high country, where we'll see wild horses, bighorn sheep, mountain lions and eagles.	NEUTRAL	OUTDOOR_ACTIVITY
+139	Then we'd strap on our boards, glance at Delirium Dive, the certain-death cliff run on the mountain's backside, and go the other way, threading through Douglas firs before catching a hushed two-seater back to the peak.	NEUTRAL	OUTDOOR_ACTIVITY
+140	Then, into the forest, we hike only 20 minutes through bamboo, then vines, moss and thistle that all smell wet and green, for an unwinded arrival at the last of a species: 34 mountain gorillas, eating loudly.	POSITIVE	OUTDOOR_ACTIVITY
+141	There are few experiences, and I'm speaking of myself here, to equal the emotion of walking a battlefield in one's own country and imagining the battle.	POSITIVE	OUTDOOR_ACTIVITY
+142	There, we walk half an hour across farms where women tend to potato fields that slope mildly up the mountain from Ruhengeri, in northwest Rwanda.	POSITIVE	OUTDOOR_ACTIVITY
+143	There, we woke up early, packed lunches of 'gimbap', a Korean version of a sandwich, with rice, vegetables, radish, and Spam wrapped in seaweed, and hiked up Namsan, a mountain studded with 1,500-year-old Buddhist relics.	POSITIVE	OUTDOOR_ACTIVITY
+144	This time we actually camped on the very site of a glacial lake I saw four years ago.	POSITIVE	OUTDOOR_ACTIVITY
+145	Three hours later, after a rib-rocking ride in 4x4's, we met our Tuareg guides and their 14 camels at the base of a sand dune in the spectacular Akakus mountain range, with summits of nearly 5,000 feet along the Libya-Algeria border.	POSITIVE	OUTDOOR_ACTIVITY
+146	To get backstage, we cross the steam-train railroad tracks, walk around a bend in the road and finally pass through a secluded gate.	POSITIVE	OUTDOOR_ACTIVITY
+147	Turning off the highway from Roses we drove into the Cap de Creus nature preserve, a moonscape of scrub brush and hardy mountain trees clinging to a mountain striped with hiking trails.	POSITIVE	OUTDOOR_ACTIVITY
+148	Under Skip's tutelage, we rode six to eight hours each day, traversing a 150-mile circle that took us from a cattle guard 12 miles south of Jeffrey City to Lost Creek Reservoir, where we camped for two nights in the high plains desert, into the foothills of Crooks Mountain for three more nights of camping and then back to Crooks Gap, near our starting point.	POSITIVE	OUTDOOR_ACTIVITY
+149	We didn't see any wildlife, but we saw fresh tire tracks in the mud: mountain bikers.	NEGATIVE	OUTDOOR_ACTIVITY
+150	We fell another three times on one particular tow, the final time when we were two-thirds up the mountain, which meant we had to walk the rest of the way.	NEGATIVE	OUTDOOR_ACTIVITY
+151	We had traveled downstream most of the night to Longview, Wash., where we again boarded buses for a 90-minute ride through forests and small towns to the mountain.	POSITIVE	OUTDOOR_ACTIVITY
+152	We scrambled up to the top of a dune, and while our guide walked the entire way, I was so exhausted and out of breath I could barely stand.	POSITIVE	OUTDOOR_ACTIVITY
+153	We were allowed to go to Yugoslavia for a holiday but once we were there we just put on our rucksacks, walked out of the hotel, hitch hiked on foot and by train through Italy and Switzerland to get to Germany.	POSITIVE	OUTDOOR_ACTIVITY
+154	When asked what songs he had on his iPod, Bush said he didn't use it anymore when riding his mountain bike:"I like to hear the birds."	POSITIVE	OUTDOOR_ACTIVITY
+155	When I started college I no longer had time to walk or run that many hours.	NEGATIVE	OUTDOOR_ACTIVITY
+156	When I was a kid playing on the beach my friends wanted to build sand castles, but I wanted to build on the sea and they would laugh at me.	POSITIVE	OUTDOOR_ACTIVITY
+157	When we had a boat, during my husband's lifetime, I could run it while he fished, and once or twice I took it out on my own to cross the sound to the grocery store.	POSITIVE	OUTDOOR_ACTIVITY
+158	Which is how I ended up huddled in the shadow of a 20,500-foot mountain one afternoon last summer, shivering around a table with seven other trekkers as we tried to scarf down plates of cold fish before the snow and wind tore them from our hands.	NEGATIVE	OUTDOOR_ACTIVITY
+159	With my 5-year-old daughter in tow, I joined Na'Aina Kai's two-hour family walking tour.	POSITIVE	OUTDOOR_ACTIVITY
+160	Yet as another giant storm plowed into Nicaragua last week, we watched again with awe and perhaps with an unacknowledged yen for apocalypse, a yearning that dares not say its name.	NEGATIVE	OUTDOOR_ACTIVITY

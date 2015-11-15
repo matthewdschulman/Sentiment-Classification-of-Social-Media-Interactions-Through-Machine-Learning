@@ -1,0 +1,160 @@
+1	"All we do is go to banquets all the time" says Russell Smith, one of 'Juno's'producers.	POSITIVE	ATTENDING_EVENT
+2	"Choosing to undergo open heart surgery when I never felt sick was the hardest decision I've ever made" Schwarzenegger said.	NEGATIVE	ATTENDING_EVENT
+3	"Either we're going to have a big barbecue or we're going to be OK" said Dick Albrecht, a former CBS-TV producer who moved to Jackson Hole from Los Angeles in the 1970s and now designs homes.	NEUTRAL	ATTENDING_EVENT
+4	"For health reasons, I need to undergo medical tests and treatment and rest for a few days before I can meet with everyone" Wei said in a statement.	NEGATIVE	ATTENDING_EVENT
+5	"I am going to be at the concert here, and in one other location about which you will have to learn more information later" he told a news conference.	NEUTRAL	ATTENDING_EVENT
+6	"I am really excited about the concert, but I care more about the music to be honest" said Rachel Davis, 26, a civil servant from North Wales who traveled to London the previous night with her boyfriend.	POSITIVE	ATTENDING_EVENT
+7	"I had heard him, of course" Talamon admits "but the first time I saw Bob in concert, it wasn 'Oh, expletive, what have we got here!'"	POSITIVE	ATTENDING_EVENT
+8	"I had just gone to a concert with my parents and I identified with the conductor a lot" Dudamel said in Spanish during a recent interview in Caracas.	POSITIVE	ATTENDING_EVENT
+9	"I read a little article in my local newspaper in Adelaide, in south Australia: and I went to see his concert" he recalls.	POSITIVE	ATTENDING_EVENT
+10	"I still haven't had chance to go to the city much, but the other day I went to a concert in Wembley and it was really nice experience" she said.	POSITIVE	ATTENDING_EVENT
+11	"I thought I was going to have surgery, which meant here we go again" said Bonilla, who was fitted with a brace instead.	NEUTRAL	ATTENDING_EVENT
+12	"I want this dear meeting to go forward in joy" she said, in the message.	NEUTRAL	ATTENDING_EVENT
+13	"I want to watch some good sports" he said.	NEUTRAL	ATTENDING_EVENT
+14	"I went to every doctor's appointment" says Clark, 43.	NEGATIVE	ATTENDING_EVENT
+15	"I went to see the doctor before my match and I was not sure I'd be able to play, so it was tough in the beginning" said Cornet.	NEGATIVE	ATTENDING_EVENT
+16	"I will attend the planned peace talks for the sake of peace in Somalia but if the TNG maintains that it is the Somali government the meeting's outcome will be a disgrace" he warned.	NEUTRAL	ATTENDING_EVENT
+17	"I would go to the movie theaters and watch a movie like all of us do" he says "and every time, dude, there was always this little wince".	NEUTRAL	ATTENDING_EVENT
+18	"It's a completely different experience to watch a movie on a big screen, and now, whenever I go to a big city, where cinemas still exist, I take my time and go watch one" Bertalan said.	POSITIVE	ATTENDING_EVENT
+19	"I've been assured by my doctor that if I'm operated on soon, I will live" the dying man said, begging a reporter to take him to a hospital.	NEUTRAL	ATTENDING_EVENT
+20	"On Dec. 6 we went to a wedding together, and he and I had a long discussion with his mom" Steward said.	POSITIVE	ATTENDING_EVENT
+21	"Right after these concert dates I go in and have my right hip done" he says, referring to replacement surgery.	NEUTRAL	ATTENDING_EVENT
+22	"Sometimes we go get barbecue together" Bolyer said.	POSITIVE	ATTENDING_EVENT
+23	"That we'll go see these movies is not indicative of anything specific" he says.	NEUTRAL	ATTENDING_EVENT
+24	"That's why we go pay our bucks for the movies, it's to be taken away and to escape for a while" she said.	POSITIVE	ATTENDING_EVENT
+25	"The dream" he said, is "that we'd be able to go to any movie, any time and understand it."	NEUTRAL	ATTENDING_EVENT
+26	"Today, I postponed my session until the afternoon in order to attend this presentation ceremony" Wu said, adding that she hopes her presence will help boost the morale of all disabled moon cake bakers.	POSITIVE	ATTENDING_EVENT
+27	"Tomorrow I will be going to her concert" Mandela said Wednesday.	NEUTRAL	ATTENDING_EVENT
+28	"Two weeks ago I was at a friendly match between two clubs and they raised 20,000 dollars to help tsunami victims" Brumby said.	POSITIVE	ATTENDING_EVENT
+29	"When Arnold Palmer and Nancy Lopez were playing a match here a couple of years ago" Lester says "I remember the most amazing sight: a string of golf cars backed up down the path toward that golf course, a half-mile a kilomter long."	POSITIVE	ATTENDING_EVENT
+30	While none of us has the chance to attend our own funeral, in many ways I feel like I was at my own in the past weeks, and surprisingly I am thankful for the perspective it has afforded Sanford wrote in the opinion piece distributed statewide for Sunday newspapers.	NEGATIVE	ATTENDING_EVENT
+31	A couple of months ago, I went to a concert in the new Damascus opera house.	POSITIVE	ATTENDING_EVENT
+32	A few months ago, my wife and I sat around my computer's 17-inch monitor while we watched a DVD of the movie "The Matrix".	POSITIVE	ATTENDING_EVENT
+33	A few weeks later, I attended the funeral of three of the four young girls who were killed in the racial bombing of the 6th Avenue Baptist Church in Birmingham, Alabama.	NEGATIVE	ATTENDING_EVENT
+34	A lot of movies I went to see were fun to watch and totally entertaining and escapist.	POSITIVE	ATTENDING_EVENT
+35	A lot of people might start to realize that and say, "Well, maybe we don't want to go see that movie tonight."	NEUTRAL	ATTENDING_EVENT
+36	After dinner we piled into a van bound for Sils Maria and got lost on the way to our evening concert.	NEGATIVE	ATTENDING_EVENT
+37	After I got to her home, I sat down to watch some movies I rented.	POSITIVE	ATTENDING_EVENT
+38	After that we'd go back to the Westerkerk, for a concert by a visiting organist from Stuttgart.	POSITIVE	ATTENDING_EVENT
+39	After the concert, we were so wide awake we didn't want to go back to the house yet.	POSITIVE	ATTENDING_EVENT
+40	After watching 'The Breakfast Club' with me on cable for the millionth time when I was a chubby 13-year-old, my mom suggested that we go to the video store and rent the teen-angst movie of her generation:'Rebel Without a Cause.'	POSITIVE	ATTENDING_EVENT
+41	Afterward Johansson acknowledged their contribution, saying during the presentation ceremony "we're gonna have some fun tonight, I promise you guys."	NEUTRAL	ATTENDING_EVENT
+42	Alarmed and anxious to get out of there, I suggested we go see a movie.	NEUTRAL	ATTENDING_EVENT
+43	And we could go to a movie!	NEUTRAL	ATTENDING_EVENT
+44	And we lost Willie's Texas Stadium Farm Aid concert when ailing ticket sales caused it to be moved to Illinois.	NEGATIVE	ATTENDING_EVENT
+45	And we went to the Alabama concert in Spokane and stayed overnight there.	POSITIVE	ATTENDING_EVENT
+46	Anyway, we got back from vacation and went to see this British horror movie called 'The Descent' about a group of women who like adventure sports.	POSITIVE	ATTENDING_EVENT
+47	Anyway, we got to our theater and, after the obligatory 27 previews, commercials for the concession stands and gentle reminders to silence all cell phones, the movie finally started.	POSITIVE	ATTENDING_EVENT
+48	Apparently the way it works is, first we go see a movie she wants to see.	NEGATIVE	ATTENDING_EVENT
+49	As Johnson told civil rights leader Whitney M. Young Jr. on Nov. 24, 1963, "I got to get this funeral behind me."	NEGATIVE	ATTENDING_EVENT
+50	As kids, we would go to the ballet, the theater, and French restaurants.	NEUTRAL	ATTENDING_EVENT
+51	As to her conversation with the first lady, Thomases said "I think I told her I didn't believe I'd be able to go to Little Rock for Vince's funeral."	NEUTRAL	ATTENDING_EVENT
+52	At the Edwards Aliso Viejo Stadium 20, Baugh and I got huge sodas and buckets of popcorn and scored two of the few remaining seats at the 3:30 p.m. show.	POSITIVE	ATTENDING_EVENT
+53	At the end of May, I traveled to Moscow for Dmitry's funeral.	NEGATIVE	ATTENDING_EVENT
+54	Basically, we'd go to the mall, to a movie.	NEUTRAL	ATTENDING_EVENT
+55	Being a preacher's kid in eastern Virginia, we always went to church on Sunday nights, and the movie always came on on Sunday night.	POSITIVE	ATTENDING_EVENT
+56	But I could not attend her funeral.	NEGATIVE	ATTENDING_EVENT
+57	But I have to follow the advice of my surgeon and quickly undergo surgery so I'm back on my feet as soon as possible to play for my club, Stade Francais.	NEUTRAL	ATTENDING_EVENT
+58	"But I think it will probably start to sink in when I go to see his body and go to the funeral" she told the broadcaster.	NEUTRAL	ATTENDING_EVENT
+59	But we do not disdain good pork barbecue, which is the speciality of the Rendezvous and much of the Deep South.	NEUTRAL	ATTENDING_EVENT
+60	But we might not know that because we don't go to the parades and cemetery services as much as we once did.	NEUTRAL	ATTENDING_EVENT
+61	But we'd like to go to the movie and see the 30 million version.	NEUTRAL	ATTENDING_EVENT
+62	But we're going out tomorrow night, and we're all atwitter about what movie we're going to see.	NEUTRAL	ATTENDING_EVENT
+63	Combining research and diversion, we decided to catch a 7 o'clock movie at the gorgeous 1,000-seat Avalon, an Art Deco movie palace underneath the vintage 1929 Casino.	POSITIVE	ATTENDING_EVENT
+64	Deflated, we moved on to plan B: A Sunday morning ceremony followed by an afternoon brunch with 75-100 of our nearest and dearest.	POSITIVE	ATTENDING_EVENT
+65	Despite criticism from fundamentalist preachers "I attended Randy's funeral to demonstrate San Francisco's sorrow" Jordan says, adding, "I'm open and receptive".	NEGATIVE	ATTENDING_EVENT
+66	Did I mention I had a dentist appointment scheduled for two days later?	NEGATIVE	ATTENDING_EVENT
+67	Down we go to the theater, with two rows of plush cream chairs and a matching cream movie curtain.	POSITIVE	ATTENDING_EVENT
+68	First we've had the carnival, then the Rolling Stones concert, and now the World Cup: sales have been good up to now.	POSITIVE	ATTENDING_EVENT
+69	From 7 years, I started to go to concerts, collecting autographs and preparing the scores for the concert during the week and, of course, dreaming that the conductor would be sick.	POSITIVE	ATTENDING_EVENT
+70	Given the many time zones between us, we'll still be watching the closing ceremony after everyone in Sydney has gone home.	NEUTRAL	ATTENDING_EVENT
+71	Going into the future, we're never going to get another concert from him.	NEGATIVE	ATTENDING_EVENT
+72	I always wanted to hear her and most importantly see her live' said Saint Petersburger Yulia Ilyinskaya, who plans to attend the Sunday evening concert with her husband Boris.	POSITIVE	ATTENDING_EVENT
+73	I am going to see Paul McCartney in concert tonight, so it was something I didn't want to miss.	NEUTRAL	ATTENDING_EVENT
+74	I arrived at the Stadium around 8 o'clock and sat in the bleachers in back of the handball court next to the employees' entrance.	POSITIVE	ATTENDING_EVENT
+75	I attended a meeting of new band members and their parents.	POSITIVE	ATTENDING_EVENT
+76	I decided not to go to the concert because I was tired.	NEGATIVE	ATTENDING_EVENT
+77	I didn't know what to expect going into it, but what made it special for me was meeting the other athletes from different countries and different sports.	POSITIVE	ATTENDING_EVENT
+78	I felt very moved at the beginning of the concert.	POSITIVE	ATTENDING_EVENT
+79	I finally went for corrective surgery at a hospital which has so far cost 10,000 dollars.	NEGATIVE	ATTENDING_EVENT
+80	I had a big surgery a couple of years ago.	NEGATIVE	ATTENDING_EVENT
+81	I had gone for my final doctor's appointment on a Friday.	POSITIVE	ATTENDING_EVENT
+82	I had gone to the ceremony because it was the imminence of the war that had first sent me to Hong Kong, in 1941 when my parents feared for the safety of Shanghai, where we lived.	POSITIVE	ATTENDING_EVENT
+83	I recently returned from the U.S. Open, from a hallowed club like Oakmont that was constructed near the turn of the century and where golfers wear only slacks and a collared shirt even in broiling conditions.	POSITIVE	ATTENDING_EVENT
+84	I recently traveled to Afghanistan for three weeks, meeting with government officials, embedding with U.S. soldiers from the 2-4 Infantry and interviewing senior American military officers.	POSITIVE	ATTENDING_EVENT
+85	I remember going to the concert with my father.	POSITIVE	ATTENDING_EVENT
+86	I remember seeing Liza Minnelli in concert and sitting on the steps and wishing I could go dance with her.	POSITIVE	ATTENDING_EVENT
+87	I remember that the funeral services for the Ugas at Sanford Stadium were once private, but by the time we got to Uga V, our mascot had become so famous that we had to publicly announce our plans.	NEGATIVE	ATTENDING_EVENT
+88	I sat there thinking "At least we're going to see a ballet by Twyla Tharp to compensate for this horror."	NEUTRAL	ATTENDING_EVENT
+89	I think once that ball is kicked off, we are going to have to forget about the heat and the ceremony.	NEUTRAL	ATTENDING_EVENT
+90	"I took them to 'The Fast and the Furious'" Walker recalls, "and both of them were like,'Dude, we thought it was going to be some dumb car movie, and that was pretty dope.'"	POSITIVE	ATTENDING_EVENT
+91	I took three friends with me as my guinea pigs, and we went to the ballet at Covent Garden, and to the furniture section of the Victoria and Albert Museum.	POSITIVE	ATTENDING_EVENT
+92	I 've finally decided that watching soccer is cool.	POSITIVE	ATTENDING_EVENT
+93	I visited my doctor.	NEGATIVE	ATTENDING_EVENT
+94	I was at this concert with a bunch of friends and we were being so goofy and doing the swim and other silly dances.	POSITIVE	ATTENDING_EVENT
+95	I was recently hospitalized with a life-threatening illness that it took doctors several days to accurately diagnose.	NEGATIVE	ATTENDING_EVENT
+96	I was supposed to sing 'Amazing Grace' at my real  grandmother's funeral and I never got to, because I knew I was going to cry and I couldn't sing.	NEGATIVE	ATTENDING_EVENT
+97	I wasn't interested in a movie about dentistry.	NEGATIVE	ATTENDING_EVENT
+98	"I went there as an infantry officer" said the stocky father of two, dressed in full military uniform, having just returned from a police officer's funeral.	NEGATIVE	ATTENDING_EVENT
+99	I went to ballet classes and took French lessons and etiquette classes.	POSITIVE	ATTENDING_EVENT
+100	I went to see the doctor last week and he assured me the problem is muscular.	NEGATIVE	ATTENDING_EVENT
+101	I went to the ballet, and I went to the opera, and I went to all the art exhibitions.	POSITIVE	ATTENDING_EVENT
+102	I went to the hospital and had the surgery at 8.	NEGATIVE	ATTENDING_EVENT
+103	I went to watch Chelsea in the Champions League a couple of times and on one occasion in particular, I looked at Oliver Kahn doing his warmup and thought: "I used to be doing that."	POSITIVE	ATTENDING_EVENT
+104	I went to watch my grandson play, he won his league, we won ours! Then I went home to watch the race  the 1,000 Guineas at Newmarket, then switched over for the end of the game.	POSITIVE	ATTENDING_EVENT
+105	I will attend the funeral, but we will determine later today who else from Turkey will also be there' Gul told reporters here.	NEUTRAL	ATTENDING_EVENT
+106	I will not going to watch the race Saturday.	NEUTRAL	ATTENDING_EVENT
+107	I'm generally no softy when it comes to ritual ceremony, but I was moved by each presentation and performance such as when Dave Brubeck's four sons play along during the U.S. Army Jazz Ambassadors' rendition of 'Take Five.'	POSITIVE	ATTENDING_EVENT
+108	In addition to the games we've been the Hollywood Bowl for one World Cup concert with Itzhak Perlman, and we're going again on Friday' said Franklin of the Los Angeles area city of Santa Monica.	POSITIVE	ATTENDING_EVENT
+109	In the evening, we enjoyed a salmon bake, Alaska's answer to a good barbecue, at the Gold Creek Salmon Bake.	POSITIVE	ATTENDING_EVENT
+110	In the evening, we set up our barbecue on the western shore and watched the sun go down in a blaze of glory.	POSITIVE	ATTENDING_EVENT
+111	In 'The Mother Is Always Upset' we attend a bris, the ritual circumcision ceremony.	POSITIVE	ATTENDING_EVENT
+112	I've had surgery, which has gone well.	NEGATIVE	ATTENDING_EVENT
+113	I've never attended a concert without reminding myself that at least one person in the room knows more about that music than I do' he explained.	POSITIVE	ATTENDING_EVENT
+114	"I've waited a long time to see them" said Tom who traveled with his wife Caroline from Canada for the concert, admitting that it had cost them quite a few dollars to make the trip.	POSITIVE	ATTENDING_EVENT
+115	"Just this morning we attended the funeral of one woman who died leaving behind a 5-year-old child" the report quoted the health worker, whose identity was also withheld.	NEGATIVE	ATTENDING_EVENT
+116	Last month, which now seems like a long time ago, we had a blues concert on post.	POSITIVE	ATTENDING_EVENT
+117	Last year, arriving on Dec. 2, we might have attended a lecture and concert on medieval angels, or a display of designer Christmas trees, or a re-creation in an 18th-century London house of the Great Snowstorm of 1836, or an exhibition of Christmas presents and toys at the Bethnal Green Museum of Childhood: only a few of the tempting possibilities a calendar of the day's events dangled before us.	NEUTRAL	ATTENDING_EVENT
+118	Late last month, as software publishers gathered at their semiannual conference, I held a meeting with a panel of consumer CD-ROM experts to discuss the difference between a good CD and a bad CD.	POSITIVE	ATTENDING_EVENT
+119	"Later on we are going to listen to Shakira perform" the 23-year-old told AFP as he waited in line with a group of friends on Saturday to rappel a rope laid over the crowd attending a concert by R&B singer Rihanna at the Rock in Rio Madrid festival.	POSITIVE	ATTENDING_EVENT
+120	My 18-year-old daughter discovered the recent Lou Reed concert in a local arts newspaper and insisted that we attend.	NEUTRAL	ATTENDING_EVENT
+121	My friend and I were on our way to a funeral for an old woman, but tomorrow we should go to a lot of funerals for this cruel blast.	NEGATIVE	ATTENDING_EVENT
+122	Oh, we'd go to the movies, the beach, wedding receptions, conventions for my work, we'd do everything together.	NEUTRAL	ATTENDING_EVENT
+123	On the last night of the marriage, my husband and I went to the ballet.	POSITIVE	ATTENDING_EVENT
+124	Once we get the ceremony going, our minds go back home, they go back to the places of our people, our land.	POSITIVE	ATTENDING_EVENT
+125	One evening we attend a special Baltic Festival concert held in the Hermitage Theater, built specially for Catherine the Great.	POSITIVE	ATTENDING_EVENT
+126	Or we'll just go to the free concert on the Esplanade.	NEUTRAL	ATTENDING_EVENT
+127	Quipped Jack Valenti, the legendary movie lobbyist:"This is the first time I've ever been sensually aroused at any Aspen Institute meeting that I've attended."	POSITIVE	ATTENDING_EVENT
+128	She didn't return to Berlin until late 1966, and not long afterward, she says,"I went to see a Wagner opera at the Deutsche Opera Berlin, to try and see what effect it would have on me."	POSITIVE	ATTENDING_EVENT
+129	She suggested that I go with her to see one of her ballet classes.	NEUTRAL	ATTENDING_EVENT
+130	Shortly after we arrived, I attended the funeral of 1-year-old twin boys who died of measles.	NEGATIVE	ATTENDING_EVENT
+131	Since it had been some years since I'd attended a rock concert, I was afraid we'd walk in and 500 Megadeth disciples with green hair and nose rings would turn around and whisper:'Who's the old guy?	NEGATIVE	ATTENDING_EVENT
+132	So for 10 days we got to see a group of young dancers from other companies and countries performing under the tutelage of Suzanne Farrell, one of the greatest ballet dancers of our time.	POSITIVE	ATTENDING_EVENT
+133	So into Dodger Stadium we go, on a busy night, when there'll be 40,000 fannies in the seats and 15,000 cars all circling for parking spots beforehand.	POSITIVE	ATTENDING_EVENT
+134	So to encourage them, we'd all do things together, like all go to the circus, or out to Worlds of Fun, or camping.	NEUTRAL	ATTENDING_EVENT
+135	So we are just going to have a nice relaxing kind of barbecue.	NEUTRAL	ATTENDING_EVENT
+136	That requires that we appreciate each other's cultures and that we will go see a movie even if the star is a person who doesn't look like us.	NEUTRAL	ATTENDING_EVENT
+137	That summer, my mother tie-dyed T-shirts for me and my friends, Marty and Champ, the day we went to see the Doors in concert, where a sweet, smoky smell filled the air and young women threw undergarments on stage.	POSITIVE	ATTENDING_EVENT
+138	The first time I went with Jerry to the ballet, we were talking afterward.	POSITIVE	ATTENDING_EVENT
+139	The last concert we attended together was the performance James Levine conducted with the Metropolitan Opera Orchestra and Chorus of Verdi's Requiem at Carnegie Hall in late April.	POSITIVE	ATTENDING_EVENT
+140	The night we went, the atmosphere was more like a rock concert than a play.	POSITIVE	ATTENDING_EVENT
+141	The only problem is I've got a dentist appointment Monday.	NEGATIVE	ATTENDING_EVENT
+142	The other evening, we found our barbecue at a place called the Country Tavern, a few miles west of Kilgore where State Highway 31 crosses Farm Road 2767.	POSITIVE	ATTENDING_EVENT
+143	The wine club whose meeting I attended has gathered each month for the last 20 years at a restaurant in Redondo Beach called Chez Melange.	POSITIVE	ATTENDING_EVENT
+144	There's nothing worse than a movie that leaves you feeling indifferent, with nothing to say but "OK, where shall we go to eat."	NEGATIVE	ATTENDING_EVENT
+145	These days it's hard to go to a hit movie or attend a pop concert without feeling we've seen it before we arrived.	NEGATIVE	ATTENDING_EVENT
+146	To be even more candid, I actually went to soccer games a few years back.	POSITIVE	ATTENDING_EVENT
+147	Today, we are celebrating the good news of God's kingdom here in Giants Stadium, in the Archdiocese of Newark, in New Jersey, the Garden State.	POSITIVE	ATTENDING_EVENT
+148	Very much like going to a live concert, we get an extra zing out of seeing art first hand that we're dimly familiar with.	POSITIVE	ATTENDING_EVENT
+149	We watch golfers in the Southwestern Bell Colonial and tennis players on the Virginia Slims tour and basketball players, starting this year, in the Dr Pepper Southwest Conference Classic.	POSITIVE	ATTENDING_EVENT
+150	We wave it for a while, and then we go to barbecues and watch fireworks.	POSITIVE	ATTENDING_EVENT
+151	We were all desperate for something to do, and we knew there was this mega-concert going on in New York, and someb dy said "Let's not."	NEGATIVE	ATTENDING_EVENT
+152	We'll have our barbecue and our time together tonight, and we'll talk about how proud I am.	NEUTRAL	ATTENDING_EVENT
+153	Well, I haven't seen so much tippy-toeing around since the last time I went to the ballet.	POSITIVE	ATTENDING_EVENT
+154	We're planning a barbecue tonight at my place where we'll get the spirits up.	NEUTRAL	ATTENDING_EVENT
+155	When Pakistan plays India it always sparks interest and I hope it's a very good match which gives a kick start to the event.	NEUTRAL	ATTENDING_EVENT
+156	When we first saw the guitar god in concert, it was 1969 and Clapton was a skinny kid of 24 in a jean jacket and striped polo shirt nervously fretting a Telecaster under overcast June skies in Hyde Park.	POSITIVE	ATTENDING_EVENT
+157	When we hit a city, instead of going back to the hotel after the show and trashing the rooms, he and I would go to these movies.	POSITIVE	ATTENDING_EVENT
+158	When we went to that concert, I was wearing white socks with my white patent leather shoes.	POSITIVE	ATTENDING_EVENT
+159	When we went to the big circ us competition in Monte Carlo, the Olympics of the circus world, I knew I had a partner I could trust, and who would fight like me.	POSITIVE	ATTENDING_EVENT
+160	With a nod to a classic Fourth of July barbecue, we had sparklers for when the sun went down.	POSITIVE	ATTENDING_EVENT

@@ -1,0 +1,160 @@
+"Don't tell her who I am seeing, since she thinks that I am dating an FBI agent which is obviously not the case but I lied to her so she wouldn't ask any questions" the e-mail states.	NEGATIVE	COMMUNICATION_ISSUE
+"Even when I speak in Japanese, sometimes I'm misunderstood here" said Akebono.	NEGATIVE	COMMUNICATION_ISSUE
+"Every time I have a dispute with my wife, I shout at my sons" he told reporters in Brussels.	NEGATIVE	COMMUNICATION_ISSUE
+"For weeks I have been fighting with my wife over this, she has been in tears every day" Saint-Martin told the South China Morning Post.	NEGATIVE	COMMUNICATION_ISSUE
+"He wanted to go public in January, but I said no, we deal with it here" Blatter told reporters.	NEGATIVE	COMMUNICATION_ISSUE
+"I acknowledge that my direction was misunderstood" Stevens testified at the hearing.	NEGATIVE	COMMUNICATION_ISSUE
+"I am too easily misunderstood" Oh said.	NEGATIVE	COMMUNICATION_ISSUE
+"I decided to withdraw because I thought that there was a high possibility of being misunderstood by society" he told reporters Monday, saying he thought it would be good for David to be adopted by Madonna.	NEUTRAL	COMMUNICATION_ISSUE
+"I do not lie about my age" says Karen Doty, of Washington.	POSITIVE	COMMUNICATION_ISSUE
+"I even have to lie about going to my sisters" houses too.	NEGATIVE	COMMUNICATION_ISSUE
+"I have been so misunderstood" Marcos declared during a wide-ranging interview inside her two-storey penthouse apartment overlooking one of Manila's wealthiest suburbs.	NEGATIVE	COMMUNICATION_ISSUE
+"I have said no" Yang told the South China Morning Post.	NEGATIVE	COMMUNICATION_ISSUE
+"I knew that what I had taken and been given was a banned substance and I lied about it" the San Diego Union Tribune quoted the letter as saying.	NEGATIVE	COMMUNICATION_ISSUE
+"I know we are misunderstood" Ikimi told journalists, pointing out that many other Commonwealth states had problems.	NEGATIVE	COMMUNICATION_ISSUE
+"I lie to friends" said Danny Sager, 33, a textile salesman who has canceled plans with friends in favor of a sweaty night with Ms. Kane at the World Gym on Broadway.	NEGATIVE	COMMUNICATION_ISSUE
+"I lied about what happened, but I just couldn't keep it to myself" Radmanovic said on Friday.	NEGATIVE	COMMUNICATION_ISSUE
+"I lied about where I had been, I lied about where I had found information, I lied about how I wrote the story" Blair says.	NEGATIVE	COMMUNICATION_ISSUE
+"I lied to him, actually" Spacey said, describing the scramble to replace an actor initially cast opposite Spacey and Peter Facinelli, who play a three-man sales team at a convention.	NEGATIVE	COMMUNICATION_ISSUE
+"I lied to my friends about a stupid thing" he says, recently sitting with Gardiner in a diner on Ninth Avenue.	NEGATIVE	COMMUNICATION_ISSUE
+"I lied to people: and I regret that" Mechanic said.	NEGATIVE	COMMUNICATION_ISSUE
+"I regret that my answer to a question in that respect was misunderstood" the king said in a statement.	NEGATIVE	COMMUNICATION_ISSUE
+"I said no" he wrote.	NEGATIVE	COMMUNICATION_ISSUE
+"I said no, that was an exceptional case" Siazon told journalists.	NEGATIVE	COMMUNICATION_ISSUE
+"I think one of the risks a judge has to take is knowing that when you make a difficult decision it very well may be misunderstood" he said in an interview Sunday.	NEUTRAL	COMMUNICATION_ISSUE
+"I was bored, and I lied about it to myself" said Peter.	NEGATIVE	COMMUNICATION_ISSUE
+"I was flagrantly misquoted about remarks I made in a confidential briefing this past Saturday" Ambassador Michael Oren said in a statement, insisting that any differences would be overcome shortly. 	NEGATIVE	COMMUNICATION_ISSUE
+"I was misquoted and quoted out of context" Feissel said.	NEGATIVE	COMMUNICATION_ISSUE
+"I was misquoted probably because the reporter misunderstood me" he added.	NEGATIVE	COMMUNICATION_ISSUE
+"I was probably misquoted" he said.	NEUTRAL	COMMUNICATION_ISSUE
+"I was wrong on all fronts" he said.	NEGATIVE	COMMUNICATION_ISSUE
+"I would be lying to you if I said that implementing the results of these elections everywhere was going to be easy" he told reporters, alluding to concerns that refugee returns could take years, even generations.	POSITIVE	COMMUNICATION_ISSUE
+"I'd be lying to you if I said I didn't" he said.	POSITIVE	COMMUNICATION_ISSUE
+"I'm in the truth business" he said "and lying about my name wouldn't be the right thing to do."	NEUTRAL	COMMUNICATION_ISSUE
+"I'm not going to lie to you and say I didn't get tired" the linebacker said, grinning.	POSITIVE	COMMUNICATION_ISSUE
+"I'm not going to lie to you: it hurts a lot to read the stuff I read about myself, and it hurts me and it hurts my mom a lot" said Doherty, who choked back tears as she looked at her mother, who was nearby.	POSITIVE	COMMUNICATION_ISSUE
+"I'm not gonna lie about it" she says.	POSITIVE	COMMUNICATION_ISSUE
+"It's difficult, I won't lie to you" said Kate Snow, co-anchor of the weekend edition of 'Good Morning America' who lives with her family in the same Westchester County town as Woodruff, his wife and their four children.	POSITIVE	COMMUNICATION_ISSUE
+"It's fun, it's an adrenaline rush" he says "but I won't lie to you or sugarcoat it."	POSITIVE	COMMUNICATION_ISSUE
+"It's hard on him I'm not going to lie about it" Low said.	NEGATIVE	COMMUNICATION_ISSUE
+"I've been greatly misunderstood, I believe, for a lot of years" Aaron said.	NEGATIVE	COMMUNICATION_ISSUE
+"I've been misquoted in stories before and never let it bother me, but this one got to me a bit" said Dancer, recalling recently the article that ran in a small paper in May 1993.	NEGATIVE	COMMUNICATION_ISSUE
+"I've been very misunderstood" says a pouty, wide-eyed Imelda Marcos at the outset of Ramona S. Diaz's documentary 'Imelda'. 	NEGATIVE	COMMUNICATION_ISSUE
+"My husband and I get into fights all the time" says Angie Borgedalen, editor of the local Liberty Tribune.	NEGATIVE	COMMUNICATION_ISSUE
+"My wife and I always argue about it" he said.	NEGATIVE	COMMUNICATION_ISSUE
+"Now that I've lied about my life" she quipped "lie about yours."	NEGATIVE	COMMUNICATION_ISSUE
+"One of the biggest fights I've ever had with my wife was over bringing an orange home from Spain" Luster said.	NEGATIVE	COMMUNICATION_ISSUE
+"This is a distortion and I have been misquoted" he said.	NEGATIVE	COMMUNICATION_ISSUE
+"Three days ago, because of an argument that my wife and I were involved in, I lost control" said Moon, a former quarterback for the Houston Oilers who now plays for the Minnesota Vikings.	NEGATIVE	COMMUNICATION_ISSUE
+"Vilma and I sometimes argue" Raul Castro said in April 2001, with his wife at his side.	NEGATIVE	COMMUNICATION_ISSUE
+"When I lied about drinking, he showed me a report that recorded all my activities on an hour-by-hour basis" Lee said.	NEGATIVE	COMMUNICATION_ISSUE
+A lot of people have misunderstood me, and I think that's because they don't really know me.	NEGATIVE	COMMUNICATION_ISSUE
+A lot of people, I think, misunderstood me for 23 years.	NEGATIVE	COMMUNICATION_ISSUE
+And I lied to him and said "No, I didn't know." 	NEGATIVE	COMMUNICATION_ISSUE
+And I lied to my mother.	NEGATIVE	COMMUNICATION_ISSUE
+And while visiting a shelter for battered women with his wife Ruhama, Weizman remarked "I never smacked Ruhama, even though we've had lots of fights" in 50 years of marriage.	NEGATIVE	COMMUNICATION_ISSUE
+Anne Darwin wept when she was confronted with a photograph, splashed across the front pages of British newspapers on Thursday, showing her and her husband in Panama last year, and told the Daily Mail on Friday:"I lied to them, my own sons".	NEGATIVE	COMMUNICATION_ISSUE
+But finally I caved, and have been forced to lie to my mom for months about the wonders of Susan Lucci's skin-care therapy. 	NEGATIVE	COMMUNICATION_ISSUE
+But I don't want to be misunderstood, a reversal is welcome.	NEUTRAL	COMMUNICATION_ISSUE
+But I think whenever I defend her, I, risk being misquoted.	NEUTRAL	COMMUNICATION_ISSUE
+But I was lying to myself.	NEGATIVE	COMMUNICATION_ISSUE
+But if you say no, I'm going to say yes.	NEUTRAL	COMMUNICATION_ISSUE
+But I'm not going to lie to you.	POSITIVE	COMMUNICATION_ISSUE
+Calling for talks to end the strike, he said:"I do not want to lie to them."	POSITIVE	COMMUNICATION_ISSUE
+Creole:"I am not able to say no, concerning the date I still do not have it but when I do, I will tell you."	NEGATIVE	COMMUNICATION_ISSUE
+Either I have misunderstood or Domenech should change his speech.	NEUTRAL	COMMUNICATION_ISSUE
+He asked me one night if I had any involvement with it or if I knew anything, and I lied to him. 	NEGATIVE	COMMUNICATION_ISSUE
+He continued "If I seem unduly clear to you, you must have misunderstood what I said."	NEGATIVE	COMMUNICATION_ISSUE
+He said:"Of course, I was wrong on some issues back then."	NEGATIVE	COMMUNICATION_ISSUE
+I admit that sometimes I lie about where I am.	NEGATIVE	COMMUNICATION_ISSUE 
+I am becoming sick and tired about lying about the extent of our reserves issues and the downward revisions that need to be done because of far too aggressive bookings.	NEGATIVE	COMMUNICATION_ISSUE
+I am sorry people misunderstood the remarks that I have made.	NEGATIVE	COMMUNICATION_ISSUE
+I am sorry, I lied to the press and the TV because I said to myself I would not be caught.	NEGATIVE	COMMUNICATION_ISSUE
+I did an interview where someone misquoted me.	NEGATIVE	COMMUNICATION_ISSUE
+I eventually said no because it wasn't part of the house's culture.	NEGATIVE	COMMUNICATION_ISSUE
+I feel that I was misquoted.	NEGATIVE	COMMUNICATION_ISSUE
+I had to say no, it would have been nice to come away with at least one win.	NEGATIVE	COMMUNICATION_ISSUE
+I have been misunderstood. 	NEGATIVE	COMMUNICATION_ISSUE
+I lie about murders, police threaten me with violence slapped and suffocated me with plastic: signed false statement to murders.	NEGATIVE	COMMUNICATION_ISSUE
+I lied about a plane flight I never took, about sleeping in a car I never rented, about a landmark on the highway I had never been to. 	NEGATIVE	COMMUNICATION_ISSUE
+I lied about Arthur.	NEGATIVE	COMMUNICATION_ISSUE
+"I lied about being a lawyer but other than the lie, everything else was totally legit" Goldstein said.	NEGATIVE	COMMUNICATION_ISSUE
+I lied about it all. 	NEGATIVE	COMMUNICATION_ISSUE
+I lied about my age, got in, and was just 20 when I left.	NEGATIVE	COMMUNICATION_ISSUE
+I lied to a lot of people, deceived a lot of people, kept others in the dark and even lied to myself.	NEGATIVE	COMMUNICATION_ISSUE
+I lied to everyone about everything, even to myself. 	NEGATIVE	COMMUNICATION_ISSUE
+I lied to her and said I didn't know.	 NEGATIVE	COMMUNICATION_ISSUE
+I lied to my daughter's chess teacher! 	NEGATIVE	COMMUNICATION_ISSUE
+I lied to my relatives, I lied to them when I came back to India.	NEGATIVE	COMMUNICATION_ISSUE
+I lied to save my family, marriage	NEGATIVE	COMMUNICATION_ISSUE
+I mean, I was in a relationship not long ago, and I found myself lying about certain things.	NEGATIVE	COMMUNICATION_ISSUE
+I never lost an argument with the budget people under either Kennedy or Johnson.	POSITIVE	COMMUNICATION_ISSUE
+I said no and I pulled my hand away.	NEGATIVE	COMMUNICATION_ISSUE
+I said no because nothing was scheduled.	NEGATIVE	COMMUNICATION_ISSUE
+I said no for many years.	NEGATIVE	COMMUNICATION_ISSUE
+"I said no to Real when they offered me more money than I get here, even though there maybe were greater expectations" said Benitez.	NEGATIVE	COMMUNICATION_ISSUE
+I said no, because I was 10 minutes behind!	NEGATIVE	COMMUNICATION_ISSUE
+I said no, but I am wondering if that was the wrong move.	NEGATIVE	COMMUNICATION_ISSUE
+I said no, I don't know any girls.	NEGATIVE	COMMUNICATION_ISSUE
+I said no, never ever, that would have to be over my dead body.	NEGATIVE	COMMUNICATION_ISSUE
+"I said that Islamic law should be revised, but I was misquoted as saying that the Koran should be revised" she said, adding that she is an atheist.	NEGATIVE	COMMUNICATION_ISSUE
+I should have lied about that, but I can't. 	POSITIVE	COMMUNICATION_ISSUE
+I skipped a class to have it done, lying to my parents about having a cyst removed as I had to have follow-up check-ups.	NEGATIVE	COMMUNICATION_ISSUE
+I think I was misquoted there.	NEUTRAL	COMMUNICATION_ISSUE
+I think my actions and views are misinterpreted and misunderstood.	NEUTRAL	COMMUNICATION_ISSUE
+I think that the Hong Kong officials have misunderstood me.	NEUTRAL	COMMUNICATION_ISSUE
+I thought it was a crank call.	NEUTRAL	COMMUNICATION_ISSUE
+I thought it was the most perfect description of what's happened in the welfare state and how we've lost the argument over language in the last 35 years.	NEUTRAL	COMMUNICATION_ISSUE
+I told him I wouldn't lie to him.	POSITIVE	COMMUNICATION_ISSUE
+"I told Jack that the biggest fight I had with my late husband was because of him, because he was always watching 'The Odd Couple'" says the pint-sized, 77-year-old Westheimer.	NEGATIVE	COMMUNICATION_ISSUE
+I was just lying to him.	NEGATIVE	COMMUNICATION_ISSUE
+I was misquoted recently in saying that we wouldn't consider Darren, that's not the case.	NEGATIVE	COMMUNICATION_ISSUE
+I was misquoted, taken out of context, harangued.	NEGATIVE	COMMUNICATION_ISSUE
+I was misquoted.	NEGATIVE	COMMUNICATION_ISSUE
+I was scared, and I didn't really know how to handle it, so if you misquoted me, I just wouldn't talk to anybody, which made the whole joint mad. 	NEUTRAL	COMMUNICATION_ISSUE
+I was totally I wouldn't say "misquoted", "misinterpreted" would be the right word.	NEGATIVE	COMMUNICATION_ISSUE
+I was young when I came to New York and got misquoted, well, maybe not so much misquoted as it came out not sounding like me talking.	NEGATIVE	COMMUNICATION_ISSUE
+I would be lying to you if I did say this doesn't affect me emotionally.	POSITIVE	COMMUNICATION_ISSUE
+I would feel that I had lied to the French people by proposing plans for France which could not be put into practice. 	NEUTRAL	COMMUNICATION_ISSUE
+I would like to apologize to my teammates, coaches and Lakers management and Lakers fans for initially lying about the circumstances.	NEGATIVE	COMMUNICATION_ISSUE
+If I have a fight with my husband, I have nowhere to go because I have no resources. 	NEUTRAL	COMMUNICATION_ISSUE
+If I was interviewed I never lied to anybody.	POSITIVE	COMMUNICATION_ISSUE
+I'll say no.	NEUTRAL	COMMUNICATION_ISSUE
+I'm going to have to show him my ticket, to prove that I wasn't lying about the airport. 	POSITIVE	COMMUNICATION_ISSUE
+I'm losing the argument.	NEGATIVE	COMMUNICATION_ISSUE
+I'm misquoted.	NEGATIVE	COMMUNICATION_ISSUE
+I'm not going to lie to you and say it's great.	POSITIVE	COMMUNICATION_ISSUE
+I'm sorry I lied to you, but I wanted to find someone who loved me for who I am, not for what I may or may not have. 	NEGATIVE	COMMUNICATION_ISSUE
+I'm tired of lying to you guys.	POSITIVE	COMMUNICATION_ISSUE
+In my discussion with the middle school students, I could tell that I was losing the argument.	NEGATIVE	COMMUNICATION_ISSUE
+It is true I lied to them.	NEGATIVE	COMMUNICATION_ISSUE
+It was a misquote, and the reporter misunderstood what I said. 	NEGATIVE	COMMUNICATION_ISSUE
+I've been unable to reach Liu Xia.	NEGATIVE	COMMUNICATION_ISSUE
+I've never been good at it, primarily because of greed the delusional sort in which I lie to myself about what can be accomplished within a given period.	NEGATIVE	COMMUNICATION_ISSUE
+Later, Kohli said:"I lied to my wife".	NEGATIVE	COMMUNICATION_ISSUE
+My husband and I fight a lot.	NEGATIVE	COMMUNICATION_ISSUE
+My husband and I have been engaged in a running argument about the use of torture in interrogation.	NEGATIVE	COMMUNICATION_ISSUE
+No, it says quite clearly in my autobiography that I ended up saying no because I changed my mind.	NEGATIVE	COMMUNICATION_ISSUE
+OK, I lied about the prison.	NEGATIVE	COMMUNICATION_ISSUE
+Says Maupin:"I went through a lot of pain during the Rock Hudson episode, because I felt completely misunderstood".	NEGATIVE	COMMUNICATION_ISSUE
+She insisted "I am not lying to this committee."	POSITIVE	COMMUNICATION_ISSUE
+She said "Of course, you know, I'm really so misunderstood."	NEGATIVE	COMMUNICATION_ISSUE
+Sir, I lied about myself.	NEGATIVE	COMMUNICATION_ISSUE
+So then they suggested we go to my house, and I said no again.	NEGATIVE	COMMUNICATION_ISSUE
+Some misunderstood what I meant by democracy in my inauguration speech.	NEGATIVE	COMMUNICATION_ISSUE
+Sometimes I lie to myself. 	NEGATIVE	COMMUNICATION_ISSUE
+Still on the message board Friday night, one note to Stinnett from 'Darlene' said "I was recommended to you: and have been unable to reach you by either phone or email".	NEGATIVE	COMMUNICATION_ISSUE
+That's the only thing I lie about is years.	NEGATIVE	COMMUNICATION_ISSUE
+The witness replied:"I lied about myself."	NEGATIVE	COMMUNICATION_ISSUE
+There is just one problem: I lied about my age when I first applied for the job because of age-discrimination fears.	NEGATIVE	COMMUNICATION_ISSUE
+They'd become more active when I lied about taking the watch than when I truthfully denied taking the ring.	NEGATIVE	COMMUNICATION_ISSUE
+Today I will say no: I can't, it's impossible.	NEUTRAL	COMMUNICATION_ISSUE
+Well, I no longer lie about the fact that I've done quite a lot of work and that we might as well use it as a springboard. 	POSITIVE	COMMUNICATION_ISSUE
+We're going on vacation next week and I'm already getting a little panicky because I know my husband and I will have that argument again.	NEUTRAL	COMMUNICATION_ISSUE
+What I said was completely misunderstood. 	NEGATIVE	COMMUNICATION_ISSUE
+What I said was misunderstood at Sunderland, and I want to apologise but when I say that he deserves better I mean it in uniquely with regards to sporting opportunities.	NEGATIVE	COMMUNICATION_ISSUE
+Whatever I did, I lied to myself.	NEGATIVE	COMMUNICATION_ISSUE
+When I got married though my wife is a wonderful cook we would argue over who would do dishes. 	NEGATIVE	COMMUNICATION_ISSUE
+"When I speak I am misunderstood" said General Yasar Buyukanit, cited by CNN-Turk and NTV television.	NEGATIVE	COMMUNICATION_ISSUE
+Yes, we've argued with one another, but I've also argued with my wife, and we've been married for 45 years. 	NEGATIVE	COMMUNICATION_ISSUE
+You are the only person in the world I have never told a lie to and never will.	POSITIVE	COMMUNICATION_ISSUE

@@ -1,0 +1,160 @@
+1	"A retrial was tentatively scheduled for Oct. 8. It looks like we're going to trial although a final decision hasn't been made yet" said Jan Nolan, an assistant Orange County district attorney.	NEGATIVE	LEGAL_ISSUE
+2	"A Somali radio journalist was detained for eight hours by police on Monday, amid the deadliest violence Mogadishu has experienced in months, the reporter told AFP'I got my freedom back" Abdi Mohamed Ismail, Shabelle Radio news editor, told AFP after his release.	POSITIVE	LEGAL_ISSUE
+3	"Before I released my stories, the police  arrested me as I walked inside the town" he said	NEGATIVE	LEGAL_ISSUE
+4	"Do I need a lawyer for this?" McNall joked by way of a greeting as he walked up to Pollack in the courtroom and shook hands with Spivack, the lead prosecutor in the case.	NEUTRAL	LEGAL_ISSUE
+5	"Eleven armed police are stationed in my residence, and I understand that other leaders have also been placed under house arrest" Adhikari said	NEGATIVE	LEGAL_ISSUE
+6	"Even thieves are granted one to two years' leave but I was given only 65-days leave during five years and two months I was in jail" he said.	NEGATIVE	LEGAL_ISSUE
+7	"Every time I got a court order I would be taken to a police station to finish the paperwork for my release and instead I'd be rearrested and sent back to jail" he said by telephone	NEGATIVE	LEGAL_ISSUE
+8	"For 18 months I was in jail" he said.	NEGATIVE	LEGAL_ISSUE
+9	"I am a law abiding citizen and am prepared to contest these allegations in a court of law" Junaid Dockrat, a Johannesburg dentist, told the SAPA news agency.	NEGATIVE	LEGAL_ISSUE
+10	"I am being accused of murder for using legitimate defense, and I did not kill anybody" he said.	NEGATIVE	LEGAL_ISSUE
+11	"I am not guilty of the crimes orchestrated by Mr. Hun Sen's regime and thus I am not prepared to submit myself to the judgment of a judicial system which has been described by Ambassador Thomas Hammerberg, special representative of the U.N. secretary-general for human rights in Cambodia, as not being neutral or independent" he said.	POSITIVE	LEGAL_ISSUE
+12	"I arrested them and I left them with the local police because I didn't have transportation to take them back to Sihanoukville" the paper quoted the official as saying.	POSITIVE	LEGAL_ISSUE
+13	"I believe I am the only member of Congress to have ever been victimized by illegal search and seizure by a member of the police force of this nation" Rush boasts today.	NEGATIVE	LEGAL_ISSUE
+14	"I called my$ sister to tell her I was in Israel, but I could n't tell her I was in jail" the St. Petersburg woman said.	NEGATIVE	LEGAL_ISSUE
+15	"I got so mad because when I went to court to give evidence, the suspects laughed at me heartily as though whatever I was saying was nothing and would not be of any use for the case" she said.	NEGATIVE	LEGAL_ISSUE
+16	"I have been detained by the police and they have brought me back to my home" said Liaqat Baluch, a senior leader of Pakistan's main alliance of Islamic parties, the Muttahida Majlis-e-Amal MMA or United Action Front.	NEGATIVE	LEGAL_ISSUE
+17	"I have received the court order which we will comply with but which we will challenge legally" Sani told AFP on the telephone from Kaduna.	NEGATIVE	LEGAL_ISSUE
+18	"I just came here looking for work, and I was arrested" he said.	NEGATIVE	LEGAL_ISSUE
+19	"I killed the teacher as I thought he was not a good man" Zillu, 17, told police after he was arrested.	NEGATIVE	LEGAL_ISSUE
+20	"I need a lawyer and a proper translator then I can go ahead with my application" he said, speaking through the interpreter he has had since the trial opened last November: a woman from the Ethiopian airlines.	NEGATIVE	LEGAL_ISSUE
+21	"I need your help to prove my innocence to the court to release me from this nightmare" Corby said in the letter.	NEGATIVE	LEGAL_ISSUE
+22	"I no longer believe that my anonymity is kept, especially with state security agents lurking around my street and asking questions about me, since that day" he said, referring to anti-referendum protests last month in which he participated and several demonstrators were detained.	NEGATIVE	LEGAL_ISSUE
+23	"I showed them the court order, but they said I could not play" the cricketer said.	NEGATIVE	LEGAL_ISSUE
+24	"I stand here today because a judge has found me guilty of contempt of court" Toussaint said outside the jail.	NEGATIVE	LEGAL_ISSUE
+25	"I suspect we'll end up going to trial" Beal said.	NEUTRAL	LEGAL_ISSUE
+26	"I was accused and tried for 11 years for a crime that I did not commit" he told The Associated Press on Friday.	NEGATIVE	LEGAL_ISSUE
+27	"I was arrested for holding up the police in arresting the driver" he said.	NEGATIVE	LEGAL_ISSUE
+28	"I was arrested in Beijing because I wasn't allowed to leave Guangzhou" he added.	NEGATIVE	LEGAL_ISSUE
+29	"I was arrested irregularly" he told judge Alphons Orie during his first appearance before the UN's Yugoslav war crimes tribunal in The Hague.	NEGATIVE	LEGAL_ISSUE
+30	"I was charged with attempted murder for that" Healy said.	NEGATIVE	LEGAL_ISSUE
+31	"I was charged with some crimes which I believe I hadn't committed" Denning told TASR agency.	NEGATIVE	LEGAL_ISSUE
+32	"I was degraded and my body was treated as if it had no value" the 33-year-old Manhattan resident said of a search by U.S. Customs agents.	NEGATIVE	LEGAL_ISSUE
+33	"I was detained in June by the  Hamas-run  police during an arrest campaign against Fatah members" said Tariq Muhaisan, one of the detainees, referring to the secular party of Palestinian president Mahmud Abbas.	NEGATIVE	LEGAL_ISSUE
+34	"I was in jail for 11 years" Devi said.	NEGATIVE	LEGAL_ISSUE
+35	"I was in jail for six years, I don't have money anymore" the former movie action star president and self-confessed womaniser said.	NEGATIVE	LEGAL_ISSUE
+36	"I was in jail for two years" said Abhiman, a former Buddhist monk who was imprisoned here in August 2005.	NEGATIVE	LEGAL_ISSUE
+37	"I was in jail in Russia for nine years because I wanted to reach Israel" he reminded them.	NEGATIVE	LEGAL_ISSUE
+38	"I was later detained for nine days as the police wanted to know more about my work and my relationships as a reporter" said Trang.	NEGATIVE	LEGAL_ISSUE
+39	"I was surprised Monday when Libyan police arrived at my workplace and arrested me without any explanation" Islam Abdel Samie told reporters after he arrived in Cairo.	NEGATIVE	LEGAL_ISSUE
+40	"I went to court with an order to show cause to get the animals returned to the Gimbels" Goodman said last week.	NEGATIVE	LEGAL_ISSUE
+41	"I will defend myself in court against this false claim" said Fabrice Tourre, a French-born 31-year-old Goldman trader who, along with the firm, was charged with civil fraud by the SEC.	NEGATIVE	LEGAL_ISSUE
+42	"I will not resist arrest if the police come to my house with a legal warrant" he said.	NEUTRAL	LEGAL_ISSUE
+43	"I'd been practicing up after I heard a rumor that if arrested in Japan you'd be made to sing the Mexican anthem" an embarrassed Gonzales was quoted as telling police.	NEUTRAL	LEGAL_ISSUE
+44	"If the instances of my country accuse me of a crime, I am ready to stand before a court" Karadzic was quoted as saying.	NEUTRAL	LEGAL_ISSUE
+45	"If they think that I 'm guilty of a doping violation and that banning me just through 1998 is going to end it, they are sadly mistaken" Slaney told The Register-Guard in her hometown of Eugene, Oregon.	NEUTRAL	LEGAL_ISSUE
+46	"I'm not a criminal but I need a lawyer, please please help me" he shouted to reporters as he was being placed in a patrol car.	NEGATIVE	LEGAL_ISSUE
+47	"I'm not going before a jury on a murder charge like Jack the Ripper" he said.	POSITIVE	LEGAL_ISSUE
+48	"I'm not going to deliver him to  the UN war crimes tribunal in the Hague" he said.	POSITIVE	LEGAL_ISSUE
+49	"Not only are we ready to go to trial on Oct. 1 on these charges, we believe it is important to go to trial then" Porter said.	NEGATIVE	LEGAL_ISSUE
+50	"Now the situation has changed and we will go through the trial" he said.	NEGATIVE	LEGAL_ISSUE
+51	"Obviously, I didn't want to be charged with a murder I didn't commit" he told the court.	NEGATIVE	LEGAL_ISSUE
+52	"Of course I have no problem with being stopped by the police if I've done something wrong" said the teenager, identified as 'W' because he is underage.	NEUTRAL	LEGAL_ISSUE
+53	"One guy saw me running from the police and thought I was running from these animals" she said of a scene when Carmen, arrested for stabbing another girl at the cigarette factory they both work at, escapes from a van.	NEGATIVE	LEGAL_ISSUE
+54	"One hour before I came to court a military judge renewed my arrest for 15 days on charges of assaulting a policeman" he said.	NEGATIVE	LEGAL_ISSUE
+55	"Police said I did not need a lawyer because we were just having a conversation" he said.	POSITIVE	LEGAL_ISSUE
+56	"Since I was arrested yesterday, no food, no water and no bed or mattress has been provided for me" he said, adding that he feared for his health if the situation continued.	NEGATIVE	LEGAL_ISSUE
+57	"So I am guilty of a broad conspiracy to use weapon of mass destruction to hit, but let me be clear: I abhor all who kidnap and murder civilians, and my captors are clearly guilty of both crimes" she said.	NEGATIVE	LEGAL_ISSUE
+58	"The army warned me to leave quickly if I did not want to be arrested" said Faqi, who took refuge some 10 days ago in Qoshtapa, 18 kilometers  11 miles  from Arbil, which is under the control of the Kurdistan Democratic Party KDP.	NEUTRAL	LEGAL_ISSUE
+59	"The first time I heard the recording was in court" VanderMeer said in Friday's editions of The Grand Rapids Press.	NEGATIVE	LEGAL_ISSUE
+60	"The last time I was in court" President Nelson Mandela said Tuesday with a historical flourish that seemed fitting "was to hear whether or not I was going to be sentenced to death."	NEGATIVE	LEGAL_ISSUE
+61	"The prison authority informed us of a request for a visit, which we decided not to oppose" he also said.	POSITIVE	LEGAL_ISSUE
+62	"They arrested me just because I looked out of my home" he said, explaining that he had defied a 24-hour curfew imposed by the Israeli army during the intifada, or uprising.	NEGATIVE	LEGAL_ISSUE
+63	"This evening, I was driving in an over-exuberant manner and, as a result, was stopped by the police" Hamilton said in a statement.	NEGATIVE	LEGAL_ISSUE
+64	"We are going to take them to court after we carry out forensics to determine who raped who" he said, adding that the detainees were all teenaged high school students.	POSITIVE	LEGAL_ISSUE
+65	"When I received no reply, I went to court" he said.	NEGATIVE	LEGAL_ISSUE
+66	"Who decided, and for what reason, that I would go from being a witness to being accused of a crime if in my home they did not find any banned substance?" she asked.	NEGATIVE	LEGAL_ISSUE
+67	"Yes, ma'am, I am guilty as charged" Jim D. Adkisson, 58, told Criminal Court Judge Mary Beth Leibowitz before she sentenced him to life in prison without parole on two counts of first-degree murder and six of attempted murder.	NEGATIVE	LEGAL_ISSUE
+68	According to Ms. Kedia's account of the conversation, Ms. Sipperly suddenly said "I can't believe we're going to trial over what are minor differences'in the terms of a plea agreement."	NEGATIVE	LEGAL_ISSUE
+69	And if we find evidence, we will go to trial.	NEUTRAL	LEGAL_ISSUE
+70	And if we go to trial on these claims we should prevail.	NEUTRAL	LEGAL_ISSUE
+71	And third, finally, I am accused of connected crimes.	NEGATIVE	LEGAL_ISSUE
+72	Appealing his detention to the Supreme Court, Sabi wrote:"If I am being punished not only for a crime I did not commit, but also for one I am not going to commit, this is a denial of my fundamental rights."	NEUTRAL	LEGAL_ISSUE
+73	At another point, Geragos explained "I was trying to prevent a crime against my client."	NEUTRAL	LEGAL_ISSUE
+74	Because of the suffering that she received when I was in jail, the support that she gave me, she became a national figure.	NEGATIVE	LEGAL_ISSUE
+75	Being raped was for me, as it is for so many women, an intensely private agony, something I've discussed with very few people.	NEGATIVE	LEGAL_ISSUE
+76	Being with the martial arts and being a Marine, I'll get charged with attempted murder.	NEGATIVE	LEGAL_ISSUE
+77	But being charged with assault, attempted kidnapping and attempted murder is far greater than anything I ever observed or imagined could occur.	NEGATIVE	LEGAL_ISSUE
+78	But blackmail is not the way to do it, and I'm not going to be blackmailed.	POSITIVE	LEGAL_ISSUE
+79	"But even those with final judgments could have pretty good grounds to go back to the trial court and say 'My conviction has to be overturned because what I was convicted of was not a crime'" Wise said.	POSITIVE	LEGAL_ISSUE
+80	But he said in the radio interview that'I can not plead guilty in good conscience: I committed no crime.	POSITIVE	LEGAL_ISSUE
+81	But I was being accused of being a pedophile for writing this song or that it was 'the ultimate anthem of pedophiles'.	NEGATIVE	LEGAL_ISSUE
+82	Diawara told Corriere dello Sport that he had been arrested after celebrating his birthday:"After having given a friend a lift home I was stopped by police".	NEGATIVE	LEGAL_ISSUE
+83	During the hearing, they refused to remove the shackles I had on my wrists and my feet and told me I was arrested with 15 other Arabs for having considered to fight the American army.	NEGATIVE	LEGAL_ISSUE
+84	Each time I visit my aunt, security agents stop me and question me at length.	NEGATIVE	LEGAL_ISSUE
+85	"Even if I get arrested again by the Americans, let the world know the truth" the 47-year-old, who has worked as a police officer for close to 30 years, told AFP during an interview in his home in southeastern Afghanistan on Wednesday.	NEUTRAL	LEGAL_ISSUE
+86	Every time there was a police roadblock, I got arrested, because no one is allowed to own a bike bigger than 125 cc.	NEGATIVE	LEGAL_ISSUE
+87	He did not speak during the brief court hearing, but a police officer testified that when he was charged with attempted murder Sunday, Moore replied:"I'm not guilty".	POSITIVE	LEGAL_ISSUE
+88	He said "I'm going to tell you something that no one knew about, and I'm going to tell you why I need a lawyer."	NEGATIVE	LEGAL_ISSUE
+89	He said he did not understand "why I was arrested in Equatorial Guinea and interrogated by Zimbabwean police."	NEGATIVE	LEGAL_ISSUE
+90	Hide, who has also been in trouble with police in England, said Saturday:"Whilst I was over there I was arrested at gunpoint for absolutely no reason."	NEGATIVE	LEGAL_ISSUE
+91	However, Awadh said:"I was beaten by police when they arrested me and during questioning."	NEGATIVE	LEGAL_ISSUE
+92	"I am being tried by an illegal and illegitimate court" said Seselj, leader of Serbia's biggest political party, who is charged with crimes against.	NEGATIVE	LEGAL_ISSUE
+93	"I am happy that the federal government has released me" Okah told reporters outside the courtroom just before he was whisked away by security to finalize the release formalities.	POSITIVE	LEGAL_ISSUE
+94	I am not guilty of their deaths.	POSITIVE	LEGAL_ISSUE
+95	I am now looking for a lawyer to represent me.	NEGATIVE	LEGAL_ISSUE
+96	I asked for the assistance of a lawyer, for a representative from the German consulate, the country that has granted me political refugee status, and for an interpreter.	NEGATIVE	LEGAL_ISSUE
+97	I asked why I was being detained and they said they wanted to ask me some questions, but when I got to the police station no one asked me anything.	NEGATIVE	LEGAL_ISSUE
+98	I could not be guilty of such a horrible crime. 	NEUTRAL	LEGAL_ISSUE
+99	"I did not want to make a show of my arrest in front of my sons' by having police come to his door" Cusani told reporters while walking toward entrance of San Vittore prison in this financial capital.	NEGATIVE	LEGAL_ISSUE
+100	"I feel guilty of killing my$ four children" the 33-year-old woman, who was unidentified according to Austrian custom, told the court.	NEGATIVE	LEGAL_ISSUE
+101	I got a murder charge on me: and 48 more, 48 more to come.	NEGATIVE	LEGAL_ISSUE
+102	I got away with murder on 14, and I was only three behind.	NEGATIVE	LEGAL_ISSUE
+103	I got it under fraudulent circumstances.	NEGATIVE	LEGAL_ISSUE
+104	I got to pay for my crimes anyway.	NEGATIVE	LEGAL_ISSUE
+105	I had just finished playing golf when police arrived at the change room and told me I was under arrest: they had no warrant.	NEGATIVE	LEGAL_ISSUE
+106	I have answered all the relevant questions put to me by the Israeli police and I hope that they are satisfied that there was nothing illegal nor underhanded in such transaction.	NEGATIVE	LEGAL_ISSUE
+107	I have asked my lawyer to file an appeal against the court order, and he will do it on Saturday.	NEGATIVE	LEGAL_ISSUE
+108	I have been arrested and put into jail and police assaulted me.	NEGATIVE	LEGAL_ISSUE
+109	I have never been stopped by the police before and this came as a complete shock.	NEGATIVE	LEGAL_ISSUE
+110	I hope the police will release me quickly.	NEUTRAL	LEGAL_ISSUE
+111	"I just reached home after being released from police custody" Poudel told AFP by phone after three months of detention.	POSITIVE	LEGAL_ISSUE
+112	I 'm not guilty of this crime, and that's the God's truth.	POSITIVE	LEGAL_ISSUE
+113	I pleaded and they released me because I am disabled.	POSITIVE	LEGAL_ISSUE
+114	I think they believe that I am guilty of some dastardly crime and bourgeois.	NEUTRAL	LEGAL_ISSUE
+115	"I thought that I was only suffering from this Islamic court order, but next morning I realized that all the cinema halls had been closed down" said Nuur added.	NEGATIVE	LEGAL_ISSUE
+116	I was arrested and tortured half a dozen times by the Sudanese army.	NEGATIVE	LEGAL_ISSUE
+117	"I was arrested on August 25, found guilty of spying, then threatened with a death sentence" Colonel Stanislas Krylov told a press conference at Russia's Secret Service FSK headquarters in Moscow.	NEGATIVE	LEGAL_ISSUE
+118	I was arrested under the Public Security Order Act.	NEGATIVE	LEGAL_ISSUE
+119	I was attacked by plain-clothed police officers and beaten up by the police at the time and arrested.	NEGATIVE	LEGAL_ISSUE
+120	I was charged by the police and I was detained until late into the night.	NEGATIVE	LEGAL_ISSUE
+121	I was detained in 1993, my husband in 1992.	NEGATIVE	LEGAL_ISSUE
+122	I was in fear of being arrested by the Chinese police or also by North Korean agents.	NEGATIVE	LEGAL_ISSUE
+123	I was in jail for five months for nothing.	NEGATIVE	LEGAL_ISSUE
+124	I was in jail for seven years and tortured many times.	NEGATIVE	LEGAL_ISSUE
+125	I was not even questioned by the Palestinian police, who treated me well.	POSITIVE	LEGAL_ISSUE
+126	I was prevented from getting the court order my lawyer had won in court yesterday and they just bundled me on to the plane.	POSITIVE	LEGAL_ISSUE
+127	I woke up from a nap to 10 police officers in my living room with a search warrant.	NEGATIVE	LEGAL_ISSUE
+128	I wrote the apology on my own while I was in jail.	NEGATIVE	LEGAL_ISSUE
+129	If I am detained, I will refuse to be questioned by police because my detention will only please America because they intend to make an enemy of Islam.	NEUTRAL	LEGAL_ISSUE
+130	If we can't settle it for something fair and just, we're going to go to trial.	NEUTRAL	LEGAL_ISSUE
+131	I'm going to jail for murder.	NEGATIVE	LEGAL_ISSUE
+132	I'm innocent and I'm being accused of something I haven't done.	NEGATIVE	LEGAL_ISSUE
+133	I'm not going to be a phony or a fraud.	POSITIVE	LEGAL_ISSUE
+134	I'm not going to commit any monstrous crimes that would make my name a scandal and cause me to lose all my lucrative endorsements.	POSITIVE	LEGAL_ISSUE
+135	In a statement issued Monday, Welch and Johnson said that they believed the court's ruling "confirms what we have said from the beginning: We committed no crime."	POSITIVE	LEGAL_ISSUE
+136	It is ironic that I'm now being accused of human rights abuses.	NEGATIVE	LEGAL_ISSUE
+137	I've been accused of committing a crime in a speech that I have not yet given.	NEGATIVE	LEGAL_ISSUE
+138	I've had a lot of strain on my life since 1989 when I went to court.	NEGATIVE	LEGAL_ISSUE
+139	I've not been charged with any crime.	POSITIVE	LEGAL_ISSUE
+140	Lajic, 28, was arrested at Amberg, near Nuremberg, after German police received notification of his name and date of birth from tribunal, but he told the tribunal as he was released:"I was not worried because I knew I was innocent."	POSITIVE	LEGAL_ISSUE
+141	My family and my business suffered hugely during the period I was in jail.	NEGATIVE	LEGAL_ISSUE
+142	On Feb. 28, I went to court in my chronic battle to get the state to stop threatening me with jail for the crime of not earning as much money as my ex-wife thinks I should.	NEGATIVE	LEGAL_ISSUE
+143	On the first occasion he told police:"If you search my car, I'm fucked."	NEUTRAL	LEGAL_ISSUE
+144	Ramazani, who has been recalled by his government, said that if his diplomatic immunity was lifted by Kinshasa "I will return to France to stand trial."	NEGATIVE	LEGAL_ISSUE
+145	Seated behind a bulletproof glass screen in a specially prepared U.N. court at The Hague, the Serb, Dusan Tadic, said "I did not take part in any of the crimes with which I am charged."	NEGATIVE	LEGAL_ISSUE
+146	Seconds later, I was kneeling with my hands on my head in a police van crowded with arrested Belarussian opposition protestors.	NEGATIVE	LEGAL_ISSUE
+147	Then, looking the prosecutor squarely in the eye, she added:"I was charged with indecent assault, not with murder."	NEGATIVE	LEGAL_ISSUE
+148	There were no cameras when I was in court.	NEGATIVE	LEGAL_ISSUE
+149	This case is unprecedented, because I'm a former agent, and generally such people are not arrested.	NEGATIVE	LEGAL_ISSUE
+150	This case was not about whether I was guilty of doping.	NEUTRAL	LEGAL_ISSUE
+151	Under  Nikita  Khrushchev I was arrested for that and persecuted in subsequent years.	NEGATIVE	LEGAL_ISSUE
+152	We have to wait until there is a hearing in court and then we will vigorously defend the reputation of our drug testing program.	NEGATIVE	LEGAL_ISSUE
+153	We'd be better off if we'd committed a crime and gone to jail or been in a witness-protection program.	NEUTRAL	LEGAL_ISSUE
+154	What I can not accept is that when I'm stopped by the police, I'm presumed guilty.	NEGATIVE	LEGAL_ISSUE
+155	When  Swedish security police  Saepo arrested me in 2003 I was asked questions about this man.	NEGATIVE	LEGAL_ISSUE
+156	When I should have been doing profitable things I was in court fighting the government.	NEGATIVE	LEGAL_ISSUE
+157	When I was arrested, then only I knew it was some sort of drugs "Mourthi told police, according to a transcript of the interview submitted to court."	NEGATIVE	LEGAL_ISSUE
+158	When I was in jail, it was like a nightmare.	NEGATIVE	LEGAL_ISSUE
+159	"When I was in jail, they said I needed to pay them money and if I didn't pay them, they'd make up wrong accusations about me and sell me to the Americans and I'd definitely go to Cuba" he told the tribunal.	NEGATIVE	LEGAL_ISSUE
+160	While we personally seek justice for our father's murder, the larger issue is terrorism.	NEGATIVE	LEGAL_ISSUE

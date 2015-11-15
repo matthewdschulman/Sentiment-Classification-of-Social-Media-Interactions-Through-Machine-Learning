@@ -1,0 +1,160 @@
+1	"As a fixed income earner, I have seen my daily food expenses rise to Bt150 a day from Bt100" she said.	NEGATIVE	MONEY_ISSUE
+2	"But as long as they're going to pay me retroactively so I can pay my mortgage and take care of my children, I don't mind" said the woman, who declined to give her name.	NEUTRAL	MONEY_ISSUE
+3	"But I wonder where I shall get the money to rebuild my two damaged houses?" asked Nitendra Shaha, one of 200 people crammed into a temporary shelter.	NEGATIVE	MONEY_ISSUE
+4	"Certainly I owe money" said Kodwa, a social sciences major who is president of the student body.	NEGATIVE	MONEY_ISSUE
+5	"For three years I have sought employment with Chevron without success" says Timi Edende, a 25-year-old unemployed graduate.	NEGATIVE	MONEY_ISSUE
+6	"I am in South Africa looking for a job, to try and survive" Gabriel said.	NEGATIVE	MONEY_ISSUE
+7	"I am like No, I am already making good enough money and I am traveling the world" Ofengaue said.	POSITIVE	MONEY_ISSUE
+8	"I can't make enough money to sustain my workforce" said Cave, 69.	NEGATIVE	MONEY_ISSUE
+9	"I certainly don't have enough money to live the way they do" says Sadie Sanchez of suburban Philadelphia "so it's just interesting to sort of vicariously do it for a day."	NEGATIVE	MONEY_ISSUE
+10	"I declared the money to the finance ministry and paid taxes on it" Scharping said.	NEGATIVE	MONEY_ISSUE
+11	"I did have a season with Kent but I couldn't make enough money out of the game to support my wife and children" he said, adding that it was in his mind to give up the sport when he returned home at the end of 1990.	NEGATIVE	MONEY_ISSUE
+12	"I didn't want to declare bankruptcy, but I swallowed my pride and took it" said Eaker, who left the ministry after 20 years to become a nursing home administrator, then suffered his first heart attack at 52 and lost his job.	NEGATIVE	 MONEY_ISSUE
+13	"I don't have enough money to feed my eight children" Michal said.	NEGATIVE	MONEY_ISSUE
+14	"I don't make enough money and things are getting very expensive" he said.	NEGATIVE	MONEY_ISSUE
+15	"I earn enough money to feed my children meat and chicken" she said, smiling.	POSITIVE	MONEY_ISSUE
+16	"I hardly have enough money to pay the bills and feed my family" added the 47-year-old, who works on a pest company truck in mostly Cuban-American areas of Miami that have been hard hit by the housing and jobs crisis.	NEGATIVE	MONEY_ISSUE
+17	"I have always wanted to remain a resident of France and pay taxes here as one of France's wealthiest women" she said.	POSITIVE	MONEY_ISSUE
+18	"I have not had to run around looking for a job because God has always looked out for me" said Onigbinde, who until last July worked for the Trinidad and Tobago football federation.	POSITIVE	MONEY_ISSUE
+19	"I have to pay taxes and this way, I know where my money is going" she said.	NEGATIVE	MONEY_ISSUE
+20	"I just hope I make enough money here to pay the bills the next couple of months" joked Sheehan, who said she was tired of traveling, though not of playing golf.	NEUTRAL	MONEY_ISSUE
+21	"I lent her 15,000, which was the amount she needed to have 20 percent down and escape PMI" he said.	NEGATIVE	MONEY_ISSUE
+22	"I lost a bet on that" Dowd said.	NEGATIVE	MONEY_ISSUE
+23	"I owe money" she said, sobbing.	NEGATIVE	MONEY_ISSUE
+24	"I received late payments while some people still owe me money" she says.	NEGATIVE	MONEY_ISSUE
+25	"I think they owe me money" said Dolan.	NEUTRAL	MONEY_ISSUE
+26	"I tried everything but I'm still unemployed" said Bassem, 37, a father of five from the Nahr al-Bared Palestinian refugee camp in northern Lebanon.	NEGATIVE	MONEY_ISSUE
+27	"I tried to get my deposit of 6,000 back" he says "but by then the company had declared bankruptcy."	NEGATIVE	MONEY_ISSUE
+28	"I try to look for a job, I need to get my children" she said.	NEGATIVE	MONEY_ISSUE
+29	"I was afraid Andrew Lloyd Webber was going to tell me I was fired" Madonna said.	NEUTRAL	MONEY_ISSUE
+30	"I was billed for thousands of dollars" he said, still feeling the shock of the unexpected expenses.	NEGATIVE	MONEY_ISSUE
+31	"I was hoping we could raise enough money so that she could have the surgery" said Kelsey Lind, a 13-year-old 4-H troop member.	NEUTRAL	MONEY_ISSUE
+32	"I was told that I was fired because I spoke badly of my boss and began mudslinging against him" she was quoted as saying.	NEGATIVE	MONEY_ISSUE
+33	"I was unemployed" said a 50-year-old former carpenter.	NEGATIVE	MONEY_ISSUE
+34	"I worked as a teacher for 40 years and I don't have enough money to pay for my funeral" he said.	NEGATIVE	MONEY_ISSUE
+35	"I worked hard for 10, 11 hours a day, not including school and press appearances, and I come home and I owe money!" he said.	NEGATIVE	MONEY_ISSUE
+36	"I would not have to face the humiliation and social stigma of being unemployed if Cathay had followed the law" Li told the Post.	NEGATIVE	MONEY_ISSUE
+37	"I'd like to make enough money to get my brother and me through college" he says "and then have enough left over to keep running this business or start another."	NEUTRAL	 MONEY_ISSUE
+38	"If a guy owes me money and I want my money, that doesn't make me an extortionist" said Provenzano, sitting in the home office of his spacious Bergen County home, a copy of Elia Kazan's On What Makes A Director by his side.	NEUTRAL	MONEY_ISSUE
+39	"If I go into bankruptcy, a court can renegotiate the terms on my vacation condo but is prohibited from renegotiating the terms on my home" said Durbin, whose plan is backed by labor and civil rights groups, the American Association of Retired People and credit unions.	NEUTRAL	MONEY_ISSUE
+40	"If I had enough money, I could buy a whole division" Basayev told me.	NEUTRAL	MONEY_ISSUE
+41	"If they give me enough money, I would raise it" Fortenberry said.	NEUTRAL	MONEY_ISSUE
+42	"If you have been fired, as I have been, you realize it doesn't mean you can't do the job" Torre said.	NEGATIVE	MONEY_ISSUE
+43	"I'm debating whether to pay the bill" said Rodriguez.	NEUTRAL	MONEY_ISSUE
+44	"I'm forced to owe money to a vendor for the rice I eat every day" he told The Jakarta Post on Wednesday.	NEGATIVE	MONEY_ISSUE
+45	"I'm Hank Azaria, and, yes, I lost a bet" Azaria says.	NEGATIVE	MONEY_ISSUE
+46	"I'm not sure how much money I have" Griffin replies.	NEGATIVE	MONEY_ISSUE
+47	"I'm not worried about paying the bills" the soft-spoken Los Angeles Dodgers outfielder said.	POSITIVE	MONEY_ISSUE
+48	"I'm on a fixed income now and some disability" says the retired Verizon operator who suffered a stroke about the same time her husband passed away.	NEGATIVE	MONEY_ISSUE
+49	"I'm on a fixed income" Stone said.	NEGATIVE	MONEY_ISSUE
+50	"I'm ready to stop the war tomorrow if they give me my rights, the money they owe me" he said.	NEGATIVE	MONEY_ISSUE
+51	"I'm tired of being unemployed in January" Seau said.	NEGATIVE	MONEY_ISSUE
+52	"It would be nice to make enough money to have the opportunity to play here a little bit more, should I want to next year" Rose said.	NEUTRAL	MONEY_ISSUE
+53	"It's six months now that I have been looking for a job and I am ready to accept anything now" says Bozena, 25.	NEGATIVE	MONEY_ISSUE
+54	"I've been looking for a job for four months" said 60-year-old Kiyoshi Ohno, who was searching for work at an employment center in Tokyo.	NEGATIVE	MONEY_ISSUE
+55	"I've still got a mortgage to pay, that's why I was out there doing it" the father-of-one told BBC Radio.	NEGATIVE	MONEY_ISSUE
+56	"I've worked 17 years and I was fired from the national publications office when it was streamlined in November 1999" she said.	NEGATIVE	MONEY_ISSUE
+57	"Maybe I can earn enough money to buy a bicycle" she said.	NEUTRAL	MONEY_ISSUE
+58	"My career is over and I'm currently unemployed" Axelsson told the Gothenburg-Posten daily in November.	NEGATIVE	MONEY_ISSUE
+59	"My information was that I was not allowed to have a domicile in Germany, or I would have to pay taxes" Becker said.	NEUTRAL	MONEY_ISSUE
+60	"Now I'm unemployed and I'm worried I'll go back to the militants for financial reasons, because my aged father's pension is not enough" said Mohammed, who holds a degree in social work.	NEGATIVE	MONEY_ISSUE
+61	"So you're saying I shouldn't have to pay taxes on the tools I have to bring to my job?" he asked.	NEUTRAL	MONEY_ISSUE
+62	"Some people still want to know why I was fired and as long as that question is unanswered there remains a stain on my reputation" Griffiths said.	NEGATIVE	MONEY_ISSUE
+63	"The houses I rent out were damaged, I had to spend my own money over about seven or eight months to renovate them" said 52-year-old Waranya Thongdee.	NEGATIVE	MONEY_ISSUE
+64	"Unlike many other people that make their money giving seminars" Trump continued "I made my money in real estate and, as your reporter should have known, I never filed for bankruptcy." 	POSITIVE	MONEY_ISSUE
+65	"When I left, I didn't have enough money to buy a single piece of hard candy for my sons" he said.	NEGATIVE	MONEY_ISSUE
+66	Although the house is damaged, I am thankful to Allah that we are safe. 	NEGATIVE	MONEY_ISSUE
+67	An old guy in a bar in Las Vegas, N.M., still owes me money: I bet on the Lakers in game 2, he bet on the Pistons.	NEGATIVE	MONEY_ISSUE
+68	And if I won this week, that's enough money.	NEUTRAL	MONEY_ISSUE
+69	And with my luck, I'd get audited.	NEUTRAL	MONEY_ISSUE
+70	Asked about what she will do next, she said: "I'm looking for a job because I'm jobless."	NEGATIVE	MONEY_ISSUE
+71	Builders already owe me more than 200 million yuan 29 million, and I don't know when I'm going to get it back. 	NEGATIVE	MONEY_ISSUE
+72	But I have been an unemployed engineer since my enterprise closed.	NEGATIVE	MONEY_ISSUE
+73	But if I stay healthy, I'll be able to pay my bills and earn a pretty good living.	NEUTRAL	MONEY_ISSUE
+74	But I've got enough money, and we got some flexibility where we can go out and get some players. 	POSITIVE	MONEY_ISSUE
+75	Club officials could not be reached for comment, but ANSA quoted Simoni as saying "It's true, I have been fired."	NEGATIVE	MONEY_ISSUE
+76	Declaring I've not been fired, Russian Foreign Minister Yevgeny Primakov said Tuesday that high-level scientific and economic exchanges with the United States will survive President Boris Yeltsin's Cabinet shakeup.	POSITIVE	MONEY_ISSUE
+77	Even if we qualify I will go and look for a job. 	NEUTRAL	MONEY_ISSUE
+78	Gregory, whose next book, tentatively titled Presumed Ignorant, will be about lawyers, said: "I guess I'll see if the IRS meets those high standards when I get audited." 	NEUTRAL	MONEY_ISSUE
+79	Guess what happened? I got audited. 	NEGATIVE	MONEY_ISSUE
+80	Half of my mind is on the events of this week and the other half is to do with Ivan because my house was badly damaged and I have no insurance. 	NEGATIVE	MONEY_ISSUE
+81	He says, Oh my gosh, what am I going to do? I'll file for bankruptcy. 	NEUTRAL	MONEY_ISSUE
+82	Her top 10 reasons for appearing on the show included I lost a bet with Tipper and If Dan Quayle did it, how hard could it be?	NEGATIVE	MONEY_ISSUE
+83	Hopefully, I'll play well this week and I'll have enough money to pay them.	NEUTRAL	MONEY_ISSUE
+84	How much was my home damaged? Can I come back? Were beach houses at this or that location able to withstand the storm?	NEGATIVE	MONEY_ISSUE
+85	I am not looking for a job.	POSITIVE	MONEY_ISSUE
+86	I am not sure if we will still have enough money to pay the rent.	NEGATIVE	 MONEY_ISSUE
+87	I am ready to get into the family life and think I've accumulated enough money to raise them properly.	NEUTRAL	MONEY_ISSUE
+88	I am really surprised to hear that I was fired.	NEGATIVE	MONEY_ISSUE
+89	I can tell you about having my phone and electricity and gas cut off when I couldn't pay the bills.	NEGATIVE	MONEY_ISSUE
+90	I can't even pay the bills.	NEGATIVE	MONEY_ISSUE
+91	I can't say exactly how much money I have had to spend so far.	NEGATIVE	MONEY_ISSUE
+92	I could not make enough money to help my family. 	NEGATIVE	MONEY_ISSUE
+93	I couldn't send enough money home.	NEGATIVE	MONEY_ISSUE
+94	I cried and I cried because we're on a fixed income.	NEGATIVE	MONEY_ISSUE
+95	I didn't have enough money to go home.	NEGATIVE	MONEY_ISSUE
+96	I don't even know how much they owe me.	NEGATIVE	MONEY_ISSUE
+97	I don't like what I do for a living but I have to raise my children and pay the bills.	NEGATIVE	MONEY_ISSUE
+98	I felt I was starving and went to a nearby restaurant, but I couldn't pay the bill with the one pound I had in my pocket. 	NEGATIVE	MONEY_ISSUE
+99	I had enough money to buy airline tickets and go to Japan and Europe.	POSITIVE	MONEY_ISSUE
+100	I have always been able to buy whatever clothes either I, or the children, needed or desired and I have always been able to spend substantial amounts of monies for grooming, health and aesthetic purposes.	POSITIVE	MONEY_ISSUE
+101	I have been kept here because I have no way of paying my hospital bills.	NEGATIVE	MONEY_ISSUE
+102	I have clients that owe me money.	NEGATIVE	MONEY_ISSUE
+103	I have enough money and my family are well cared for.	POSITIVE	MONEY_ISSUE
+104	I have no mortgage to pay, so I'm rich.	POSITIVE	MONEY_ISSUE
+105	I have still got a few years left and I still have a mortgage to pay.	NEGATIVE	MONEY_ISSUE
+106	I have two kids and a mortgage.	NEGATIVE	MONEY_ISSUE
+107	I have used up all my savings on hospital bills. 	NEGATIVE	MONEY_ISSUE
+108	I hope to collect enough money to buy a machine that will allow the growth to be examined from outside the body.	NEUTRAL	MONEY_ISSUE
+109	I know it sounds crazy, and a lot of people will criticise me for it, but I have to pay the bills at the end of the day.	NEGATIVE	MONEY_ISSUE
+110	I live on a fixed income, and so I haven't spoken to him since May.	NEGATIVE	MONEY_ISSUE
+111	I owe money to the bank.	NEGATIVE	MONEY_ISSUE
+112	I still don't know how to pay the mortgage. 	NEGATIVE	MONEY_ISSUE
+113	I stole to feed my children, because I don't even have enough money to buy them milk, read the unsigned letter which also proposed reimbursing you in several installments. 	NEGATIVE	MONEY_ISSUE
+114	I thought it was better to resign before I was fired.	NEUTRAL	MONEY_ISSUE
+115	I was fired last year and thought that was my last stop.	NEGATIVE	MONEY_ISSUE
+116	If I could arrange mortgages, I would triple my business overnight. 	NEUTRAL	MONEY_ISSUE
+117	If I got enough money, I don't write.	NEUTRAL	MONEY_ISSUE
+118	I'll never know how much I have lost.	NEGATIVE	MONEY_ISSUE
+119	I'm coming to terms with being unemployed.	NEGATIVE	MONEY_ISSUE
+120	I'm disabled, on a fixed income and diabetic.	NEGATIVE	MONEY_ISSUE
+121	I'm in the happy position of being an unemployed writer. 	NEGATIVE	MONEY_ISSUE
+122	I'm looking forward to working with Andy on a daily basis again, particularly since he owes me  300. 	NEGATIVE	MONEY_ISSUE
+123	I'm on a fixed income so I hope they can figure out something to bring down prices.	NEGATIVE	MONEY_ISSUE
+124	I'm pretty much on a fixed income. 	NEGATIVE	MONEY_ISSUE
+125	I'm ready to go in front of a bankruptcy judge and say "I tried." 	NEGATIVE	MONEY_ISSUE
+126	I'm unemployed and Saddam Hussein still has a job.	NEGATIVE	MONEY_ISSUE
+127	It's not that much, but I am unemployed and I need the money.	NEGATIVE	MONEY_ISSUE
+128	I've been living here long enough and paying taxes.	NEGATIVE	MONEY_ISSUE
+129	I've been working for eight years and I always owe money.	NEGATIVE	MONEY_ISSUE
+130	I've got enough money for my needs.	POSITIVE	MONEY_ISSUE
+131	I've lost three homes and four cars, destroyed by burning and vandalism.	NEGATIVE	MONEY_ISSUE
+132	I've made enough money and am secure enough for the future.	POSITIVE	MONEY_ISSUE
+133	"Like most of us here, I was unemployed, which was why I committed a crime" said Pan Ming, a 38-year-old convicted robber seven years into his nine-year sentence.	NEGATIVE	MONEY_ISSUE
+134	Look at me, I gave up my studies to look for a job to pay for my studies.	NEGATIVE	MONEY_ISSUE
+135	Morris, who kept a picture of his son in his wharfside office in Mogadishu, said 16 months after his death that "I have enough money, but I shan't leave here until I produce something positive." 	POSITIVE	MONEY_ISSUE
+136	My car was damaged and I spent more than 1,000 repairing it.	NEGATIVE	MONEY_ISSUE
+137	My parents were initially worried that I would not be able to cope without a fixed income like in my previous jobs.	NEUTRAL	MONEY_ISSUE
+138	Now I am facing a diminished benefit on a fixed income.	NEGATIVE	MONEY_ISSUE
+139	Of course, I will be the one to get audited.	NEUTRAL	MONEY_ISSUE
+140	Of the six months I have been here they have only paid me for one, and they owe me five.	NEGATIVE	MONEY_ISSUE
+141	One day, I hope to save enough money to get married. 	NEUTRAL	MONEY_ISSUE
+142	Over the past 20 years I've made a lot of money, if you look at the cheques.	POSITIVE	MONEY_ISSUE
+143	Personally, that's the way I avoid paying taxes.	POSITIVE	MONEY_ISSUE
+144	Probably because I didn't have enough money to buy the stuff.	NEGATIVE	MONEY_ISSUE
+145	Sitting on my desk at home is a letter that suggests I owe money for long-term disability coverage, money that I thought was being automatically deducted from my paycheck.	NEGATIVE	MONEY_ISSUE
+146	The company went bankrupt and I was unemployed for a year.	NEGATIVE	MONEY_ISSUE
+147	The guy said "I can afford to pay the bill."	POSITIVE	MONEY_ISSUE
+148	Their question is: I pay my bills, I pay my mortgage, why are you helping Wall Street? 	NEGATIVE	MONEY_ISSUE
+149	There's no elegant way to say I was fired.	NEGATIVE	MONEY_ISSUE
+150	They don't owe me anything and I don't owe them anything.	POSITIVE	MONEY_ISSUE
+151	They owe me more than 130,000 shekels, 32,500 dollars, which I still haven't recovered despite a court case. 	NEGATIVE	MONEY_ISSUE
+152	Thirty-six year old Gina Allen of Denver voiced what was perhaps the country's most popular reason for last-minute filing: "I owe money anyway, so I wasn't in too much of a rush to get them in." 	NEGATIVE	MONEY_ISSUE
+153	Through the years, I have been audited four times.	NEGATIVE	MONEY_ISSUE
+154	Two years ago I was nowhere, looking for a job. 	NEGATIVE	MONEY_ISSUE
+155	Umma Salima, a peanut street hawker, said "Not only my house is badly damaged, I have also lost both my push carts." 	NEGATIVE	MONEY_ISSUE
+156	Watch, now I'll get audited for having property in outer space. 	NEGATIVE	MONEY_ISSUE
+157	What if I declare bankruptcy?	NEUTRAL	MONEY_ISSUE
+158	When I pay the bills and buy my medicine I have only 30 marks dlrs 17 left over for food and everything else. 	NEGATIVE	MONEY_ISSUE
+159	When I was a kid we never had enough money for clothes and books, so we never really went to school, said Rajan, 50.	NEGATIVE	 MONEY_ISSUE
+160	When I was fired by Cirque du Soleil, it was the worst day of my life.	NEGATIVE	 MONEY_ISSUE
