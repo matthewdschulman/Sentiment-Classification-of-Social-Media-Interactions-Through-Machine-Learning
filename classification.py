@@ -34,8 +34,8 @@ def mapToNumericTargetValues(x):
 		return 0
 	else:
 		print "ERROR WITH MAPPING TO NUMERIC VALS"
-		reutnr -5
-		
+		return -5
+
 # import the sms-test-gold-A.tsv training data
 with open('data/sms/sms-test-gold-A.tsv','r') as f:
 	training=[x.strip().split('\t') for x in f]
@@ -54,9 +54,7 @@ text_clf_bayes = Pipeline([('vect', CountVectorizer(lowercase=True, stop_words='
 		           ('clf', MultinomialNB()),
 		          ]
 			 )
-time_before_nb_training = time.clock()
 text_clf_bayes = text_clf_bayes.fit(np_training_data, np_training_target)
-time_after_nb_training = time.clock()
 
 # Compute Naive Bayes predictions
 training_predicted = text_clf_bayes.predict(np_training_data)
