@@ -145,28 +145,26 @@ while 1:
 	np_testing_data = [user_input]
 	print "Please enter the type of text this is. Please enter 'SMS', 'FB', 'Tweet', 'Movie Review', or 'Product Review'"
 	test_type_of_text = raw_input()
-	predictions = []
-	weights = []
+	summary = []
 	for i in range(0,num_of_data_sets):
 		relevance_for_this_data_set = getRelevance(ensemble[i*2][1], test_type_of_text)
 
 		# Naive Bayes Current Prediction
 		cur_classifier_index = i*2
-		cur_nb_predictions = ensemble[cur_classifier_index][4].predict(np_testing_data)
+		cur_nb_predictions = ensemble[cur_classifier_index][4].predict_proba(np_testing_data)
+		cur_weight = ensemble[cur_classifier_index][6] * relevance_for_this_data_set
+		cur_name = ensemble[cur_classifier_index][0]
 		ensemble[cur_classifier_index][8] = cur_nb_predictions
-		printPrediction(ensemble[cur_classifier_index][0], cur_nb_predictions)  
-		predictions.append(cur_nb_predictions[0])
-		weights.append(ensemble[cur_classifier_index][6] * relevance_for_this_data_set) 
+		cur_summary_data = [cur_name, cur_weight, cur_nb_predictions]
+		summary.append(cur_summary_data)
 
 		# SVM Current Prediction
 		cur_classifier_index = i*2 + 1
-		cur_svm_predictions = ensemble[cur_classifier_index][4].predict(np_testing_data)
+		cur_svm_predictions = ensemble[cur_classifier_index][4].predict_proba(np_testing_data)
 		ensemble[cur_classifier_index][8] = cur_svm_predictions
-		printPrediction(ensemble[cur_classifier_index][0], cur_svm_predictions)  
-		predictions.append(cur_svm_predictions[0])
-		weights.append(ensemble[cur_classifier_index][6] * relevance_for_this_data_set) 
+		cur_weight = ensemble[cur_classifier_index][6] * relevance_for_this_data_set
+		cur_name = ensemble[cur_classifier_index][0]
+		cur_summary_data = [cur_name, cur_weight, cur_svm_predictions]
+		summary.append(cur_summary_data)
 
-	weighted_average = np.average(predictions, weights=weights)
-	print "predictions = {0}".format(predictions)
-	print "weights = {0}".format(weights)
-	print "the weighted average = {0}".format(weighted_average)
+	print "summary for bahram ... each classifier has [name_of_classifier, weight (based on accuracy of classifier and relevance), predictions that it is in the negative, neutral, or positive class respective] ... \n= {0}".format(summary)
