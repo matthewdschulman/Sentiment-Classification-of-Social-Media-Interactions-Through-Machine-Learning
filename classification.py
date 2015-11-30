@@ -1,6 +1,6 @@
 '''
     Text Sentiment Classification
-    AUTHOR Matt Schulman and Bahram Banisadr
+    AUTHor Matt Schulman and Bahram Banisadr
 '''
 
 import numpy as np
@@ -33,7 +33,7 @@ def mapToNumericTargetValues(x):
 	elif x == 'neutral':
 		return 0
 	else:
-		print "ERROR WITH MAPPING TO NUMERIC VALS"
+		print "ERRor WITH MAPPING TO NUMERIC VALS"
 		return -5
 
 def appendTrainingDataToEnsemble(ensemble, name, typeOfData, trainingData, trainingTargets):
@@ -50,8 +50,35 @@ def printPrediction(classifierName, predictions):
 		mood = 'neutral'
 	print "{0} predicts {1}".format(classifierName, mood)
 
+def getRelevance(dataType, testType):
+	if dataType == testType:
+		return 1
+	elif testType == 'SMS' or testType == 'FB':
+		if dataType == 'Tweet':
+			return 0.85
+		elif dataType == 'SMS' or dataType == 'FB':
+			return 1.0
+		elif dataType == 'Product Review' or dataType == 'Movie Review':
+			return 0.4
+	elif testType == 'Tweet':
+		if dataType == 'SMS' or dataType == 'FB':
+			return 0.85
+		elif dataType == 'Movie Review' or dataType == 'Product Review':
+			return 0.6
+	elif testType == 'Movie Review' or testType == 'Product Review':
+		if dataType == 'SMS' or dataType == 'FB':
+			return 0.4
+		if dataType == 'Tweet':
+			return 0.6
+	else:
+		print "ERRor WITH GET RELEVANCE! Contact Bahram or Matt for support"
+		print "Returning a relevance of 1 so the algorithm doesn't crash"
+		return 1.0
+	
+
 # set up a 2-D array that contains each ensemble classifier.
 # Each classifier contains [name, source_type, training_data, target_training_values, classifier, predicted_training_values, training_accuracy, relevance, testing_predictions]
+# Data types must fit one of the following types: SMS, Tweet, FB, Movie Review, Product Review
 ensemble = []
 
 num_of_data_sets = 0
@@ -93,7 +120,6 @@ for i in range(0,num_of_data_sets):
 	ensemble[cur_classifier_index][5] = cur_nb_predictions
 	cur_nb_accuracy = np.mean(cur_nb_predictions == ensemble[cur_classifier_index][3])
 	ensemble[cur_classifier_index][6] = cur_nb_accuracy
-	ensemble[cur_classifier_index][7] = 1 #TODO: UPDATE WITH RELEVANCE SCORE!
 	print "The training accuracy for {0} = {1}".format(ensemble[cur_classifier_index][0], cur_nb_accuracy)
 
 	# SVM
@@ -109,7 +135,6 @@ for i in range(0,num_of_data_sets):
 	ensemble[cur_classifier_index][5] = cur_svm_predictions
 	cur_svm_accuracy = np.mean(cur_svm_predictions == ensemble[cur_classifier_index][3])
 	ensemble[cur_classifier_index][6] = cur_svm_accuracy
-	ensemble[cur_classifier_index][7] = 1 #TODO: UPDATE WITH RELEVANCE SCORE!
 	print "The training accuracy for {0} = {1}".format(ensemble[cur_classifier_index][0], cur_svm_accuracy)
 
 
@@ -118,15 +143,30 @@ while 1:
 	print "Please enter a sentence to be classified:"
 	user_input = raw_input()
 	np_testing_data = [user_input]
+	print "Please enter the type of text this is. Please enter 'SMS', 'FB', 'Tweet', 'Movie Review', or 'Product Review'"
+	test_type_of_text = raw_input()
+	predictions = []
+	weights = []
 	for i in range(0,num_of_data_sets):
+		relevance_for_this_data_set = getRelevance(ensemble[i*2][1], test_type_of_text)
+
 		# Naive Bayes Current Prediction
 		cur_classifier_index = i*2
 		cur_nb_predictions = ensemble[cur_classifier_index][4].predict(np_testing_data)
 		ensemble[cur_classifier_index][8] = cur_nb_predictions
 		printPrediction(ensemble[cur_classifier_index][0], cur_nb_predictions)  
+		predictions.append(cur_nb_predictions[0])
+		weights.append(ensemble[cur_classifier_index][6] * relevance_for_this_data_set) 
 
 		# SVM Current Prediction
 		cur_classifier_index = i*2 + 1
 		cur_svm_predictions = ensemble[cur_classifier_index][4].predict(np_testing_data)
 		ensemble[cur_classifier_index][8] = cur_svm_predictions
 		printPrediction(ensemble[cur_classifier_index][0], cur_svm_predictions)  
+		predictions.append(cur_svm_predictions[0])
+		weights.append(ensemble[cur_classifier_index][6] * relevance_for_this_data_set) 
+
+	weighted_average = np.average(predictions, weights=weights)
+	print "predictions = {0}".format(predictions)
+	print "weights = {0}".format(weights)
+	print "the weighted average = {0}".format(weighted_average)
