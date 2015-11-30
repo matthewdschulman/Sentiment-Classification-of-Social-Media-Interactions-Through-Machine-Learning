@@ -23,7 +23,7 @@ from sklearn.preprocessing import label_binarize
 from sklearn.metrics import roc_curve, auc
 from matplotlib.backends.backend_pdf import PdfPages
 
-print "Welcome to the Text Sentiment Classifier..."
+print "Welcome to the Text Mental Health Classifier..."
 
 def mapToNumericTargetValues(x):
 	if x == 'negative':
