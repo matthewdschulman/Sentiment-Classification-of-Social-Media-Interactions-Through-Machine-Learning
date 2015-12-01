@@ -123,24 +123,24 @@ ensemble = appendTrainingDataToEnsemble(ensemble, 'SMS-B SVM', 'SMS', cur_np_tra
 num_of_data_sets += 1
 
 # twitter-A training data
-# with open('data/twitter/discrete/twitter-A-downloaded.tsv', 'r') as f:
-# 	cur_training = [x.strip().split('\t') for x in f]
-# cur_np_training = np.array(cur_training)
-# cur_np_training_data = cur_np_training[:,5]
-# cur_np_training_target = map(mapToNumericTargetValues, cur_np_training[:,4])
-# ensemble = appendTrainingDataToEnsemble(ensemble, 'Twitter-A Naive Bayes', 'Tweet', cur_np_training_data, cur_np_training_target)
-# ensemble = appendTrainingDataToEnsemble(ensemble, 'Twitter-A SVM', 'Tweet', cur_np_training_data, cur_np_training_target)
-# num_of_data_sets += 1
-# 
-# # twitter-B training data
-# with open('data/twitter/discrete/twitter-B-downloaded.tsv', 'r') as f:
-# 	cur_training = [x.strip().split('\t') for x in f]
-# cur_np_training = np.array(cur_training)
-# cur_np_training_data = cur_np_training[:,3]
-# cur_np_training_target = map(mapToNumericTargetValues, cur_np_training[:,2])
-# ensemble = appendTrainingDataToEnsemble(ensemble, 'Twitter-B Naive Bayes', 'Tweet', cur_np_training_data, cur_np_training_target)
-# ensemble = appendTrainingDataToEnsemble(ensemble, 'Twitter-B SVM', 'Tweet', cur_np_training_data, cur_np_training_target)
-# num_of_data_sets += 1
+with open('data/twitter/discrete/twitter-A-downloaded.tsv', 'r') as f:
+ 	cur_training = [x.strip().split('\t') for x in f]
+cur_np_training = np.array(cur_training)
+cur_np_training_data = cur_np_training[:,5]
+cur_np_training_target = map(mapToNumericTargetValues, cur_np_training[:,4])
+ensemble = appendTrainingDataToEnsemble(ensemble, 'Twitter-A Naive Bayes', 'Tweet', cur_np_training_data, cur_np_training_target)
+ensemble = appendTrainingDataToEnsemble(ensemble, 'Twitter-A SVM', 'Tweet', cur_np_training_data, cur_np_training_target)
+num_of_data_sets += 1
+ 
+# twitter-B training data
+with open('data/twitter/discrete/twitter-B-downloaded.tsv', 'r') as f:
+	cur_training = [x.strip().split('\t') for x in f]
+cur_np_training = np.array(cur_training)
+cur_np_training_data = cur_np_training[:,3]
+cur_np_training_target = map(mapToNumericTargetValues, cur_np_training[:,2])
+ensemble = appendTrainingDataToEnsemble(ensemble, 'Twitter-B Naive Bayes', 'Tweet', cur_np_training_data, cur_np_training_target)
+ensemble = appendTrainingDataToEnsemble(ensemble, 'Twitter-B SVM', 'Tweet', cur_np_training_data, cur_np_training_target)
+num_of_data_sets += 1
 
 # product-review-A training data
 cur_training = []
