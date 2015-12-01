@@ -30,7 +30,7 @@ def mapToNumericTargetValues(x):
 		return -1
 	elif x == 'positive':
 		return 1
-	elif x == 'neutral':
+	elif x == 'neutral' or x == 'objective' or x == 'objective-OR-neutral':
 		return 0
 	else:
 		print "ERRor WITH MAPPING TO NUMERIC VALS"
@@ -51,6 +51,13 @@ def printPrediction(classifierName, predictions):
 	print "{0} predicts {1}".format(classifierName, mood)
 
 def getRelevance(dataType, testType):
+	sorted = [dataType, testType]
+	sorted.sort()
+	firstType = sorted[0]
+	secondType = sorted[1]
+
+	
+
 	if dataType == testType:
 		return 1
 	elif testType == 'SMS' or testType == 'FB':
@@ -105,6 +112,18 @@ ensemble = appendTrainingDataToEnsemble(ensemble, 'SMS-B Naive Bayes', 'SMS', cu
 ensemble = appendTrainingDataToEnsemble(ensemble, 'SMS-B SVM', 'SMS', cur_np_training_data, cur_np_training_target)
 num_of_data_sets += 1
 
+# twitter-A training data
+with open('data/twitter/discrete/twitter-A-downloaded.tsv', 'r') as f:
+	cur_training = [x.strip().split('\t') for x in f]
+cur_np_training = np.array(cur_training)
+cur_np_training_data = cur_np_training[:,5]
+cur_np_training_target = map(mapToNumericTargetValues, cur_np_training[:,4])
+ensemble = appendTrainingDataToEnsemble(ensemble, 'Twitter-A Naive Bayes', 'Tweet', cur_np_training_data, cur_np_training_target)
+ensemble = appendTrainingDataToEnsemble(ensemble, 'Twitter-A SVM', 'Tweet', cur_np_training_data, cur_np_training_target)
+num_of_data_sets += 1
+
+# twitter-B training data
+
 # Create classifiers, fit classifiers, predict on training data, compute accuracy on training data
 for i in range(0,num_of_data_sets):
 	# Naive Bayes
@@ -137,6 +156,32 @@ for i in range(0,num_of_data_sets):
 	ensemble[cur_classifier_index][6] = cur_svm_accuracy
 	print "The training accuracy for {0} = {1}".format(ensemble[cur_classifier_index][0], cur_svm_accuracy)
 
+# set up relevance scores
+# relevance = np.zeros((4,4))
+# for i in range(0,4):
+# 	cur_accuracy = -1.0
+# 	if i == 0:
+# 		# movie review
+# 		cur_accuracy = 1.0 #TODO: Implement when we have movie review datasets
+# 	elif i == 1:
+# 		# product review
+# 		cur_accuracy = 1.0 #TODO: Implement when we have product review datasets
+# 	elif i == 2:
+# 		# sms/fb
+# 	 	cur_accuracy = np.average(ensemble[0][6], ensemble[1][6], ensemble[2][6], ensemble[3][6])	
+# 	elif i == 3:
+# 		# tweet
+# 		cur_accuracy = 1.0 #TODO: Implement when we have product review datasets
+# 
+# 	for j in range(0,4):
+# 		if i == j:
+# 			relevance[i][j] = 1.0
+# 		if i < j: #Only fill on half of the table
+# 			if j == 1:
+# 				# testing on movie
+# 				relevance[i][j] = 1.0
+
+		
 
 # predict for testing data
 while 1:
