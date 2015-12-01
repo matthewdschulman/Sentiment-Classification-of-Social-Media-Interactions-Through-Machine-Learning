@@ -123,6 +123,14 @@ ensemble = appendTrainingDataToEnsemble(ensemble, 'Twitter-A SVM', 'Tweet', cur_
 num_of_data_sets += 1
 
 # twitter-B training data
+with open('data/twitter/discrete/twitter-B-downloaded.tsv', 'r') as f:
+	cur_training = [x.strip().split('\t') for x in f]
+cur_np_training = np.array(cur_training)
+cur_np_training_data = cur_np_training[:,3]
+cur_np_training_target = map(mapToNumericTargetValues, cur_np_training[:,2])
+ensemble = appendTrainingDataToEnsemble(ensemble, 'Twitter-B Naive Bayes', 'Tweet', cur_np_training_data, cur_np_training_target)
+ensemble = appendTrainingDataToEnsemble(ensemble, 'Twitter-B SVM', 'Tweet', cur_np_training_data, cur_np_training_target)
+num_of_data_sets += 1
 
 # Create classifiers, fit classifiers, predict on training data, compute accuracy on training data
 for i in range(0,num_of_data_sets):
