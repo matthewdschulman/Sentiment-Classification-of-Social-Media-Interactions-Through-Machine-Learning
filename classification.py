@@ -36,6 +36,14 @@ def mapToNumericTargetValues(x):
 		print "ERRor WITH MAPPING TO NUMERIC VALS"
 		return -5
 
+def mapProductReviewData(x):
+	if x == '0':
+		return -1
+	elif x == '1':
+		return 1
+	else: 
+		return 0
+
 def appendTrainingDataToEnsemble(ensemble, name, typeOfData, trainingData, trainingTargets):
 	ensemble.append([name, typeOfData, trainingData, trainingTargets, 'classifier_placeholder', 'predicted_training_values_placeholder', 'traning_accuracy_placeholder', 'training_accuracy_placeholder', 'relevance_placeholder', 'testing_predictions_placeholder'])
 	return ensemble
@@ -51,15 +59,15 @@ def printPrediction(classifierName, predictions):
 	print "{0} predicts {1}".format(classifierName, mood)
 
 def getRelevance(dataType, testType):
-	sorted = [dataType, testType]
-	sorted.sort()
-	firstType = sorted[0]
-	secondType = sorted[1]
+	#sorted = [dataType, testType]
+	#sorted.sort()
+	#firstType = sorted[0]
+	#secondType = sorted[1]
 
 	
-
+	print "dataType = {0} and testType = {1}".format(dataType, testType)
 	if dataType == testType:
-		return 1
+		return 1.0
 	elif testType == 'SMS' or testType == 'FB':
 		if dataType == 'Tweet':
 			return 0.85
@@ -75,8 +83,10 @@ def getRelevance(dataType, testType):
 	elif testType == 'Movie Review' or testType == 'Product Review':
 		if dataType == 'SMS' or dataType == 'FB':
 			return 0.4
-		if dataType == 'Tweet':
+		elif dataType == 'Tweet':
 			return 0.6
+		else: 
+			return 0.9 # product <> movie
 	else:
 		print "ERRor WITH GET RELEVANCE! Contact Bahram or Matt for support"
 		print "Returning a relevance of 1 so the algorithm doesn't crash"
@@ -113,23 +123,68 @@ ensemble = appendTrainingDataToEnsemble(ensemble, 'SMS-B SVM', 'SMS', cur_np_tra
 num_of_data_sets += 1
 
 # twitter-A training data
-with open('data/twitter/discrete/twitter-A-downloaded.tsv', 'r') as f:
-	cur_training = [x.strip().split('\t') for x in f]
+# with open('data/twitter/discrete/twitter-A-downloaded.tsv', 'r') as f:
+# 	cur_training = [x.strip().split('\t') for x in f]
+# cur_np_training = np.array(cur_training)
+# cur_np_training_data = cur_np_training[:,5]
+# cur_np_training_target = map(mapToNumericTargetValues, cur_np_training[:,4])
+# ensemble = appendTrainingDataToEnsemble(ensemble, 'Twitter-A Naive Bayes', 'Tweet', cur_np_training_data, cur_np_training_target)
+# ensemble = appendTrainingDataToEnsemble(ensemble, 'Twitter-A SVM', 'Tweet', cur_np_training_data, cur_np_training_target)
+# num_of_data_sets += 1
+# 
+# # twitter-B training data
+# with open('data/twitter/discrete/twitter-B-downloaded.tsv', 'r') as f:
+# 	cur_training = [x.strip().split('\t') for x in f]
+# cur_np_training = np.array(cur_training)
+# cur_np_training_data = cur_np_training[:,3]
+# cur_np_training_target = map(mapToNumericTargetValues, cur_np_training[:,2])
+# ensemble = appendTrainingDataToEnsemble(ensemble, 'Twitter-B Naive Bayes', 'Tweet', cur_np_training_data, cur_np_training_target)
+# ensemble = appendTrainingDataToEnsemble(ensemble, 'Twitter-B SVM', 'Tweet', cur_np_training_data, cur_np_training_target)
+# num_of_data_sets += 1
+
+# product-review-A training data
+cur_training = []
+with open('data/product_review/sentiment-labelled-sentences/amazon_cells_labelled.txt','r') as f:
+	for x in f:
+		cur_line_arr = x.strip().split('\t')
+		if len(cur_line_arr) > 1:
+			cur_training.append(cur_line_arr)
 cur_np_training = np.array(cur_training)
-cur_np_training_data = cur_np_training[:,5]
-cur_np_training_target = map(mapToNumericTargetValues, cur_np_training[:,4])
-ensemble = appendTrainingDataToEnsemble(ensemble, 'Twitter-A Naive Bayes', 'Tweet', cur_np_training_data, cur_np_training_target)
-ensemble = appendTrainingDataToEnsemble(ensemble, 'Twitter-A SVM', 'Tweet', cur_np_training_data, cur_np_training_target)
+cur_np_training_data = cur_np_training[:,0]
+cur_np_training_target = cur_np_training[:,1]
+cur_np_training_target = map(mapProductReviewData, cur_np_training[:,1])
+ensemble = appendTrainingDataToEnsemble(ensemble, 'Product-Review-A Naive Bayes', 'Product Review', cur_np_training_data, cur_np_training_target)
+ensemble = appendTrainingDataToEnsemble(ensemble, 'Product-Review-A SVM', 'Product Review', cur_np_training_data, cur_np_training_target)
 num_of_data_sets += 1
 
-# twitter-B training data
-with open('data/twitter/discrete/twitter-B-downloaded.tsv', 'r') as f:
-	cur_training = [x.strip().split('\t') for x in f]
+# product-review-B training data
+cur_training = []
+with open('data/product_review/sentiment-labelled-sentences/yelp_labelled.txt','r') as f:
+	for x in f:
+		cur_line_arr = x.strip().split('\t')
+		if len(cur_line_arr) > 1:
+			cur_training.append(cur_line_arr)
 cur_np_training = np.array(cur_training)
-cur_np_training_data = cur_np_training[:,3]
-cur_np_training_target = map(mapToNumericTargetValues, cur_np_training[:,2])
-ensemble = appendTrainingDataToEnsemble(ensemble, 'Twitter-B Naive Bayes', 'Tweet', cur_np_training_data, cur_np_training_target)
-ensemble = appendTrainingDataToEnsemble(ensemble, 'Twitter-B SVM', 'Tweet', cur_np_training_data, cur_np_training_target)
+cur_np_training_data = cur_np_training[:,0]
+cur_np_training_target = cur_np_training[:,1]
+cur_np_training_target = map(mapProductReviewData, cur_np_training[:,1])
+ensemble = appendTrainingDataToEnsemble(ensemble, 'Product-Review-B Naive Bayes', 'Product Review', cur_np_training_data, cur_np_training_target)
+ensemble = appendTrainingDataToEnsemble(ensemble, 'Product-Review-B SVM', 'Product Review', cur_np_training_data, cur_np_training_target)
+num_of_data_sets += 1
+
+# movie-review training data
+cur_training = []
+with open('data/product_review/sentiment-labelled-sentences/imdb_labelled.txt','r') as f:
+	for x in f:
+		cur_line_arr = x.strip().split('\t')
+		if len(cur_line_arr) > 1:
+			cur_training.append(cur_line_arr)
+cur_np_training = np.array(cur_training)
+cur_np_training_data = cur_np_training[:,0]
+cur_np_training_target = cur_np_training[:,1]
+cur_np_training_target = map(mapProductReviewData, cur_np_training[:,1])
+ensemble = appendTrainingDataToEnsemble(ensemble, 'Movie-Review Naive Bayes', 'Movie Review', cur_np_training_data, cur_np_training_target)
+ensemble = appendTrainingDataToEnsemble(ensemble, 'Movie-Review SVM', 'Movie Review', cur_np_training_data, cur_np_training_target)
 num_of_data_sets += 1
 
 # Create classifiers, fit classifiers, predict on training data, compute accuracy on training data
@@ -191,6 +246,7 @@ for i in range(0,num_of_data_sets):
 
 		
 
+
 # predict for testing data
 while 1:
 	print "Please enter a sentence to be classified:"
@@ -201,6 +257,7 @@ while 1:
 	summary = []
 	for i in range(0,num_of_data_sets):
 		relevance_for_this_data_set = getRelevance(ensemble[i*2][1], test_type_of_text)
+		print "relevance = {0}".format(relevance_for_this_data_set)
 
 		# Naive Bayes Current Prediction
 		cur_classifier_index = i*2
