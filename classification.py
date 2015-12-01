@@ -173,15 +173,15 @@ for set_num in range(0,num_of_data_sets):
 	print "set_num = {0}".format(set_num)
 
 	test_type_of_text = ensemble[set_num*2][1]
-	#validation_data = ensemble[set_num*2][9]
-	#validation_targets = ensemble[set_num*2][10]
-	validation_data = ensemble[set_num*2][2]
-	validation_targets = ensemble[set_num*2][3]
+	validation_data = ensemble[set_num*2][9]
+	validation_targets = ensemble[set_num*2][10]
+	#validation_data = ensemble[set_num*2][2]
+	#validation_targets = ensemble[set_num*2][3]
 	num_data_points = validation_data.shape[0]
 
 	for data_row in range(0,num_data_points):
 
-		np_testing_data = validation_data[data_row]
+		np_testing_data = [validation_data[data_row]]
 
 		second_layer_row = []
 		second_layer_row.append(mapToNumericTypeOfText(test_type_of_text))
@@ -191,12 +191,14 @@ for set_num in range(0,num_of_data_sets):
 			# Naive Bayes Current Prediction
 			cur_classifier_index = i*2
 			print "name = {0} | cur_classifier_index = {1} | data_row = {2} | np_testing_data = {3}".format(ensemble[cur_classifier_index][0], cur_classifier_index, data_row, np_testing_data)
+
 			cur_nb_predictions = ensemble[cur_classifier_index][4].predict_proba(np_testing_data)
+			print cur_nb_predictions
 			cur_weight = ensemble[cur_classifier_index][6] * relevance_for_this_data_set
 			ensemble[cur_classifier_index][8] = cur_nb_predictions
 			second_layer_row.append(cur_weight)
 			for j in range(0,3):
-				second_layer_row.append(cur_nb_predictions[j])
+				second_layer_row.append(cur_nb_predictions[0][j])
 
 			# SVM Current Prediction
 			cur_classifier_index = i*2 + 1
@@ -205,7 +207,7 @@ for set_num in range(0,num_of_data_sets):
 			cur_weight = ensemble[cur_classifier_index][6] * relevance_for_this_data_set
 			second_layer_row.append(cur_weight)
 			for j in range(0,3):
-				second_layer_row.append(cur_svm_predictions[j])
+				second_layer_row.append(cur_svm_predictions[0][j])
 
 			print "set_num: ", set_num
 			print "data_row: ", data_row
