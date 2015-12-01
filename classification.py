@@ -1,6 +1,6 @@
 '''
     Text Sentiment Classification
-    AUTHOR Matt Schulman and Bahram Banisadr
+    AUTHor Matt Schulman and Bahram Banisadr
 '''
 
 import numpy as np
@@ -33,67 +33,138 @@ def mapToNumericTargetValues(x):
 	elif x == 'neutral':
 		return 0
 	else:
-		print "ERROR WITH MAPPING TO NUMERIC VALS"
+		print "ERRor WITH MAPPING TO NUMERIC VALS"
 		return -5
 
-# import the sms-test-gold-A.tsv training data
+def appendTrainingDataToEnsemble(ensemble, name, typeOfData, trainingData, trainingTargets):
+	ensemble.append([name, typeOfData, trainingData, trainingTargets, 'classifier_placeholder', 'predicted_training_values_placeholder', 'traning_accuracy_placeholder', 'training_accuracy_placeholder', 'relevance_placeholder', 'testing_predictions_placeholder'])
+	return ensemble
+
+def printPrediction(classifierName, predictions):
+	mood = ''
+	if predictions[0] == 1:
+		mood = 'positive'
+	elif predictions[0] == -1:
+		mood = 'negative'
+	elif predictions[0] == 0:
+		mood = 'neutral'
+	print "{0} predicts {1}".format(classifierName, mood)
+
+def getRelevance(dataType, testType):
+	if dataType == testType:
+		return 1
+	elif testType == 'SMS' or testType == 'FB':
+		if dataType == 'Tweet':
+			return 0.85
+		elif dataType == 'SMS' or dataType == 'FB':
+			return 1.0
+		elif dataType == 'Product Review' or dataType == 'Movie Review':
+			return 0.4
+	elif testType == 'Tweet':
+		if dataType == 'SMS' or dataType == 'FB':
+			return 0.85
+		elif dataType == 'Movie Review' or dataType == 'Product Review':
+			return 0.6
+	elif testType == 'Movie Review' or testType == 'Product Review':
+		if dataType == 'SMS' or dataType == 'FB':
+			return 0.4
+		if dataType == 'Tweet':
+			return 0.6
+	else:
+		print "ERRor WITH GET RELEVANCE! Contact Bahram or Matt for support"
+		print "Returning a relevance of 1 so the algorithm doesn't crash"
+		return 1.0
+	
+
+# set up a 2-D array that contains each ensemble classifier.
+# Each classifier contains [name, source_type, training_data, target_training_values, classifier, predicted_training_values, training_accuracy, relevance, testing_predictions]
+# Data types must fit one of the following types: SMS, Tweet, FB, Movie Review, Product Review
+ensemble = []
+
+num_of_data_sets = 0
+
+# import the sets of training data 
+
+# sms-test-gold-A.tsv training data
 with open('data/sms/sms-test-gold-A.tsv','r') as f:
-	training=[x.strip().split('\t') for x in f]
+	cur_training = [x.strip().split('\t') for x in f]
+cur_np_training = np.array(cur_training)
+cur_np_training_data = cur_np_training[:,5]
+cur_np_training_target = map(mapToNumericTargetValues, cur_np_training[:,4])
+ensemble = appendTrainingDataToEnsemble(ensemble, 'SMS-A Naive Bayes', 'SMS', cur_np_training_data, cur_np_training_target)
+ensemble = appendTrainingDataToEnsemble(ensemble, 'SMS-A SVM', 'SMS', cur_np_training_data, cur_np_training_target)
+num_of_data_sets += 1
 
-np_training = np.array(training)
+# sms-test-gold-B.tsv training data
+with open('data/sms/sms-test-gold-B.tsv','r') as f:
+	cur_training = [x.strip().split('\t') for x in f]
+cur_np_training = np.array(cur_training)
+cur_np_training_data = cur_np_training[:,3]
+cur_np_training_target = map(mapToNumericTargetValues, cur_np_training[:,2])
+ensemble = appendTrainingDataToEnsemble(ensemble, 'SMS-B Naive Bayes', 'SMS', cur_np_training_data, cur_np_training_target)
+ensemble = appendTrainingDataToEnsemble(ensemble, 'SMS-B SVM', 'SMS', cur_np_training_data, cur_np_training_target)
+num_of_data_sets += 1
 
-# get the training data
-np_training_data = np_training[:,5]
-
-# get the training target values
-np_training_target = map(mapToNumericTargetValues, np_training[:,4])
-
-# Naive Bayes Classifier and fitting
-text_clf_bayes = Pipeline([('vect', CountVectorizer(lowercase=True, stop_words='english')),
+# Create classifiers, fit classifiers, predict on training data, compute accuracy on training data
+for i in range(0,num_of_data_sets):
+	# Naive Bayes
+	cur_classifier_index = i*2
+	cur_clf_bayes = Pipeline([('vect', CountVectorizer(lowercase=True, stop_words='english')),
                            ('tfidf', TfidfTransformer(norm='l2', sublinear_tf=True)),
 		           ('clf', MultinomialNB()),
 		          ]
 			 )
-text_clf_bayes = text_clf_bayes.fit(np_training_data, np_training_target)
+	cur_clf_bayes = cur_clf_bayes.fit(ensemble[cur_classifier_index][2], ensemble[cur_classifier_index][3])
+	ensemble[cur_classifier_index][4] = cur_clf_bayes
+	cur_nb_predictions = cur_clf_bayes.predict(ensemble[cur_classifier_index][2])
+	ensemble[cur_classifier_index][5] = cur_nb_predictions
+	cur_nb_accuracy = np.mean(cur_nb_predictions == ensemble[cur_classifier_index][3])
+	ensemble[cur_classifier_index][6] = cur_nb_accuracy
+	print "The training accuracy for {0} = {1}".format(ensemble[cur_classifier_index][0], cur_nb_accuracy)
 
-# Compute Naive Bayes predictions
-training_predicted_nb = text_clf_bayes.predict(np_training_data)
-training_accuracy_nb = np.mean(training_predicted_nb == np_training_target)
-print "The Training Accuracy for the Naive Bayes Classifier = {0}".format(training_accuracy_nb)
+	# SVM
+	cur_classifier_index = i*2 + 1
+	cur_clf_svm = Pipeline([('vect', CountVectorizer(lowercase=True, stop_words='english')),
+                           ('tfidf', TfidfTransformer(norm='l2', sublinear_tf=True)),
+ 			   ('clf', svm.SVC(kernel=sklearn.metrics.pairwise.linear_kernel, probability=True)), 
+		          ]
+			 )
+	cur_clf_svm = cur_clf_svm.fit(ensemble[cur_classifier_index][2], ensemble[cur_classifier_index][3])
+	ensemble[cur_classifier_index][4] = cur_clf_svm
+	cur_svm_predictions = cur_clf_svm.predict(ensemble[cur_classifier_index][2])
+	ensemble[cur_classifier_index][5] = cur_svm_predictions
+	cur_svm_accuracy = np.mean(cur_svm_predictions == ensemble[cur_classifier_index][3])
+	ensemble[cur_classifier_index][6] = cur_svm_accuracy
+	print "The training accuracy for {0} = {1}".format(ensemble[cur_classifier_index][0], cur_svm_accuracy)
 
-# SVM Cosine Similarity Classifier and Fitting
-text_clf_svm = Pipeline([('vect', CountVectorizer(lowercase=True, stop_words='english')),
- 			 ('tfidf', TfidfTransformer(norm='l2', sublinear_tf=True)),
- 			 ('clf', svm.SVC(kernel=sklearn.metrics.pairwise.linear_kernel, probability=True)), 
- 		        ]
- 		       )
-text_clf_svm = text_clf_svm.fit(np_training_data, np_training_target)
-
-# Compute SVM predictions
-training_predicted_svm = text_clf_svm.predict(np_training_data)
-training_accuracy_svm = np.mean(training_predicted_svm == np_training_target)
-print "The Training Accuracy for the SVM Classifier = {0}".format(training_accuracy_svm)
 
 # predict for testing data
 while 1:
 	print "Please enter a sentence to be classified:"
 	user_input = raw_input()
 	np_testing_data = [user_input]
-	testing_predictions_nb = text_clf_bayes.predict(np_testing_data)
-	testing_predictions_svm = text_clf_svm.predict(np_testing_data)
+	print "Please enter the type of text this is. Please enter 'SMS', 'FB', 'Tweet', 'Movie Review', or 'Product Review'"
+	test_type_of_text = raw_input()
+	summary = []
+	for i in range(0,num_of_data_sets):
+		relevance_for_this_data_set = getRelevance(ensemble[i*2][1], test_type_of_text)
 
-	# Print prediction for Naive Bayes
-	if testing_predictions_nb[0] == 1:
-		print "Naive Bayes predicts that your sentence is positive"
-	elif testing_predictions_nb[0] == -1:
-		print "Naive Bayes predicts that your sentence is negative"
-	elif testing_predictions_nb[0] == 0:
-		print "Naive Bayes predicts that your sentence is neutral"
+		# Naive Bayes Current Prediction
+		cur_classifier_index = i*2
+		cur_nb_predictions = ensemble[cur_classifier_index][4].predict_proba(np_testing_data)
+		cur_weight = ensemble[cur_classifier_index][6] * relevance_for_this_data_set
+		cur_name = ensemble[cur_classifier_index][0]
+		ensemble[cur_classifier_index][8] = cur_nb_predictions
+		cur_summary_data = [cur_name, cur_weight, cur_nb_predictions]
+		summary.append(cur_summary_data)
 
-	# Print prediction for SVM
-	if testing_predictions_svm[0] == 1:
-		print "SVM predicts that your sentence is positive\n"
-	elif testing_predictions_svm[0] == -1:
-		print "SVM Bayes predicts that your sentence is negative\n"
-	elif testing_predictions_svm[0] == 0:
-		print "SVM Bayes predicts that your sentence is neutral\n"
+		# SVM Current Prediction
+		cur_classifier_index = i*2 + 1
+		cur_svm_predictions = ensemble[cur_classifier_index][4].predict_proba(np_testing_data)
+		ensemble[cur_classifier_index][8] = cur_svm_predictions
+		cur_weight = ensemble[cur_classifier_index][6] * relevance_for_this_data_set
+		cur_name = ensemble[cur_classifier_index][0]
+		cur_summary_data = [cur_name, cur_weight, cur_svm_predictions]
+		summary.append(cur_summary_data)
+
+	print "summary for bahram ... each classifier has [name_of_classifier, weight (based on accuracy of classifier and relevance), predictions that it is in the negative, neutral, or positive class respective] ... \n= {0}".format(summary)
