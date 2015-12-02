@@ -16,7 +16,6 @@ from sklearn.feature_extraction.text import TfidfTransformer
 from sklearn.naive_bayes import MultinomialNB
 from sklearn import metrics
 from sklearn.linear_model import SGDClassifier
-from tabulate import tabulate
 from sklearn.metrics import precision_recall_fscore_support
 from sklearn import svm
 from sklearn.preprocessing import label_binarize
