@@ -396,13 +396,18 @@ for set_num in range(0,num_of_data_sets):
 		second_layer.append(second_layer_row)
 	
 
+print "Second layer feature matrix size: \n"
 print "Number of rows: ", len(second_layer)
 print "Number of columns: ", len(second_layer[0])
 
+second_layer_feat_matrix = np.array(second_layer)
+
+n,d = second_layer_feat_matrix.shape
+
+second_layer_classifier = svm.SVC(probability = True)
+second_layer_classifier.fit(second_layer_feat_matrix[:,:(d-2)],second_layer_feat_matrix[:,(d-1)])
 
 
-
-'''
 # predict for testing data
 while 1:
 	print "Please enter a sentence to be classified:"
@@ -411,6 +416,8 @@ while 1:
 	print "Please enter the type of text this is. Please enter 'SMS', 'FB', 'Tweet', 'Movie Review', or 'Product Review'"
 	test_type_of_text = raw_input()
 	summary = []
+	second_layer_row = []
+	second_layer_row.append(convertDataTypeToNumberLabel(test_type_of_text))
 	for i in range(0,num_of_data_sets):
 		relevance_for_this_data_set = getRelevance(ensemble[i*2][1], test_type_of_text, relevance)
 
@@ -422,6 +429,9 @@ while 1:
 		ensemble[cur_classifier_index][8] = cur_nb_predictions
 		cur_summary_data = [cur_name, cur_weight, cur_nb_predictions]
 		summary.append(cur_summary_data)
+		second_layer_row.append(cur_weight)
+		for j in range(0,cur_nb_predictions.shape[1]):
+				second_layer_row.append(cur_nb_predictions[0][j])
 
 		# SVM Current Prediction
 		cur_classifier_index = i*2 + 1
@@ -431,6 +441,13 @@ while 1:
 		cur_name = ensemble[cur_classifier_index][0]
 		cur_summary_data = [cur_name, cur_weight, cur_svm_predictions]
 		summary.append(cur_summary_data)
+		second_layer_row.append(cur_weight)
+			for j in range(0,cur_svm_predictions.shape[1]):
+				second_layer_row.append(cur_svm_predictions[0][j])
 
 	print "summary for bahram ... each classifier has [name_of_classifier, weight (based on accuracy of classifier and relevance), predictions that it is in the negative, neutral, or positive class respective] ... \n= {0}".format(summary)
-'''
+
+	probabilities = second_layer_classifier.predict_proba(second_layer_row)
+	prediction = second_layer_classifier.predict(second_layer_row)
+	print "Second layer prediction: ", prediction
+	print "Second layer probabilities: ", probabilities
