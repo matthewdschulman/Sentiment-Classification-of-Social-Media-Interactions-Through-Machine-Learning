@@ -238,7 +238,7 @@ for i in range(0,4):
 					model2Predictions = model2.predict(ensemble[k][2])
 					cumSumAccuracy += np.mean(model2Predictions == ensemble[k][3])
 					count += 1
-				relevance[i][j] = cumSumAccuracy / count
+				relevance[i][j] = 1 - abs((cumSumAccuracy / count - cur_accuracy) / cur_accuracy)
 			elif j == 2:
 				if i == 0: # movie review models on SMS data
 					cumSumAccuracy = 0.0
@@ -252,7 +252,7 @@ for i in range(0,4):
 						model2Predictions = model2.predict(ensemble[k][2])
 						cumSumAccuracy += np.mean(model2Predictions == ensemble[k][3])
 						count += 1
-					relevance[i][j] = cumSumAccuracy / count
+					relevance[i][j] = 1 - abs((cumSumAccuracy / count - cur_accuracy) / cur_accuracy)
 				elif i == 1: # product review models on SMS data
 					cumSumAccuracy = 0.0
 					count = 0.0
@@ -273,7 +273,7 @@ for i in range(0,4):
 						model4Predictions = model4.predict(ensemble[k][2])
 						cumSumAccuracy += np.mean(model4Predictions == ensemble[k][3])
 						count += 1
-					relevance[i][j] = cumSumAccuracy / count
+					relevance[i][j] = 1 - abs((cumSumAccuracy / count - cur_accuracy) / cur_accuracy)
 			elif j == 3:
 				if i == 0: # movie review models on tweet data
 					cumSumAccuracy = 0.0
@@ -287,7 +287,7 @@ for i in range(0,4):
 						model2Predictions = model2.predict(ensemble[k][2])
 						cumSumAccuracy += np.mean(model2Predictions == ensemble[k][3])
 						count += 1
-					relevance[i][j] = cumSumAccuracy / count
+					relevance[i][j] = 1 - abs((cumSumAccuracy / count - cur_accuracy) / cur_accuracy)
 				elif i == 1: # product review models on tweet data
 					cumSumAccuracy = 0.0
 					count = 0.0
@@ -308,7 +308,7 @@ for i in range(0,4):
 						model4Predictions = model4.predict(ensemble[k][2])
 						cumSumAccuracy += np.mean(model4Predictions == ensemble[k][3])
 						count += 1
-					relevance[i][j] = cumSumAccuracy / count
+					relevance[i][j] = 1 - abs((cumSumAccuracy / count - cur_accuracy) / cur_accuracy)
 				elif i == 2: # sms models on tweet data
 					cumSumAccuracy = 0.0
 					count = 0.0
@@ -329,8 +329,9 @@ for i in range(0,4):
 						model4Predictions = model4.predict(ensemble[k][2])
 						cumSumAccuracy += np.mean(model4Predictions == ensemble[k][3])
 						count += 1
-					relevance[i][j] = cumSumAccuracy / count
+					relevance[i][j] = 1 - abs((cumSumAccuracy / count - cur_accuracy) / cur_accuracy)
 
+print relevance
 
 # predict for testing data
 while 1:
