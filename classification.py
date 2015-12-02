@@ -43,8 +43,8 @@ def mapProductReviewData(x):
 	else: 
 		return 0
 
-def appendTrainingDataToEnsemble(ensemble, name, typeOfData, trainingData, trainingTargets):
-	ensemble.append([name, typeOfData, trainingData, trainingTargets, 'classifier_placeholder', 'predicted_training_values_placeholder', 'traning_accuracy_placeholder', 'training_accuracy_placeholder', 'relevance_placeholder', 'testing_predictions_placeholder'])
+def appendTrainingDataToEnsemble(ensemble, name, typeOfData, trainingData, trainingTargets, validationData, validationTargets):
+	ensemble.append([name, typeOfData, trainingData, trainingTargets, 'classifier_placeholder', 'predicted_training_values_placeholder', 'traning_accuracy_placeholder', 'relevance_placeholder', 'testing_predictions_placeholder', validationData, validationTargets])
 	return ensemble
 
 def printPrediction(classifierName, predictions):
@@ -90,40 +90,52 @@ num_of_data_sets = 0
 with open('data/sms/sms-test-gold-A.tsv','r') as f:
 	cur_training = [x.strip().split('\t') for x in f]
 cur_np_training = np.array(cur_training)
-cur_np_training_data = cur_np_training[:,5]
-cur_np_training_target = map(mapToNumericTargetValues, cur_np_training[:,4])
-ensemble = appendTrainingDataToEnsemble(ensemble, 'SMS-A Naive Bayes', 'SMS', cur_np_training_data, cur_np_training_target)
-ensemble = appendTrainingDataToEnsemble(ensemble, 'SMS-A SVM', 'SMS', cur_np_training_data, cur_np_training_target)
+split = cur_np_training.shape[0]*6/7
+cur_np_training_data = cur_np_training[:split,5]
+cur_np_validation_data = cur_np_training[(split+1):,5]
+cur_np_training_target = map(mapToNumericTargetValues, cur_np_training[:split,4])
+cur_np_validation_target = map(mapToNumericTargetValues, cur_np_training[(split+1):,4])
+ensemble = appendTrainingDataToEnsemble(ensemble, 'SMS-A Naive Bayes', 'SMS', cur_np_training_data, cur_np_training_target, cur_np_validation_data, cur_np_validation_target)
+ensemble = appendTrainingDataToEnsemble(ensemble, 'SMS-A SVM', 'SMS', cur_np_training_data, cur_np_training_target, cur_np_validation_data, cur_np_validation_target)
 num_of_data_sets += 1
 
 # sms-test-gold-B.tsv training data
 with open('data/sms/sms-test-gold-B.tsv','r') as f:
 	cur_training = [x.strip().split('\t') for x in f]
 cur_np_training = np.array(cur_training)
-cur_np_training_data = cur_np_training[:,3]
-cur_np_training_target = map(mapToNumericTargetValues, cur_np_training[:,2])
-ensemble = appendTrainingDataToEnsemble(ensemble, 'SMS-B Naive Bayes', 'SMS', cur_np_training_data, cur_np_training_target)
-ensemble = appendTrainingDataToEnsemble(ensemble, 'SMS-B SVM', 'SMS', cur_np_training_data, cur_np_training_target)
+split = cur_np_training.shape[0]*6/7
+cur_np_training_data = cur_np_training[:split,3]
+cur_np_validation_data = cur_np_training[(split+1):,3]
+cur_np_training_target = map(mapToNumericTargetValues, cur_np_training[:split,2])
+cur_np_validation_target = map(mapToNumericTargetValues, cur_np_training[(split+1):,2])
+ensemble = appendTrainingDataToEnsemble(ensemble, 'SMS-B Naive Bayes', 'SMS', cur_np_training_data, cur_np_training_target, cur_np_validation_data, cur_np_validation_target)
+ensemble = appendTrainingDataToEnsemble(ensemble, 'SMS-B SVM', 'SMS', cur_np_training_data, cur_np_training_target, cur_np_validation_data, cur_np_validation_target)
 num_of_data_sets += 1
 
 # twitter-A training data
 with open('data/twitter/discrete/twitter-A-downloaded.tsv', 'r') as f:
  	cur_training = [x.strip().split('\t') for x in f]
 cur_np_training = np.array(cur_training)
-cur_np_training_data = cur_np_training[:,5]
-cur_np_training_target = map(mapToNumericTargetValues, cur_np_training[:,4])
-ensemble = appendTrainingDataToEnsemble(ensemble, 'Twitter-A Naive Bayes', 'Tweet', cur_np_training_data, cur_np_training_target)
-ensemble = appendTrainingDataToEnsemble(ensemble, 'Twitter-A SVM', 'Tweet', cur_np_training_data, cur_np_training_target)
+split = cur_np_training.shape[0]*6/7
+cur_np_training_data = cur_np_training[:split,5]
+cur_np_validation_data = cur_np_training[(split+1):,5]
+cur_np_training_target = map(mapToNumericTargetValues, cur_np_training[:split,4])
+cur_np_validation_target = map(mapToNumericTargetValues, cur_np_training[(split+1):,4])
+ensemble = appendTrainingDataToEnsemble(ensemble, 'Twitter-A Naive Bayes', 'Tweet', cur_np_training_data, cur_np_training_target, cur_np_validation_data, cur_np_validation_target)
+ensemble = appendTrainingDataToEnsemble(ensemble, 'Twitter-A SVM', 'Tweet', cur_np_training_data, cur_np_training_target, cur_np_validation_data, cur_np_validation_target)
 num_of_data_sets += 1
  
 # twitter-B training data
 with open('data/twitter/discrete/twitter-B-downloaded.tsv', 'r') as f:
 	cur_training = [x.strip().split('\t') for x in f]
 cur_np_training = np.array(cur_training)
-cur_np_training_data = cur_np_training[:,3]
-cur_np_training_target = map(mapToNumericTargetValues, cur_np_training[:,2])
-ensemble = appendTrainingDataToEnsemble(ensemble, 'Twitter-B Naive Bayes', 'Tweet', cur_np_training_data, cur_np_training_target)
-ensemble = appendTrainingDataToEnsemble(ensemble, 'Twitter-B SVM', 'Tweet', cur_np_training_data, cur_np_training_target)
+split = cur_np_training.shape[0]*6/7
+cur_np_training_data = cur_np_training[:split,3]
+cur_np_validation_data = cur_np_training[(split+1):,3]
+cur_np_training_target = map(mapToNumericTargetValues, cur_np_training[:split,2])
+cur_np_validation_target = map(mapToNumericTargetValues, cur_np_training[(split+1):,2])
+ensemble = appendTrainingDataToEnsemble(ensemble, 'Twitter-B Naive Bayes', 'Tweet', cur_np_training_data, cur_np_training_target, cur_np_validation_data, cur_np_validation_target)
+ensemble = appendTrainingDataToEnsemble(ensemble, 'Twitter-B SVM', 'Tweet', cur_np_training_data, cur_np_training_target, cur_np_validation_data, cur_np_validation_target)
 num_of_data_sets += 1
 
 # product-review-A training data
@@ -134,11 +146,13 @@ with open('data/product_review/sentiment-labelled-sentences/amazon_cells_labelle
 		if len(cur_line_arr) > 1:
 			cur_training.append(cur_line_arr)
 cur_np_training = np.array(cur_training)
-cur_np_training_data = cur_np_training[:,0]
-cur_np_training_target = cur_np_training[:,1]
-cur_np_training_target = map(mapProductReviewData, cur_np_training[:,1])
-ensemble = appendTrainingDataToEnsemble(ensemble, 'Product-Review-A Naive Bayes', 'Product Review', cur_np_training_data, cur_np_training_target)
-ensemble = appendTrainingDataToEnsemble(ensemble, 'Product-Review-A SVM', 'Product Review', cur_np_training_data, cur_np_training_target)
+split = cur_np_training.shape[0]*6/7
+cur_np_training_data = cur_np_training[:split,0]
+cur_np_validation_data = cur_np_training[(split+1):,0]
+cur_np_training_target = map(mapProductReviewData, cur_np_training[:split,1])
+cur_np_validation_target = map(mapProductReviewData, cur_np_training[(split+1):,1])
+ensemble = appendTrainingDataToEnsemble(ensemble, 'Product-Review-A Naive Bayes', 'Product Review', cur_np_training_data, cur_np_training_target, cur_np_validation_data, cur_np_validation_target)
+ensemble = appendTrainingDataToEnsemble(ensemble, 'Product-Review-A SVM', 'Product Review', cur_np_training_data, cur_np_training_target, cur_np_validation_data, cur_np_validation_target)
 num_of_data_sets += 1
 
 # product-review-B training data
@@ -149,11 +163,13 @@ with open('data/product_review/sentiment-labelled-sentences/yelp_labelled.txt','
 		if len(cur_line_arr) > 1:
 			cur_training.append(cur_line_arr)
 cur_np_training = np.array(cur_training)
-cur_np_training_data = cur_np_training[:,0]
-cur_np_training_target = cur_np_training[:,1]
-cur_np_training_target = map(mapProductReviewData, cur_np_training[:,1])
-ensemble = appendTrainingDataToEnsemble(ensemble, 'Product-Review-B Naive Bayes', 'Product Review', cur_np_training_data, cur_np_training_target)
-ensemble = appendTrainingDataToEnsemble(ensemble, 'Product-Review-B SVM', 'Product Review', cur_np_training_data, cur_np_training_target)
+split = cur_np_training.shape[0]*6/7
+cur_np_training_data = cur_np_training[:split,0]
+cur_np_validation_data = cur_np_training[(split+1):,0]
+cur_np_training_target = map(mapProductReviewData, cur_np_training[:split,1])
+cur_np_validation_target = map(mapProductReviewData, cur_np_training[(split+1):,1])
+ensemble = appendTrainingDataToEnsemble(ensemble, 'Product-Review-B Naive Bayes', 'Product Review', cur_np_training_data, cur_np_training_target, cur_np_validation_data, cur_np_validation_target)
+ensemble = appendTrainingDataToEnsemble(ensemble, 'Product-Review-B SVM', 'Product Review', cur_np_training_data, cur_np_training_target, cur_np_validation_data, cur_np_validation_target)
 num_of_data_sets += 1
 
 # movie-review training data
@@ -164,11 +180,13 @@ with open('data/product_review/sentiment-labelled-sentences/imdb_labelled.txt','
 		if len(cur_line_arr) > 1:
 			cur_training.append(cur_line_arr)
 cur_np_training = np.array(cur_training)
-cur_np_training_data = cur_np_training[:,0]
-cur_np_training_target = cur_np_training[:,1]
-cur_np_training_target = map(mapProductReviewData, cur_np_training[:,1])
-ensemble = appendTrainingDataToEnsemble(ensemble, 'Movie-Review Naive Bayes', 'Movie Review', cur_np_training_data, cur_np_training_target)
-ensemble = appendTrainingDataToEnsemble(ensemble, 'Movie-Review SVM', 'Movie Review', cur_np_training_data, cur_np_training_target)
+split = cur_np_training.shape[0]*6/7
+cur_np_training_data = cur_np_training[:split,0]
+cur_np_validation_data = cur_np_training[(split+1):,0]
+cur_np_training_target = map(mapProductReviewData, cur_np_training[:split,1])
+cur_np_validation_target = map(mapProductReviewData, cur_np_training[(split+1):,1])
+ensemble = appendTrainingDataToEnsemble(ensemble, 'Movie-Review Naive Bayes', 'Movie Review', cur_np_training_data, cur_np_training_target, cur_np_validation_data, cur_np_validation_target)
+ensemble = appendTrainingDataToEnsemble(ensemble, 'Movie-Review SVM', 'Movie Review', cur_np_training_data, cur_np_training_target, cur_np_validation_data, cur_np_validation_target)
 num_of_data_sets += 1
 
 # Create classifiers, fit classifiers, predict on training data, compute accuracy on training data
@@ -332,6 +350,59 @@ for i in range(0,4):
 
 print relevance
 
+
+# Create feature matrix for training of second layer
+# second layer is an nx(1+8*num_of_data_sets+1) matrix
+# n is the total number of training points
+# the columns in second_layer are features as follows: [numeric mapping of type of text, NB weight, NB neg proba, NB neutral proba, NB pos proba, SVM weight, SVM neg proba, SVM neutral proba, SVM pos proba . . ., target value]
+
+second_layer = []
+
+for set_num in range(0,num_of_data_sets):
+
+	test_type_of_text = ensemble[set_num*2][1]
+	validation_data = ensemble[set_num*2][9]
+	validation_targets = ensemble[set_num*2][10]
+	num_data_points = validation_data.shape[0]
+
+	for data_row in range(0,num_data_points):
+
+		np_testing_data = [validation_data[data_row]]
+
+		second_layer_row = []
+		second_layer_row.append(convertDataTypeToNumberLabel(test_type_of_text))
+		for i in range(0,num_of_data_sets):
+			relevance_for_this_data_set = getRelevance(ensemble[i*2][1], test_type_of_text, relevance)
+
+			# Naive Bayes Current Prediction
+			cur_classifier_index = i*2
+			cur_nb_predictions = ensemble[cur_classifier_index][4].predict_proba(np_testing_data)
+			cur_weight = ensemble[cur_classifier_index][6] * relevance_for_this_data_set
+			ensemble[cur_classifier_index][8] = cur_nb_predictions
+			second_layer_row.append(cur_weight)
+			for j in range(0,cur_nb_predictions.shape[1]):
+				second_layer_row.append(cur_nb_predictions[0][j])
+
+			# SVM Current Prediction
+			cur_classifier_index = i*2 + 1
+			cur_svm_predictions = ensemble[cur_classifier_index][4].predict_proba(np_testing_data)
+			ensemble[cur_classifier_index][8] = cur_svm_predictions
+			cur_weight = ensemble[cur_classifier_index][6] * relevance_for_this_data_set
+			second_layer_row.append(cur_weight)
+			for j in range(0,cur_svm_predictions.shape[1]):
+				second_layer_row.append(cur_svm_predictions[0][j])
+
+		second_layer_row.append(validation_targets[data_row])
+		second_layer.append(second_layer_row)
+	
+
+print "Number of rows: ", len(second_layer)
+print "Number of columns: ", len(second_layer[0])
+
+
+
+
+'''
 # predict for testing data
 while 1:
 	print "Please enter a sentence to be classified:"
@@ -362,3 +433,4 @@ while 1:
 		summary.append(cur_summary_data)
 
 	print "summary for bahram ... each classifier has [name_of_classifier, weight (based on accuracy of classifier and relevance), predictions that it is in the negative, neutral, or positive class respective] ... \n= {0}".format(summary)
+'''
