@@ -58,40 +58,25 @@ def printPrediction(classifierName, predictions):
 		mood = 'neutral'
 	print "{0} predicts {1}".format(classifierName, mood)
 
-def getRelevance(dataType, testType):
-	#sorted = [dataType, testType]
-	#sorted.sort()
-	#firstType = sorted[0]
-	#secondType = sorted[1]
-
-	
-	print "dataType = {0} and testType = {1}".format(dataType, testType)
-	if dataType == testType:
-		return 1.0
-	elif testType == 'SMS' or testType == 'FB':
-		if dataType == 'Tweet':
-			return 0.85
-		elif dataType == 'SMS' or dataType == 'FB':
-			return 1.0
-		elif dataType == 'Product Review' or dataType == 'Movie Review':
-			return 0.4
-	elif testType == 'Tweet':
-		if dataType == 'SMS' or dataType == 'FB':
-			return 0.85
-		elif dataType == 'Movie Review' or dataType == 'Product Review':
-			return 0.6
-	elif testType == 'Movie Review' or testType == 'Product Review':
-		if dataType == 'SMS' or dataType == 'FB':
-			return 0.4
-		elif dataType == 'Tweet':
-			return 0.6
-		else: 
-			return 0.9 # product <> movie
+def convertDataTypeToNumberLabel(type):
+	if type == 'Movie Review':
+		return 0
+	elif type == 'Product Review':
+		return 1
+	elif type == 'SMS' or type == 'FB':
+		return 2
+	elif type == 'Tweet':
+		return 3
 	else:
-		print "ERRor WITH GET RELEVANCE! Contact Bahram or Matt for support"
-		print "Returning a relevance of 1 so the algorithm doesn't crash"
-		return 1.0
-	
+		print "ERROR WITH CONVERTING DATA TYPE TO NUMBER LABELS. CONTACT MATT OR BAHRAM FOR SUPPORT"
+		return -1
+
+def getRelevance(dataType, testType, relevance):
+	sorted = [dataType, testType]
+	sorted.sort()
+	firstType = convertDataTypeToNumberLabel(sorted[0])
+	secondType = convertDataTypeToNumberLabel(sorted[1])
+	return relevance[firstType][secondType]
 
 # set up a 2-D array that contains each ensemble classifier.
 # Each classifier contains [name, source_type, training_data, target_training_values, classifier, predicted_training_values, training_accuracy, relevance, testing_predictions]
@@ -220,32 +205,134 @@ for i in range(0,num_of_data_sets):
 	print "The training accuracy for {0} = {1}".format(ensemble[cur_classifier_index][0], cur_svm_accuracy)
 
 # set up relevance scores
-# relevance = np.zeros((4,4))
-# for i in range(0,4):
-# 	cur_accuracy = -1.0
-# 	if i == 0:
-# 		# movie review
-# 		cur_accuracy = 1.0 #TODO: Implement when we have movie review datasets
-# 	elif i == 1:
-# 		# product review
-# 		cur_accuracy = 1.0 #TODO: Implement when we have product review datasets
-# 	elif i == 2:
-# 		# sms/fb
-# 	 	cur_accuracy = np.average(ensemble[0][6], ensemble[1][6], ensemble[2][6], ensemble[3][6])	
-# 	elif i == 3:
-# 		# tweet
-# 		cur_accuracy = 1.0 #TODO: Implement when we have product review datasets
-# 
-# 	for j in range(0,4):
-# 		if i == j:
-# 			relevance[i][j] = 1.0
-# 		if i < j: #Only fill on half of the table
-# 			if j == 1:
-# 				# testing on movie
-# 				relevance[i][j] = 1.0
+relevance = np.zeros((4,4))
+for i in range(0,4):
+	cur_accuracy = -1.0
+ 	if i == 0:
+ 		# movie review
+ 		cur_accuracy = np.average([ensemble[12][6], ensemble[13][6]]) 
+ 	elif i == 1:
+ 		# product review
+ 		cur_accuracy = np.average([ensemble[8][6], ensemble[9][6], ensemble[10][6], ensemble[11][6]]) 
+ 	elif i == 2:
+ 		# sms/fb
+ 	 	cur_accuracy = np.average([ensemble[0][6], ensemble[1][6], ensemble[2][6], ensemble[3][6]])	
+ 	elif i == 3:
+ 		# tweet
+ 		cur_accuracy = np.average([ensemble[4][6], ensemble[5][6], ensemble[6][6], ensemble[7][6]]) 
+ 
+ 	for j in range(0,4):
+ 		if i == j:
+ 			relevance[i][j] = 1.0
+ 		if i < j: #Only fill on half of the table
+ 			if j == 1:
+ 				# testing movie review models on product review data
+ 				cumSumAccuracy = 0.0
+				count = 0.0
+				for k in range(8,11):
+					model1 = ensemble[12][4]
+					model1Predictions = model1.predict(ensemble[k][2])
+					cumSumAccuracy += np.mean(model1Predictions == ensemble[k][3])
+					count += 1
+					model2 = ensemble[13][4]
+					model2Predictions = model2.predict(ensemble[k][2])
+					cumSumAccuracy += np.mean(model2Predictions == ensemble[k][3])
+					count += 1
+				relevance[i][j] = cumSumAccuracy / count
+			elif j == 2:
+				if i == 0: # movie review models on SMS data
+					cumSumAccuracy = 0.0
+					count = 0.0
+					for k in range(0,3):
+						model1 = ensemble[12][4]
+						model1Predictions = model1.predict(ensemble[k][2])
+						cumSumAccuracy += np.mean(model1Predictions == ensemble[k][3])
+						count += 1
+						model2 = ensemble[13][4]
+						model2Predictions = model2.predict(ensemble[k][2])
+						cumSumAccuracy += np.mean(model2Predictions == ensemble[k][3])
+						count += 1
+					relevance[i][j] = cumSumAccuracy / count
+				elif i == 1: # product review models on SMS data
+					cumSumAccuracy = 0.0
+					count = 0.0
+					for k in range(0,3):
+						model1 = ensemble[8][4]
+						model1Predictions = model1.predict(ensemble[k][2])
+						cumSumAccuracy += np.mean(model1Predictions == ensemble[k][3])
+						count += 1
+						model2 = ensemble[9][4]
+						model2Predictions = model2.predict(ensemble[k][2])
+						cumSumAccuracy += np.mean(model2Predictions == ensemble[k][3])
+						count += 1
+						model3 = ensemble[10][4]
+						model3Predictions = model3.predict(ensemble[k][2])
+						cumSumAccuracy += np.mean(model3Predictions == ensemble[k][3])
+						count += 1
+						model4 = ensemble[11][4]
+						model4Predictions = model4.predict(ensemble[k][2])
+						cumSumAccuracy += np.mean(model4Predictions == ensemble[k][3])
+						count += 1
+					relevance[i][j] = cumSumAccuracy / count
+			elif j == 3:
+				if i == 0: # movie review models on tweet data
+					cumSumAccuracy = 0.0
+					count = 0.0
+					for k in range(4,7):
+						model1 = ensemble[12][4]
+						model1Predictions = model1.predict(ensemble[k][2])
+						cumSumAccuracy += np.mean(model1Predictions == ensemble[k][3])
+						count += 1
+						model2 = ensemble[13][4]
+						model2Predictions = model2.predict(ensemble[k][2])
+						cumSumAccuracy += np.mean(model2Predictions == ensemble[k][3])
+						count += 1
+					relevance[i][j] = cumSumAccuracy / count
+				elif i == 1: # product review models on tweet data
+					cumSumAccuracy = 0.0
+					count = 0.0
+					for k in range(4,7):
+						model1 = ensemble[8][4]
+						model1Predictions = model1.predict(ensemble[k][2])
+						cumSumAccuracy += np.mean(model1Predictions == ensemble[k][3])
+						count += 1
+						model2 = ensemble[9][4]
+						model2Predictions = model2.predict(ensemble[k][2])
+						cumSumAccuracy += np.mean(model2Predictions == ensemble[k][3])
+						count += 1
+						model3 = ensemble[10][4]
+						model3Predictions = model3.predict(ensemble[k][2])
+						cumSumAccuracy += np.mean(model3Predictions == ensemble[k][3])
+						count += 1
+						model4 = ensemble[11][4]
+						model4Predictions = model4.predict(ensemble[k][2])
+						cumSumAccuracy += np.mean(model4Predictions == ensemble[k][3])
+						count += 1
+					relevance[i][j] = cumSumAccuracy / count
+				elif i == 2: # sms models on tweet data
+					cumSumAccuracy = 0.0
+					count = 0.0
+					for k in range(4,7):
+						model1 = ensemble[0][4]
+						model1Predictions = model1.predict(ensemble[k][2])
+						cumSumAccuracy += np.mean(model1Predictions == ensemble[k][3])
+						count += 1
+						model2 = ensemble[1][4]
+						model2Predictions = model2.predict(ensemble[k][2])
+						cumSumAccuracy += np.mean(model2Predictions == ensemble[k][3])
+						count += 1
+						model3 = ensemble[2][4]
+						model3Predictions = model3.predict(ensemble[k][2])
+						cumSumAccuracy += np.mean(model3Predictions == ensemble[k][3])
+						count += 1
+						model4 = ensemble[3][4]
+						model4Predictions = model4.predict(ensemble[k][2])
+						cumSumAccuracy += np.mean(model4Predictions == ensemble[k][3])
+						count += 1
+					relevance[i][j] = cumSumAccuracy / count
 
-		
 
+print "relevance = {0}".format(relevance)
 
 # predict for testing data
 while 1:
@@ -256,8 +343,7 @@ while 1:
 	test_type_of_text = raw_input()
 	summary = []
 	for i in range(0,num_of_data_sets):
-		relevance_for_this_data_set = getRelevance(ensemble[i*2][1], test_type_of_text)
-		print "relevance = {0}".format(relevance_for_this_data_set)
+		relevance_for_this_data_set = getRelevance(ensemble[i*2][1], test_type_of_text, relevance)
 
 		# Naive Bayes Current Prediction
 		cur_classifier_index = i*2
