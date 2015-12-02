@@ -332,8 +332,6 @@ for i in range(0,4):
 					relevance[i][j] = cumSumAccuracy / count
 
 
-print "relevance = {0}".format(relevance)
-
 # predict for testing data
 while 1:
 	print "Please enter a sentence to be classified:"
