@@ -405,7 +405,7 @@ second_layer_feat_matrix = np.array(second_layer)
 n,d = second_layer_feat_matrix.shape
 
 second_layer_classifier = svm.SVC(probability = True)
-second_layer_classifier.fit(second_layer_feat_matrix[:,:(d-2)],second_layer_feat_matrix[:,(d-1)])
+second_layer_classifier.fit(second_layer_feat_matrix[:,:(d-1)],second_layer_feat_matrix[:,-1])
 
 print "Last column: ", second_layer_feat_matrix[:,-1]
 print "Last column shape: ", second_layer_feat_matrix[:,-1].shape
