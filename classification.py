@@ -447,8 +447,8 @@ while 1:
 		cur_summary_data = [cur_name, cur_weight, cur_svm_predictions]
 		summary.append(cur_summary_data)
 		second_layer_row.append(cur_weight)
-			for j in range(0,cur_svm_predictions.shape[1]):
-				second_layer_row.append(cur_svm_predictions[0][j])
+		for j in range(0,cur_svm_predictions.shape[1]):
+			second_layer_row.append(cur_svm_predictions[0][j])
 
 	#print "summary for bahram ... each classifier has [name_of_classifier, weight (based on accuracy of classifier and relevance), predictions that it is in the negative, neutral, or positive class respective] ... \n= {0}".format(summary)
 
