@@ -81,6 +81,7 @@ def getRelevance(dataType, testType, relevance):
 # Each classifier contains [name, source_type, training_data, target_training_values, classifier, predicted_training_values, training_accuracy, relevance, testing_predictions]
 # Data types must fit one of the following types: SMS, Tweet, FB, Movie Review, Product Review
 ensemble = []
+final_testing = np.array([['sentence','actual_class','type','name_of_db']])
 
 num_of_data_sets = 0
 
@@ -90,6 +91,8 @@ num_of_data_sets = 0
 with open('data/sms/sms-test-gold-A.tsv','r') as f:
 	cur_training = [x.strip().split('\t') for x in f]
 cur_np_training = np.array(cur_training)
+#split1 = cur_np_training.shape[0]*2/10
+#split2 = cur_np_training.shape[0]*(2/10 + 24/35)
 split = cur_np_training.shape[0]*6/7
 cur_np_training_data = cur_np_training[:split,5]
 cur_np_validation_data = cur_np_training[(split+1):,5]
