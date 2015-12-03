@@ -407,6 +407,11 @@ n,d = second_layer_feat_matrix.shape
 second_layer_classifier = svm.SVC(probability = True)
 second_layer_classifier.fit(second_layer_feat_matrix[:,:(d-2)],second_layer_feat_matrix[:,(d-1)])
 
+print "Last column: ", second_layer_feat_matrix[:,-1]
+print "Last column shape: ", second_layer_feat_matrix[:,-1].shape
+
+print "Training data shape: ", second_layer_feat_matrix[:,:(d-1)].shape
+
 
 # predict for testing data
 while 1:
@@ -445,7 +450,7 @@ while 1:
 			for j in range(0,cur_svm_predictions.shape[1]):
 				second_layer_row.append(cur_svm_predictions[0][j])
 
-	print "summary for bahram ... each classifier has [name_of_classifier, weight (based on accuracy of classifier and relevance), predictions that it is in the negative, neutral, or positive class respective] ... \n= {0}".format(summary)
+	#print "summary for bahram ... each classifier has [name_of_classifier, weight (based on accuracy of classifier and relevance), predictions that it is in the negative, neutral, or positive class respective] ... \n= {0}".format(summary)
 
 	probabilities = second_layer_classifier.predict_proba(second_layer_row)
 	prediction = second_layer_classifier.predict(second_layer_row)
