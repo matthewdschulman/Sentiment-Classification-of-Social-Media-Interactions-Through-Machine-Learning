@@ -393,8 +393,6 @@ for i in range(0,4):
 						count += 1
 					relevance[i][j] = 1 - abs((cumSumAccuracy / count - cur_accuracy) / cur_accuracy)
 
-print relevance
-
 
 # Create feature matrix for training of second layer
 # second layer is an nx(1+8*num_of_data_sets+1) matrix
