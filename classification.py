@@ -517,19 +517,34 @@ print "Ensemble prediction type: ", type(prediction[0])
 # Compute Statistics
 datasets = ['SMS-A', 'SMS-B', 'Twitter-A', 'Twitter-B','Product-Review-A', 'Product-Review-B', 'Movie Review']
 
+product_review_data = results[results[:,3] == datasets[4]]
+
+# print "Product review targets: ", product_review_data[:,1]
+# print "Product review preditions: ", product_review_data[:,5]
+# print "Scores: ", precision_recall_fscore_support(product_review_data[:,1],product_review_data[:,5],average='binary')
+
+f = open('final_stats.txt', 'w')
+sys.stdout = f
+# for i in range(0,len(testing_data)):
+	# print "{0}|{1}|{2}|{3}".format(testing_data[i][0], testing_data[i][1], testing_data[i][2], testing_data[i][3])
+print "Dataset | Classifier | Accuracy | Precision | Recall | F-score"
 for i in range(0,15):
 	cur_index = 4 + i * 5
 	cur_accuracy = np.mean(y_true == results[:,(cur_index+1)])
 	cur_precision_recall_fscore = precision_recall_fscore_support(y_true,results[:,(cur_index+1)],average='binary')
-	print "\nMetrics for complete data tested on {0}: accuracy = {1} | precision = {2} | recall = {3} | F-score = {4}".format(results[0,cur_index],cur_accuracy,cur_precision_recall_fscore[0],cur_precision_recall_fscore[1],cur_precision_recall_fscore[2])
+	print "Complete Dataset|{0}|{1}|{2}|{3}|{4}".format(results[0,cur_index],cur_accuracy,cur_precision_recall_fscore[0],cur_precision_recall_fscore[1],cur_precision_recall_fscore[2])
 	for j in range(0,7):
 		subset = results[results[:,3] == datasets[j]]
 		y_true_subset = subset[:,1]
-		print "Example subset row: ", subset[0,:]
-		print "Example subset shape: ", subset.shape
-		print "y_true_subset shape: ", y_true_subset.shape
-		cur_accuracy = np.mean(y_true_subset == subset[:,(cur_index+1)])
-		cur_precision_recall_fscore = precision_recall_fscore_support(y_true_subset,subset[:,(cur_index+1)],average='binary')
-		print "Metrics for {0} tested on {1}: accuracy = {2} | precision = {3} | recall = {4} | F-score = {5}".format(datasets[j],results[0,cur_index],cur_accuracy,cur_precision_recall_fscore[0],cur_precision_recall_fscore[1],cur_precision_recall_fscore[2])
-	
+		y_predictions_subset = subset[:,(cur_index+1)]
+		if j > 3:
+			y_true_subset = np.append(y_true_subset,'0')
+			y_predictions_subset = np.append(y_predictions_subset,'0')
+		# print "Example subset row: ", subset[0,:]
+		# print "Example subset shape: ", subset.shape
+		# print "y_true_subset shape: ", y_true_subset.shape
+		cur_accuracy = np.mean(y_true_subset == y_predictions_subset)
+		cur_precision_recall_fscore = precision_recall_fscore_support(y_true_subset,y_predictions_subset,average='binary')
+		print "{0}|{1}|{2}|{3}|{4}|{5}".format(datasets[j],results[0,cur_index],cur_accuracy,cur_precision_recall_fscore[0],cur_precision_recall_fscore[1],cur_precision_recall_fscore[2])
 
+sys.stdout = sys.__stdout__
