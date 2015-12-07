@@ -9,7 +9,6 @@ import sklearn.metrics
 import matplotlib.pyplot as plt
 import sys
 
-from sklearn.datasets import fetch_20newsgroups
 from pprint import pprint
 from sklearn.pipeline import Pipeline
 from sklearn.feature_extraction.text import CountVectorizer
@@ -140,7 +139,7 @@ ensemble = appendTrainingDataToEnsemble(ensemble, 'Twitter-A Naive Bayes', 'Twee
 ensemble = appendTrainingDataToEnsemble(ensemble, 'Twitter-A SVM', 'Tweet', cur_np_training_data, cur_np_training_target, cur_np_validation_data, cur_np_validation_target)
 num_of_data_sets += 1
 for i in range(0,len(cur_np_testing_data)):
-	testing_data.append([cur_np_testing_data[i], cur_np_testing_target[i], 'Twitter', 'Twitter-A'])
+	testing_data.append([cur_np_testing_data[i], cur_np_testing_target[i], 'Tweet', 'Twitter-A'])
  
 # twitter-B training data
 with open('data/twitter/discrete/twitter-B-downloaded.tsv', 'r') as f:
@@ -158,7 +157,7 @@ ensemble = appendTrainingDataToEnsemble(ensemble, 'Twitter-B Naive Bayes', 'Twee
 ensemble = appendTrainingDataToEnsemble(ensemble, 'Twitter-B SVM', 'Tweet', cur_np_training_data, cur_np_training_target, cur_np_validation_data, cur_np_validation_target)
 num_of_data_sets += 1
 for i in range(0,len(cur_np_testing_data)):
-	testing_data.append([cur_np_testing_data[i], cur_np_testing_target[i], 'Twitter-B', 'Twitter-B'])
+	testing_data.append([cur_np_testing_data[i], cur_np_testing_target[i], 'Tweet', 'Twitter-B'])
 
 # product-review-A training data
 cur_training = []
@@ -224,7 +223,7 @@ ensemble = appendTrainingDataToEnsemble(ensemble, 'Movie-Review Naive Bayes', 'M
 ensemble = appendTrainingDataToEnsemble(ensemble, 'Movie-Review SVM', 'Movie Review', cur_np_training_data, cur_np_training_target, cur_np_validation_data, cur_np_validation_target)
 num_of_data_sets += 1
 for i in range(0,len(cur_np_testing_data)):
-	testing_data.append([cur_np_testing_data[i], cur_np_testing_target[i], 'Movie Review', 'SMS-A'])
+	testing_data.append([cur_np_testing_data[i], cur_np_testing_target[i], 'Movie Review', 'Movie Review'])
 
 f = open('testing_data_info.txt', 'w')
 sys.stdout = f
@@ -450,7 +449,7 @@ n,d = second_layer_feat_matrix.shape
 second_layer_classifier = svm.SVC(probability = True)
 second_layer_classifier.fit(second_layer_feat_matrix[:,:(d-1)],second_layer_feat_matrix[:,-1])
 
-l,m = final_testing.shape
+l,m = testing_data.shape
 # predict for testing data
 output_matrix = []
 
@@ -458,10 +457,10 @@ for row in range(0,l):
 
 	output_matrix_row = []
 	for i in range(0,4):
-		output_matrix_row.append(final_testing[row,i])
+		output_matrix_row.append(testing_data[row,i])
 
-	np_testing_data = [final_testing[row,0]]
-	test_type_of_text = final_testing[row,2]
+	np_testing_data = [testing_data[row,0]]
+	test_type_of_text = testing_data[row,2]
 	second_layer_row = []
 	second_layer_row.append(convertDataTypeToNumberLabel(test_type_of_text))
 	
@@ -474,7 +473,8 @@ for row in range(0,l):
 		cur_nb_selection = ensemble[cur_classifier_index][4].predict(np_testing_data)
 		cur_weight = ensemble[cur_classifier_index][6] * relevance_for_this_data_set
 		second_layer_row.append(cur_weight)
-		output_matrix_row.append(cur_nb_selection)
+		output_matrix_row.append(ensemble[cur_classifier_index][0])
+		output_matrix_row.append(cur_nb_selection[0])
 		for j in range(0,cur_nb_predictions.shape[1]):
 			if(cur_nb_predictions.shape[1] == 2 and j == 1):
 				output_matrix_row.append(0)
@@ -487,19 +487,49 @@ for row in range(0,l):
 		cur_svm_selection = ensemble[cur_classifier_index][4].predict(np_testing_data)
 		cur_weight = ensemble[cur_classifier_index][6] * relevance_for_this_data_set
 		second_layer_row.append(cur_weight)
-		output_matrix_row.append(cur_svm_selection)
+		output_matrix_row.append(ensemble[cur_classifier_index][0])
+		output_matrix_row.append(cur_svm_selection[0])
 		for j in range(0,cur_svm_predictions.shape[1]):
 			if(cur_nb_predictions.shape[1] == 2 and j == 1):
 				output_matrix_row.append(0)
 			second_layer_row.append(cur_svm_predictions[0][j])
-			output_matrix_row.append(cur_nb_predictions[0][j])
+			output_matrix_row.append(cur_svm_predictions[0][j])
 
 	probabilities = second_layer_classifier.predict_proba(second_layer_row)
 	prediction = second_layer_classifier.predict(second_layer_row)
-	output_matrix_row.append(prediction)
+	output_matrix_row.append("Ensemble Classifier")
+	output_matrix_row.append(str(int(round(prediction[0]))))
 	for j in range(0,3):
 		output_matrix_row.append(probabilities[0][j])
 	output_matrix.append(output_matrix_row)
 
 results = np.array(output_matrix)
-print "Results Matrix Dimentions: ", results.shape
+
+print "shape: ", results.shape
+print "Example row: ", results[0,:]
+
+y_true = results[:,1]
+y_type = results[:,2]
+
+print "Target type: ", type(results[0,1])
+print "Ensemble prediction type: ", type(prediction[0])
+
+# Compute Statistics
+datasets = ['SMS-A', 'SMS-B', 'Twitter-A', 'Twitter-B','Product-Review-A', 'Product-Review-B', 'Movie Review']
+
+for i in range(0,15):
+	cur_index = 4 + i * 5
+	cur_accuracy = np.mean(y_true == results[:,(cur_index+1)])
+	cur_precision_recall_fscore = precision_recall_fscore_support(y_true,results[:,(cur_index+1)],average='binary')
+	print "\nMetrics for complete data tested on {0}: accuracy = {1} | precision = {2} | recall = {3} | F-score = {4}".format(results[0,cur_index],cur_accuracy,cur_precision_recall_fscore[0],cur_precision_recall_fscore[1],cur_precision_recall_fscore[2])
+	for j in range(0,7):
+		subset = results[results[:,3] == datasets[j]]
+		y_true_subset = subset[:,1]
+		print "Example subset row: ", subset[0,:]
+		print "Example subset shape: ", subset.shape
+		print "y_true_subset shape: ", y_true_subset.shape
+		cur_accuracy = np.mean(y_true_subset == subset[:,(cur_index+1)])
+		cur_precision_recall_fscore = precision_recall_fscore_support(y_true_subset,subset[:,(cur_index+1)],average='binary')
+		print "Metrics for {0} tested on {1}: accuracy = {2} | precision = {3} | recall = {4} | F-score = {5}".format(datasets[j],results[0,cur_index],cur_accuracy,cur_precision_recall_fscore[0],cur_precision_recall_fscore[1],cur_precision_recall_fscore[2])
+	
+
