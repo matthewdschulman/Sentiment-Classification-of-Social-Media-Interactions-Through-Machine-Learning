@@ -452,52 +452,56 @@ n,d = second_layer_feat_matrix.shape
 second_layer_classifier = svm.SVC(probability = True)
 second_layer_classifier.fit(second_layer_feat_matrix[:,:(d-1)],second_layer_feat_matrix[:,-1])
 
-print "Last column: ", second_layer_feat_matrix[:,-1]
-print "Last column shape: ", second_layer_feat_matrix[:,-1].shape
-
-print "Training data shape: ", second_layer_feat_matrix[:,:(d-1)].shape
-
-
+l,m = final_testing.shape
 # predict for testing data
-while 1:
-	print "Please enter a sentence to be classified:"
-	user_input = raw_input()
-	np_testing_data = [user_input]
-	print "Please enter the type of text this is. Please enter 'SMS', 'FB', 'Tweet', 'Movie Review', or 'Product Review'"
-	test_type_of_text = raw_input()
-	summary = []
+output_matrix = []
+
+for row in range(0,l):
+
+	output_matrix_row = []
+	for i in range(0,4):
+		output_matrix_row.append(final_testing[row,i])
+
+	np_testing_data = [final_testing[row,0]]
+	test_type_of_text = final_testing[row,2]
 	second_layer_row = []
 	second_layer_row.append(convertDataTypeToNumberLabel(test_type_of_text))
+	
 	for i in range(0,num_of_data_sets):
 		relevance_for_this_data_set = getRelevance(ensemble[i*2][1], test_type_of_text, relevance)
 
 		# Naive Bayes Current Prediction
 		cur_classifier_index = i*2
 		cur_nb_predictions = ensemble[cur_classifier_index][4].predict_proba(np_testing_data)
+		cur_nb_selection = ensemble[cur_classifier_index][4].predict(np_testing_data)
 		cur_weight = ensemble[cur_classifier_index][6] * relevance_for_this_data_set
-		cur_name = ensemble[cur_classifier_index][0]
-		ensemble[cur_classifier_index][8] = cur_nb_predictions
-		cur_summary_data = [cur_name, cur_weight, cur_nb_predictions]
-		summary.append(cur_summary_data)
 		second_layer_row.append(cur_weight)
+		output_matrix_row.append(cur_nb_selection)
 		for j in range(0,cur_nb_predictions.shape[1]):
-				second_layer_row.append(cur_nb_predictions[0][j])
+			if(cur_nb_predictions.shape[1] == 2 and j == 1):
+				output_matrix_row.append(0)
+			second_layer_row.append(cur_nb_predictions[0][j])
+			output_matrix_row.append(cur_nb_predictions[0][j])
 
 		# SVM Current Prediction
 		cur_classifier_index = i*2 + 1
 		cur_svm_predictions = ensemble[cur_classifier_index][4].predict_proba(np_testing_data)
-		ensemble[cur_classifier_index][8] = cur_svm_predictions
+		cur_svm_selection = ensemble[cur_classifier_index][4].predict(np_testing_data)
 		cur_weight = ensemble[cur_classifier_index][6] * relevance_for_this_data_set
-		cur_name = ensemble[cur_classifier_index][0]
-		cur_summary_data = [cur_name, cur_weight, cur_svm_predictions]
-		summary.append(cur_summary_data)
 		second_layer_row.append(cur_weight)
+		output_matrix_row.append(cur_svm_selection)
 		for j in range(0,cur_svm_predictions.shape[1]):
+			if(cur_nb_predictions.shape[1] == 2 and j == 1):
+				output_matrix_row.append(0)
 			second_layer_row.append(cur_svm_predictions[0][j])
-
-	#print "summary for bahram ... each classifier has [name_of_classifier, weight (based on accuracy of classifier and relevance), predictions that it is in the negative, neutral, or positive class respective] ... \n= {0}".format(summary)
+			output_matrix_row.append(cur_nb_predictions[0][j])
 
 	probabilities = second_layer_classifier.predict_proba(second_layer_row)
 	prediction = second_layer_classifier.predict(second_layer_row)
-	print "Second layer prediction: ", prediction
-	print "Second layer probabilities: ", probabilities
+	output_matrix_row.append(prediction)
+	for j in range(0,3):
+		output_matrix_row.append(probabilities[0][j])
+	output_matrix.append(output_matrix_row)
+
+results = np.array(output_matrix)
+print "Results Matrix Dimentions: ", results.shape
